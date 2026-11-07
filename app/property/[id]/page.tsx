@@ -3,6 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowLeft, BedDouble, MapPin, Ruler } from "lucide-react"
 import { Gallery } from "@/components/property/gallery"
+import { RecommendedHomes } from "@/components/property/recommended-homes"
 import { CostBreakdown } from "@/components/shared/cost-breakdown"
 import { FavoriteButton } from "@/components/shared/favorite-button"
 import { getListingById, listings } from "@/data/listings"
@@ -91,6 +92,8 @@ export default async function PropertyPage({ params }: { params: Promise<{ id: s
             </section>
           </aside>
         </div>
+
+        <RecommendedHomes currentListingId={listing.id} />
       </div>
     </main>
   )

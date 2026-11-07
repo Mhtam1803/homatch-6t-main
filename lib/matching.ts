@@ -55,11 +55,13 @@ export function rankListings(listings: Listing[], criteria: SearchCriteria | nul
       const budgetScore = listing.totalMonthly <= criteria.budget
         ? 1
         : Math.max(0, 1 - ((listing.totalMonthly - criteria.budget) / criteria.budget) * 2)
-      const bedroomScore = criteria.bedroom === "studio" || criteria.bedroom === "1"
-        ? Number(listing.bedrooms <= 1)
-        : criteria.bedroom === "2"
-          ? Number(listing.bedrooms === 2) + Number(listing.bedrooms > 2) * 0.5
-          : Number(listing.bedrooms >= 3)
+      const bedroomScore = criteria.bedroom === "any"
+        ? null
+        : criteria.bedroom === "studio" || criteria.bedroom === "1"
+          ? Number(listing.bedrooms <= 1)
+          : criteria.bedroom === "2"
+            ? Number(listing.bedrooms === 2) + Number(listing.bedrooms > 2) * 0.5
+            : Number(listing.bedrooms >= 3)
       const selectedPreferences = [
         ...criteria.features.map((feature) => listing.features[feature]),
         ...criteria.chips
@@ -80,7 +82,7 @@ export function rankListings(listings: Listing[], criteria: SearchCriteria | nul
 
       const weightedScores = [
         { score: budgetScore, weight: 35 },
-        { score: bedroomScore, weight: 25 },
+        ...(bedroomScore === null ? [] : [{ score: bedroomScore, weight: 25 }]),
         ...(featureScore === null ? [] : [{ score: featureScore, weight: 20 }]),
         ...(inferredScore === null ? [] : [{ score: inferredScore, weight: 20 }]),
         ...(locationScore === null ? [] : [{ score: locationScore, weight: 15 }]),

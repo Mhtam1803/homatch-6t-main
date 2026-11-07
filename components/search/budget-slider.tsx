@@ -4,7 +4,7 @@ import { Slider } from "@/components/ui/slider"
 import { formatMillions, formatVND } from "@/lib/format"
 
 const MIN = 2_000_000
-const MAX = 20_000_000
+const MAX = 40_000_000
 const STEP = 500_000
 
 interface BudgetSliderProps {

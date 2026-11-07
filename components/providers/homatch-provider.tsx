@@ -9,7 +9,7 @@ function isSearchCriteria(value: unknown): value is SearchCriteria {
   if (!value || typeof value !== "object") return false
   const criteria = value as Record<string, unknown>
   const transports: TransportMode[] = ["motorbike", "car", "bus", "walking"]
-  const bedrooms: BedroomOption[] = ["studio", "1", "2", "3+"]
+  const bedrooms: BedroomOption[] = ["any", "studio", "1", "2", "3+"]
   const features: FeatureKey[] = ["petFriendly", "balcony", "elevator", "quiet"]
   const inferredNeedKeys: InferredNeed["key"][] = ["quietStudy", "workFromHome", "familySpace", "easyAccess"]
 

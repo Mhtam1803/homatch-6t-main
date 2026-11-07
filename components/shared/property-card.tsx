@@ -5,7 +5,7 @@ import { FavoriteButton } from "@/components/shared/favorite-button"
 import { formatVND } from "@/lib/format"
 import type { Listing } from "@/types/listing"
 
-export function PropertyCard({ listing }: { listing: Listing }) {
+export function PropertyCard({ listing, matchScore }: { listing: Listing; matchScore?: number }) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-3xl border border-border bg-white shadow-soft transition-all hover:-translate-y-1 hover:shadow-lift">
       <div className="relative aspect-[4/3] overflow-hidden">
@@ -17,6 +17,14 @@ export function PropertyCard({ listing }: { listing: Listing }) {
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <FavoriteButton listingId={listing.id} listingTitle={listing.title} className="absolute right-3 top-3" />
+        {matchScore !== undefined && (
+          <span
+            aria-label={`Estimated match: ${matchScore}%`}
+            className="absolute bottom-3 left-3 inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-extrabold text-navy shadow-soft"
+          >
+            Match <span className="text-base text-orange-ink">{matchScore}%</span>
+          </span>
+        )}
       </div>
       <div className="flex flex-1 flex-col gap-4 p-6">
         <div>

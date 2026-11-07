@@ -7,7 +7,6 @@ import {
   Bike,
   Bus,
   Car,
-  CircleAlert,
   Footprints,
   Home,
   MapPin,
@@ -48,17 +47,12 @@ const chipOptions = [
   "Quiet environment",
   "Pet friendly",
   "Suitable for remote work",
-  "Near university",
   "Natural lighting",
-  "Safe neighborhood",
-  "Minimalist lifestyle",
 ].map((v) => ({ value: v, label: v }))
 
 const placeholder = `Tell us about your lifestyle, habits, and what matters most to you...
 
 Example: I'm a university student at UEL. I need a quiet apartment for studying at night, must allow cats, have good natural lighting, and be within 20 minutes of my university by motorbike.`
-
-type Errors = { destination?: string; lifestyle?: string }
 
 function FormSection({ number, title, subtitle, children }: { number: string; title: string; subtitle?: string; children: React.ReactNode }) {
   return (
@@ -99,18 +93,15 @@ export function SearchForm() {
 
   const [destination, setDestination] = useState("")
   const [transport, setTransport] = useState<TransportMode>("motorbike")
-  const [budget, setBudget] = useState(8_000_000)
-  const [bedroom, setBedroom] = useState<BedroomOption>("1")
+  const [budget, setBudget] = useState(40_000_000)
+  const [bedroom, setBedroom] = useState<BedroomOption>("any")
   const [features, setFeatures] = useState<FeatureKey[]>([])
   const [lifestyle, setLifestyle] = useState("")
   const [chips, setChips] = useState<string[]>([])
   const [acceptedNeeds, setAcceptedNeeds] = useState<InferredNeedKey[]>([])
-  const [errors, setErrors] = useState<Errors>({})
   const [loadingStep, setLoadingStep] = useState<number | null>(null)
   const inferredNeeds = useMemo(() => inferHiddenNeeds(lifestyle), [lifestyle])
 
-  const destinationRef = useRef<HTMLInputElement>(null)
-  const lifestyleRef = useRef<HTMLTextAreaElement>(null)
   const timers = useRef<ReturnType<typeof setTimeout>[]>([])
 
   useEffect(() => {
@@ -122,13 +113,6 @@ export function SearchForm() {
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault()
-    const next: Errors = {}
-    if (!destination.trim()) next.destination = "Please tell us where you need to be."
-    if (!lifestyle.trim() && chips.length === 0) next.lifestyle = "Describe your lifestyle or pick at least one suggestion."
-    setErrors(next)
-
-    if (next.destination) return destinationRef.current?.focus()
-    if (next.lifestyle) return lifestyleRef.current?.focus()
 
     setCriteria({
       destination: destination.trim(),
@@ -151,87 +135,66 @@ export function SearchForm() {
   return (
     <>
       <form onSubmit={submit} noValidate className="space-y-8">
-        <FormSection number="1" title="Your essentials" subtitle="The basics that shape every match.">
-          <Field label="Where do you need to be?" htmlFor="destination" hint="Enter your workplace, university, or preferred destination.">
-            <div className="relative">
-              <MapPin className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-orange" aria-hidden />
-              <Input
-                id="destination"
-                ref={destinationRef}
-                value={destination}
-                onChange={(e) => {
-                  setDestination(e.target.value)
-                  if (errors.destination) setErrors((p) => ({ ...p, destination: undefined }))
-                }}
-                placeholder="UEL, Linh Xuan, Thu Duc"
-                autoComplete="off"
-                aria-invalid={!!errors.destination}
-                aria-describedby={errors.destination ? "destination-error" : undefined}
-                className={cn("h-14 rounded-2xl border-2 bg-white pl-12 text-base md:text-base", errors.destination && "border-destructive")}
+        <FormSection number="1" title="Browse with filters" subtitle="Pick any filters you care about. Leave the rest open.">
+          <div className="grid gap-8 md:grid-cols-2">
+            <Field label="Where do you need to be?" htmlFor="destination" hint="Optional: enter a workplace, university, or area.">
+              <div className="relative">
+                <MapPin className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-orange" aria-hidden />
+                <Input
+                  id="destination"
+                  value={destination}
+                  onChange={(e) => setDestination(e.target.value)}
+                  placeholder="UEL, Linh Xuan, Thu Duc"
+                  autoComplete="off"
+                  className="h-14 rounded-2xl border-2 bg-white pl-12 text-base md:text-base"
+                />
+              </div>
+            </Field>
+
+            <Field label="How do you travel?">
+              <RadioCards name="transport" legend="How do you travel?" value={transport} options={transportOptions} onChange={setTransport} />
+            </Field>
+
+            <Field label="What's your maximum monthly budget?" hint="Leave at the maximum to include every budget.">
+              <BudgetSlider value={budget} onChange={setBudget} />
+            </Field>
+
+            <Field label="How many bedrooms?">
+              <RadioCards
+                name="bedroom"
+                legend="Bedrooms"
+                value={bedroom}
+                options={bedroomOptions}
+                onChange={setBedroom}
+                columns="grid-cols-2 sm:grid-cols-3"
               />
-            </div>
-            {errors.destination && (
-              <p id="destination-error" role="alert" className="flex items-center gap-2 text-sm font-semibold text-destructive">
-                <CircleAlert className="size-4" aria-hidden /> {errors.destination}
-              </p>
-            )}
-            <button
-              type="button"
-              onClick={() => {
-                setDestination("UEL, Linh Xuan, Thu Duc")
-                setErrors((p) => ({ ...p, destination: undefined }))
-              }}
-              className="text-sm font-semibold text-orange-ink underline-offset-4 hover:underline"
-            >
-              Use example: UEL, Linh Xuan, Thu Duc
-            </button>
-          </Field>
+            </Field>
 
-          <Field label="How do you travel?">
-            <RadioCards name="transport" legend="How do you travel?" value={transport} options={transportOptions} onChange={setTransport} />
-          </Field>
-
-          <Field label="What's your monthly budget?">
-            <BudgetSlider value={budget} onChange={setBudget} />
-          </Field>
-
-          <Field label="What type of home do you need?">
-            <RadioCards
-              name="bedroom"
-              legend="Bedrooms"
-              value={bedroom}
-              options={bedroomOptions}
-              onChange={setBedroom}
-              columns="grid-cols-2 lg:grid-cols-4"
-            />
-            <div className="pt-4">
-              <p className="mb-3 text-base font-semibold text-navy">Feature preferences</p>
+            <Field label="Home features" hint="Choose any features you prefer.">
               <ToggleChips options={featureOptions} selected={features} onToggle={(v) => setFeatures((f) => toggle(f, v))} />
-            </div>
-          </Field>
+            </Field>
+
+            <Field label="Quick preferences" hint="Select any that matter to you.">
+              <ToggleChips
+                size="sm"
+                options={chipOptions}
+                selected={chips}
+                onToggle={(v) => setChips((current) => toggle(current, v))}
+              />
+            </Field>
+          </div>
         </FormSection>
 
-        <FormSection number="2" title="Tell us your lifestyle" subtitle="The more we know, the better we match.">
-          <Field label="What does your ideal home look like?" htmlFor="lifestyle">
+        <FormSection number="2" title="Add your own needs (optional)" subtitle="You can skip this and search using the filters above.">
+          <Field label="Anything else we should know?" htmlFor="lifestyle" hint="For example: I study late and need a quiet place that allows cats.">
             <Textarea
               id="lifestyle"
-              ref={lifestyleRef}
               value={lifestyle}
-              onChange={(e) => {
-                setLifestyle(e.target.value)
-                if (errors.lifestyle) setErrors((p) => ({ ...p, lifestyle: undefined }))
-              }}
+              onChange={(e) => setLifestyle(e.target.value)}
               placeholder={placeholder}
               rows={7}
-              aria-invalid={!!errors.lifestyle}
-              aria-describedby={errors.lifestyle ? "lifestyle-error" : undefined}
-              className={cn("min-h-44 rounded-2xl border-2 bg-white p-4 text-base leading-relaxed md:text-base", errors.lifestyle && "border-destructive")}
+              className="min-h-44 rounded-2xl border-2 bg-white p-4 text-base leading-relaxed md:text-base"
             />
-            {errors.lifestyle && (
-              <p id="lifestyle-error" role="alert" className="flex items-center gap-2 text-sm font-semibold text-destructive">
-                <CircleAlert className="size-4" aria-hidden /> {errors.lifestyle}
-              </p>
-            )}
           </Field>
 
           {inferredNeeds.length > 0 && (
@@ -269,18 +232,6 @@ export function SearchForm() {
               </div>
             </Field>
           )}
-
-          <Field label="Quick suggestions" hint="Tap as many as you like.">
-            <ToggleChips
-              size="sm"
-              options={chipOptions}
-              selected={chips}
-              onToggle={(v) => {
-                setChips((c) => toggle(c, v))
-                if (errors.lifestyle) setErrors((p) => ({ ...p, lifestyle: undefined }))
-              }}
-            />
-          </Field>
         </FormSection>
 
         <div className="rounded-3xl bg-sky/60 p-6 text-center sm:p-8">

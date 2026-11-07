@@ -1,6 +1,6 @@
 export type TransportMode = "motorbike" | "car" | "bus" | "walking"
 
-export type BedroomOption = "studio" | "1" | "2" | "3+"
+export type BedroomOption = "any" | "studio" | "1" | "2" | "3+"
 
 export type FeatureKey = "petFriendly" | "balcony" | "elevator" | "quiet"
 

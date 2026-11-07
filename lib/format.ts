@@ -17,6 +17,7 @@ export const transportLabels: Record<TransportMode, string> = {
 }
 
 export const bedroomLabels: Record<BedroomOption, string> = {
+  any: "Any",
   studio: "Studio",
   "1": "1 Bedroom",
   "2": "2 Bedrooms",

@@ -7,7 +7,11 @@ const transportIcons: Record<TransportMode, typeof Bike> = { motorbike: Bike, ca
 
 export function SearchSummary({ criteria }: { criteria: SearchCriteria }) {
   const TransportIcon = transportIcons[criteria.transport]
-  const prefs = [bedroomLabels[criteria.bedroom], ...criteria.features.map((f) => featureLabels[f]), ...criteria.chips]
+  const prefs = [
+    ...(criteria.bedroom === "any" ? [] : [bedroomLabels[criteria.bedroom]]),
+    ...criteria.features.map((f) => featureLabels[f]),
+    ...criteria.chips,
+  ]
 
   return (
     <section aria-labelledby="summary-title" className="rounded-3xl border border-border bg-white p-6 shadow-soft sm:p-8">
@@ -27,7 +31,7 @@ export function SearchSummary({ criteria }: { criteria: SearchCriteria }) {
           <MapPin className="mt-0.5 size-5 shrink-0 text-orange" aria-hidden />
           <div>
             <dt className="text-sm font-medium text-navy/70">Destination</dt>
-            <dd className="text-base font-bold text-navy">{criteria.destination}</dd>
+            <dd className="text-base font-bold text-navy">{criteria.destination || "Any area"}</dd>
           </div>
         </div>
         <div className="flex gap-3">
