@@ -1,0 +1,5207 @@
+[
+  {
+    "id": "HCM_001",
+    "title": "Serviced studio in Dien Bien Phu, Binh Thanh Ward",
+    "city": "HCMC",
+    "district": "Binh Thanh Ward",
+    "coordinates": {
+      "lat": 10.8115,
+      "lng": 106.7127
+    },
+    "base_price": 5500000,
+    "management_fee": 500000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 7420000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 28.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_001/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_001/02_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_001/03_bed_room.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This 28 m² serviced unit in Dien Bien Phu, Binh Thanh Ward (former Binh Thanh District), with an open studio layout. Flexible lease terms starting from three months. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Dien Bien Phu Street and Nguyen Xi Street are both within a short ride. A cozy option for couples who want a convenient city lifestyle. Rent is 5.500.000 VND per month, management fee 500.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_002",
+    "title": "4-bedroom alley house in Tan Dinh, Tan Dinh Ward",
+    "city": "HCMC",
+    "district": "Tan Dinh Ward",
+    "coordinates": {
+      "lat": 10.7858,
+      "lng": 106.6893
+    },
+    "base_price": 26500000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 2800000,
+    "total_all_in_cost": 29500000,
+    "attributes": {
+      "bedrooms": 4,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 126.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_002/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_002/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_002/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 126 m² alley house in Tan Dinh, Tan Dinh Ward (former District 1), with 4 bedrooms. Wide alley, easy for motorbike access. Spacious living room, separate kitchen and a drying area on the roof. Small pets such as cats and small dogs are welcome. There is no balcony, but the windows are large and bright. Busy street frontage with plenty of shops nearby; expect background noise. Close to Tan Dinh Market, with Tan Dinh Church nearby. A cozy option for couples who want a convenient city lifestyle. Rent is 26.500.000 VND per month, management fee 200.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_003",
+    "title": "Studio near Thuan An city center, Thuan An Ward",
+    "city": "HCMC",
+    "district": "Thuan An Ward",
+    "coordinates": {
+      "lat": 10.931,
+      "lng": 106.7158
+    },
+    "base_price": 3000000,
+    "management_fee": 0,
+    "parking_fee": 150000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 4450000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 26.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_003/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_003/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_003/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This compact 26 m² mini apartment in Hung Dinh, Thuan An Ward (former Thuan An City, Binh Duong), with an open studio layout. Fast fiber internet is already wired in. Private washing machine space and a clean bathroom with a water heater. Has a private balcony with room for a small table and plants. It is a walk-up on the 3rd floor with no elevator. The location is lively, with cafes and street food downstairs and some traffic noise. Around 10 minutes by motorbike to Thuan An city center and Highway 13. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 3.000.000 VND per month, parking 150.000 VND."
+  },
+  {
+    "id": "HCM_004",
+    "title": "2-bedroom serviced apartment in Phuoc Kien, Nha Be Commune",
+    "city": "HCMC",
+    "district": "Nha Be Commune",
+    "coordinates": {
+      "lat": 10.6919,
+      "lng": 106.7367
+    },
+    "base_price": 8500000,
+    "management_fee": 900000,
+    "parking_fee": 0,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 11100000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 57.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_004/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_004/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_004/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 57 m² serviced apartment in Phuoc Kien, Nha Be Commune (former Nha Be District), with 2 bedrooms. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Move-in ready with a washing machine and a water heater. Small pets such as cats and small dogs are welcome. There is no balcony, but the windows are large and bright. The building has an elevator. Peaceful at night, away from bars and main roads. Close to Nguyen Huu Tho Street, with Phuoc Kien residential area nearby. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_005",
+    "title": "1-bedroom apartment near Ben Thanh Market, Ben Thanh Ward",
+    "city": "HCMC",
+    "district": "Ben Thanh Ward",
+    "coordinates": {
+      "lat": 10.7709,
+      "lng": 106.6936
+    },
+    "base_price": 13500000,
+    "management_fee": 800000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 15700000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 42.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_005/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_005/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_005/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This 42 m² high-rise apartment in Pham Ngu Lao, Ben Thanh Ward (former District 1), with 1 bedroom. Large windows give good natural light and city views. Open-plan living area with a separate sleeping space. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. The building has an elevator. Busy street frontage with plenty of shops nearby; expect background noise. Close to Ben Thanh Market, with Bui Vien walking street nearby. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 13.500.000 VND per month, management fee 800.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_006",
+    "title": "Studio in Phan Xich Long, Cau Kieu Ward",
+    "city": "HCMC",
+    "district": "Cau Kieu Ward",
+    "coordinates": {
+      "lat": 10.7929,
+      "lng": 106.6782
+    },
+    "base_price": 5000000,
+    "management_fee": 200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 6400000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 21.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_006/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_006/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_006/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 21 m² apartment in a private rental block in Phan Xich Long, Cau Kieu Ward (former Phu Nhuan District), with an open studio layout. Bright interior with a window on the side of the building. Private washing machine space and a clean bathroom with a water heater. Pets are not permitted in this property. It is a walk-up on the 4th floor with no elevator. Busy street frontage with plenty of shops nearby; expect background noise. Close to Phan Xich Long food street, with Cau Kieu Bridge nearby. A comfortable base for remote workers who need a stable workspace and fast internet."
+  },
+  {
+    "id": "HCM_007",
+    "title": "Studio near Front Beach, Vung Tau Ward",
+    "city": "HCMC",
+    "district": "Vung Tau Ward",
+    "coordinates": {
+      "lat": 10.3507,
+      "lng": 107.0811
+    },
+    "base_price": 4000000,
+    "management_fee": 0,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 5400000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 31.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_007/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_007/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_007/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This compact 31 m² mini apartment in Front Beach, Vung Tau Ward (former Vung Tau City, Ba Ria-Vung Tau), with an open studio layout. Fingerprint-lock entrance and a covered motorbike parking area. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. Small pets such as cats and small dogs are welcome. A calm, low-noise neighborhood that suits remote work and night owls. Around 5 minutes by motorbike to Front Beach and Christ of Vung Tau statue. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 4.000.000 VND per month, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_008",
+    "title": "Serviced studio near Crescent Mall, Tan My Ward",
+    "city": "HCMC",
+    "district": "Tan My Ward",
+    "coordinates": {
+      "lat": 10.7305,
+      "lng": 106.7157
+    },
+    "base_price": 9500000,
+    "management_fee": 600000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 11350000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 33.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_008/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_008/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_008/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A well-kept 33 m² serviced apartment in Midtown, Tan My Ward (former District 7), with an open studio layout. 24/7 security with card access and CCTV. Move-in ready with a washing machine and a water heater. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. Elevator access makes moving furniture and groceries easy. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Crescent Mall, with Phu My Hung Midtown nearby. Popular with expats thanks to the international food and services nearby. Rent is 9.500.000 VND per month, management fee 600.000 VND, parking 150.000 VND."
+  },
+  {
+    "id": "HCM_009",
+    "title": "Serviced studio near Ben Thanh Market, Cau Ong Lanh Ward",
+    "city": "HCMC",
+    "district": "Cau Ong Lanh Ward",
+    "coordinates": {
+      "lat": 10.7677,
+      "lng": 106.6887
+    },
+    "base_price": 8500000,
+    "management_fee": 600000,
+    "parking_fee": 0,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 10300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 33.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_009/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_009/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_009/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This 33 m² serviced unit in Co Giang, Cau Ong Lanh Ward (former District 1), with an open studio layout. Flexible lease terms starting from three months. 24/7 security with card access and CCTV. Small pets such as cats and small dogs are welcome. The building has an elevator. A calm, low-noise neighborhood that suits remote work and night owls. Ben Thanh Market and Co Giang Street are both within a short ride. Well suited to students and young renters on a tight budget. Rent is 8.500.000 VND per month, management fee 600.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_010",
+    "title": "Studio near Suoi Tien Theme Park, Tang Nhon Phu Ward",
+    "city": "HCMC",
+    "district": "Tang Nhon Phu Ward",
+    "coordinates": {
+      "lat": 10.8447,
+      "lng": 106.7867
+    },
+    "base_price": 2800000,
+    "management_fee": 300000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 4350000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 21.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_010/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_010/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_010/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 21 m² apartment in a private rental block in Hiep Phu, Tang Nhon Phu Ward (former District 9 area, Thu Duc), with an open studio layout. Bright interior with a window on the side of the building. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. Small pets such as cats and small dogs are welcome. The balcony faces the street side and is partly shaded. Access is by stairs only; there is no elevator. Peaceful at night, away from bars and main roads. Close to Suoi Tien Theme Park, with Hanoi Highway nearby. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_011",
+    "title": "Studio near Front Beach, Vung Tau Ward",
+    "city": "HCMC",
+    "district": "Vung Tau Ward",
+    "coordinates": {
+      "lat": 10.3423,
+      "lng": 107.0886
+    },
+    "base_price": 4500000,
+    "management_fee": 300000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 6200000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 25.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_011/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_011/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_011/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 25 m² mini apartment in a small low-rise block in Front Beach, Vung Tau Ward (former Vung Tau City, Ba Ria-Vung Tau), with an open studio layout. Fingerprint-lock entrance and a covered motorbike parking area. Bright interior with a window on the side of the building. Pets are not permitted in this property. The balcony faces the street side and is partly shaded. Energetic neighborhood near nightlife, convenient but not very quiet. Close to Front Beach, with Christ of Vung Tau statue nearby. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 4.500.000 VND per month, management fee 300.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_012",
+    "title": "1-bedroom apartment near VSIP 1 Industrial Park, Binh Hoa Ward",
+    "city": "HCMC",
+    "district": "Binh Hoa Ward",
+    "coordinates": {
+      "lat": 10.923,
+      "lng": 106.7203
+    },
+    "base_price": 7500000,
+    "management_fee": 1000000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 9900000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 54.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_012/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_012/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_012/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 54 m² apartment in a managed residential complex in Vinh Phu, Binh Hoa Ward (former Thuan An City, Binh Duong), with 1 bedroom. Open-plan living area with a separate sleeping space. 24/7 security, card access and a covered motorbike parking area. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. Energetic neighborhood near nightlife, convenient but not very quiet. Close to VSIP 1 Industrial Park, with Highway 13 nearby. A cozy option for couples who want a convenient city lifestyle. Rent is 7.500.000 VND per month, management fee 1.000.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_013",
+    "title": "Studio near Tan Thuan Export Processing Zone, Tan Thuan Ward",
+    "city": "HCMC",
+    "district": "Tan Thuan Ward",
+    "coordinates": {
+      "lat": 10.7446,
+      "lng": 106.7325
+    },
+    "base_price": 4000000,
+    "management_fee": 300000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 5500000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 26.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_013/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_013/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_013/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 26 m² apartment in a private rental block in Tan Thuan Dong, Tan Thuan Ward (former District 7), with an open studio layout. Fast fiber internet is already wired in. Bright interior with a window on the side of the building. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. The balcony faces the street side and is partly shaded. It is a walk-up on the 2nd floor with no elevator. Busy street frontage with plenty of shops nearby; expect background noise. Close to Tan Thuan Export Processing Zone, with Huynh Tan Phat Street nearby. Convenient for factory workers and engineers who want a short ride to the industrial zones. Rent is 4.000.000 VND per month, management fee 300.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_014",
+    "title": "1-bedroom apartment in Phu My Hung, Tan My Ward",
+    "city": "HCMC",
+    "district": "Tan My Ward",
+    "coordinates": {
+      "lat": 10.7263,
+      "lng": 106.7226
+    },
+    "base_price": 15000000,
+    "management_fee": 900000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 17300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 53.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_014/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_014/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_014/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This 53 m² high-rise apartment in Phu My Hung, Tan My Ward (former District 7), with 1 bedroom. Large windows give good natural light and city views. Open-plan living area with a separate sleeping space. No pets allowed under the house rules. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. Peaceful at night, away from bars and main roads. Crescent Mall and Phu My Hung Midtown are both within a short ride. Popular with expats thanks to the international food and services nearby."
+  },
+  {
+    "id": "HCM_015",
+    "title": "3-bedroom alley house near Front Beach, Vung Tau Ward",
+    "city": "HCMC",
+    "district": "Vung Tau Ward",
+    "coordinates": {
+      "lat": 10.351,
+      "lng": 107.0826
+    },
+    "base_price": 10000000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2100000,
+    "total_all_in_cost": 12100000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 78.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_015/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_015/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_015/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This 78 m² multi-level house in a residential lane in Front Beach, Vung Tau Ward (former Vung Tau City, Ba Ria-Vung Tau), with 3 bedrooms. Spacious living room, separate kitchen and a drying area on the roof. Unfurnished but with air-conditioner points ready in every bedroom. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. The location is lively, with cafes and street food downstairs and some traffic noise. Around 12 minutes by motorbike to Front Beach and Christ of Vung Tau statue. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_016",
+    "title": "2-bedroom apartment near RMIT Vietnam South Saigon campus, Tan Hung Ward",
+    "city": "HCMC",
+    "district": "Tan Hung Ward",
+    "coordinates": {
+      "lat": 10.7294,
+      "lng": 106.7026
+    },
+    "base_price": 16000000,
+    "management_fee": 1000000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 18800000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 66.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_016/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_016/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_016/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 66 m² apartment in a managed residential complex in Tan Phong, Tan Hung Ward (former District 7), with 2 bedrooms. 24/7 security, card access and a covered motorbike parking area. Large windows give good natural light and city views. Pets are not permitted in this property. The balcony faces the street side and is partly shaded. The building has an elevator. A calm, low-noise neighborhood that suits remote work and night owls. RMIT Vietnam South Saigon campus and SC VivoCity are both within a short ride. Popular with expats thanks to the international food and services nearby."
+  },
+  {
+    "id": "HCM_017",
+    "title": "Serviced studio near Bay Hien intersection, Bay Hien Ward",
+    "city": "HCMC",
+    "district": "Bay Hien Ward",
+    "coordinates": {
+      "lat": 10.7952,
+      "lng": 106.6612
+    },
+    "base_price": 6500000,
+    "management_fee": 500000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 8420000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 30.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_017/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_017/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_017/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 30 m² serviced apartment in Bay Hien, Bay Hien Ward (former Tan Binh District), with an open studio layout. Move-in ready with a washing machine and a water heater. 24/7 security with card access and CCTV. Pets are allowed, which suits tenants living with a cat. The balcony faces the street side and is partly shaded. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Bay Hien intersection, with Au Co Street nearby. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_018",
+    "title": "2-bedroom apartment in Rach Dua, Rach Dua Ward",
+    "city": "HCMC",
+    "district": "Rach Dua Ward",
+    "coordinates": {
+      "lat": 10.3819,
+      "lng": 107.1146
+    },
+    "base_price": 9500000,
+    "management_fee": 900000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 12320000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 64.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_018/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_018/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_018/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "A 64 m² apartment on a high floor of a modern tower in Rach Dua, Rach Dua Ward (former Vung Tau City, Ba Ria-Vung Tau), with 2 bedrooms. Large windows give good natural light and city views. 24/7 security, card access and a covered motorbike parking area. Pets are not permitted in this property. The balcony faces the street side and is partly shaded. Elevator access makes moving furniture and groceries easy. Windows catch the sea breeze and the beach is a short ride away. A calm, low-noise neighborhood that suits remote work and night owls. Rach Dua oil and gas service area and Vung Tau coastal road are both within a short ride. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 9.500.000 VND per month, management fee 900.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_019",
+    "title": "2-bedroom apartment in Front Beach, Vung Tau Ward",
+    "city": "HCMC",
+    "district": "Vung Tau Ward",
+    "coordinates": {
+      "lat": 10.348,
+      "lng": 107.0841
+    },
+    "base_price": 12000000,
+    "management_fee": 1400000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 15320000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 75.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_019/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_019/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_019/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This 75 m² high-rise apartment in Front Beach, Vung Tau Ward (former Vung Tau City, Ba Ria-Vung Tau), with 2 bedrooms. Large windows give good natural light and city views. Comes with built-in kitchen, air conditioner and a water heater. Elevator access makes moving furniture and groceries easy. Windows catch the sea breeze and the beach is a short ride away. Energetic neighborhood near nightlife, convenient but not very quiet. Front Beach and Christ of Vung Tau statue are both within a short ride. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 12.000.000 VND per month, management fee 1.400.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_020",
+    "title": "2-bedroom mini apartment in Nguyen Oanh, Go Vap Ward",
+    "city": "HCMC",
+    "district": "Go Vap Ward",
+    "coordinates": {
+      "lat": 10.8391,
+      "lng": 106.6568
+    },
+    "base_price": 7500000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 1600000,
+    "total_all_in_cost": 9100000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 44.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_020/01_living_room.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_020/02_kitchen.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_020/03_bed_room.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      }
+    ],
+    "raw_description": "This compact 44 m² mini apartment in Nguyen Oanh, Go Vap Ward (former Go Vap District), with 2 bedrooms. Private washing machine space and a clean bathroom with a water heater. Fingerprint-lock entrance and a covered motorbike parking area. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. The balcony faces the street side and is partly shaded. It is a walk-up on the 2nd floor with no elevator. Peaceful at night, away from bars and main roads. Close to Quang Trung Street, with Nguyen Oanh Street nearby. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 7.500.000 VND per month, parking is free or included."
+  },
+  {
+    "id": "HCM_021",
+    "title": "Studio near Nguyen Hue Walking Street, Sai Gon Ward",
+    "city": "HCMC",
+    "district": "Sai Gon Ward",
+    "coordinates": {
+      "lat": 10.7748,
+      "lng": 106.6996
+    },
+    "base_price": 6000000,
+    "management_fee": 0,
+    "parking_fee": 100000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 7200000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 22.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_021/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_021/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_021/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_021/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_021/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 22 m² apartment in a private rental block in Ben Nghe, Sai Gon Ward (former District 1), with an open studio layout. Bright interior with a window on the side of the building. Fast fiber internet is already wired in. Has a private balcony with room for a small table and plants. Access is by stairs only; there is no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Nguyen Hue Walking Street and Saigon Opera House are both within a short ride. Popular with expats thanks to the international food and services nearby."
+  },
+  {
+    "id": "HCM_022",
+    "title": "Studio near Tan Son Nhat Airport, Tan Son Nhat Ward",
+    "city": "HCMC",
+    "district": "Tan Son Nhat Ward",
+    "coordinates": {
+      "lat": 10.814,
+      "lng": 106.6692
+    },
+    "base_price": 3500000,
+    "management_fee": 100000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 5050000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 25.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_022/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_022/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_022/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_022/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 25 m² apartment in a private rental block in Hoang Van Thu, Tan Son Nhat Ward (former Tan Binh District), with an open studio layout. Fast fiber internet is already wired in. Private washing machine space and a clean bathroom with a water heater. There is no balcony, but the windows are large and bright. Access is by stairs only; there is no elevator. A calm, low-noise neighborhood that suits remote work and night owls. Around 15 minutes by motorbike to Tan Son Nhat Airport and Hoang Van Thu Park. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_023",
+    "title": "3-bedroom alley house near Front Beach, Vung Tau Ward",
+    "city": "HCMC",
+    "district": "Vung Tau Ward",
+    "coordinates": {
+      "lat": 10.3417,
+      "lng": 107.0876
+    },
+    "base_price": 12000000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 2400000,
+    "total_all_in_cost": 14600000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 95.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_023/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_023/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_023/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_023/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_023/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_023/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 95 m² whole-house rental in Back Beach, Vung Tau Ward (former Vung Tau City, Ba Ria-Vung Tau), with 3 bedrooms. Wide alley, easy for motorbike access. Spacious living room, separate kitchen and a drying area on the roof. Small pets such as cats and small dogs are welcome. No balcony; a window gives ventilation instead. Stairs-only access between floors. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Front Beach, with Christ of Vung Tau statue nearby. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_024",
+    "title": "2-bedroom serviced apartment in Dong Khoi, Sai Gon Ward",
+    "city": "HCMC",
+    "district": "Sai Gon Ward",
+    "coordinates": {
+      "lat": 10.7829,
+      "lng": 106.6977
+    },
+    "base_price": 26500000,
+    "management_fee": 1200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 29500000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 68.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_024/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_024/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_024/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_024/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_024/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_024/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_024/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A well-kept 68 m² serviced apartment in Dong Khoi, Sai Gon Ward (former District 1), with 2 bedrooms. 24/7 security with card access and CCTV. Flexible lease terms starting from three months. Pets are allowed, which suits tenants living with a cat. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. Busy street frontage with plenty of shops nearby; expect background noise. Nguyen Hue Walking Street and Saigon Opera House are both within a short ride. A comfortable base for remote workers who need a stable workspace and fast internet."
+  },
+  {
+    "id": "HCM_025",
+    "title": "Studio near Thao Dien riverside cafes, An Khanh Ward",
+    "city": "HCMC",
+    "district": "An Khanh Ward",
+    "coordinates": {
+      "lat": 10.8026,
+      "lng": 106.7318
+    },
+    "base_price": 5000000,
+    "management_fee": 0,
+    "parking_fee": 150000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 6350000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 19.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_025/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_025/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_025/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_025/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_025/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This compact 19 m² mini apartment in Thao Dien, An Khanh Ward (former District 2 area, Thu Duc), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. No pets allowed under the house rules. Has a private balcony with room for a small table and plants. Access is by stairs only; there is no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Thao Dien riverside cafes, with Thu Thiem nearby. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_026",
+    "title": "Studio in Nguyen Xi, Binh Thanh Ward",
+    "city": "HCMC",
+    "district": "Binh Thanh Ward",
+    "coordinates": {
+      "lat": 10.8133,
+      "lng": 106.7081
+    },
+    "base_price": 5000000,
+    "management_fee": 200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 6500000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 31.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_026/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_026/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_026/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_026/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 31 m² apartment in a private rental block in Nguyen Xi, Binh Thanh Ward (former Binh Thanh District), with an open studio layout. Fast fiber internet is already wired in. Bright interior with a window on the side of the building. No pets allowed under the house rules. It is a walk-up on the 4th floor with no elevator. Busy street frontage with plenty of shops nearby; expect background noise. Around 10 minutes by motorbike to Dien Bien Phu Street and Nguyen Xi Street. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_027",
+    "title": "2-bedroom serviced apartment in Linh Chieu, Thu Duc Ward",
+    "city": "HCMC",
+    "district": "Thu Duc Ward",
+    "coordinates": {
+      "lat": 10.8518,
+      "lng": 106.7574
+    },
+    "base_price": 13000000,
+    "management_fee": 1100000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 15950000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 67.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_027/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_027/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_027/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_027/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_027/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_027/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 67 m² serviced apartment in Linh Chieu, Thu Duc Ward (former Thu Duc City), with 2 bedrooms. Move-in ready with a washing machine and a water heater. Flexible lease terms starting from three months. There is no balcony, but the windows are large and bright. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Thu Duc Market, with Vincom Plaza Thu Duc nearby. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 13.000.000 VND per month, management fee 1.100.000 VND, parking 150.000 VND."
+  },
+  {
+    "id": "HCM_028",
+    "title": "2-bedroom alley house in Nguyen An Ninh, Tam Thang Ward",
+    "city": "HCMC",
+    "district": "Tam Thang Ward",
+    "coordinates": {
+      "lat": 10.3815,
+      "lng": 107.1075
+    },
+    "base_price": 6000000,
+    "management_fee": 300000,
+    "parking_fee": 0,
+    "estimated_utilities": 1500000,
+    "total_all_in_cost": 7800000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 51.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_028/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_028/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_028/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_028/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_028/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_028/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 51 m² whole-house rental in Nguyen An Ninh, Tam Thang Ward (former Vung Tau City, Ba Ria-Vung Tau), with 2 bedrooms. Private entrance and a motorbike parking space inside the house. Spacious living room, separate kitchen and a drying area on the roof. Pets are allowed, which suits tenants living with a cat. Stairs-only access between floors. Windows catch the sea breeze and the beach is a short ride away. The location is lively, with cafes and street food downstairs and some traffic noise. Le Hong Phong Street and Tam Thang residential area are both within a short ride. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 6.000.000 VND per month, management fee 300.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_029",
+    "title": "2-bedroom apartment in Linh Xuan, Linh Xuan Ward",
+    "city": "HCMC",
+    "district": "Linh Xuan Ward",
+    "coordinates": {
+      "lat": 10.8643,
+      "lng": 106.7734
+    },
+    "base_price": 12000000,
+    "management_fee": 1300000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 15250000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 74.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_029/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_029/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_029/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_029/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_029/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_029/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_029/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 74 m² apartment in a managed residential complex in Linh Xuan, Linh Xuan Ward (former Thu Duc City), with 2 bedrooms. Comes with built-in kitchen, air conditioner and a water heater. Large windows give good natural light and city views. Has a private balcony with room for a small table and plants. The building has an elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 15 minutes by motorbike to UEL campus and Vietnam National University HCMC. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_030",
+    "title": "2-bedroom apartment in Quang Trung, Go Vap Ward",
+    "city": "HCMC",
+    "district": "Go Vap Ward",
+    "coordinates": {
+      "lat": 10.8376,
+      "lng": 106.6575
+    },
+    "base_price": 11000000,
+    "management_fee": 1200000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 14150000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 60.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_030/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_030/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_030/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_030/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_030/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_030/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 60 m² apartment on a high floor of a modern tower in Quang Trung, Go Vap Ward (former Go Vap District), with 2 bedrooms. The building has a gym, pool and a small playground. Comes with built-in kitchen, air conditioner and a water heater. No balcony; a window gives ventilation instead. Elevator access makes moving furniture and groceries easy. Energetic neighborhood near nightlife, convenient but not very quiet. Close to Quang Trung Street, with Nguyen Oanh Street nearby. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_031",
+    "title": "Studio near Pham Van Dong Street, Hiep Binh Ward",
+    "city": "HCMC",
+    "district": "Hiep Binh Ward",
+    "coordinates": {
+      "lat": 10.8455,
+      "lng": 106.7091
+    },
+    "base_price": 3500000,
+    "management_fee": 200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 5100000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 27.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_031/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_031/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_031/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_031/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_031/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 27 m² apartment in a private rental block in Hiep Binh Chanh, Hiep Binh Ward (former Thu Duc City), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Fast fiber internet is already wired in. Has a private balcony with room for a small table and plants. It is a walk-up on the 4th floor with no elevator. Peaceful at night, away from bars and main roads. Close to Pham Van Dong Street, with Thu Duc residential lanes nearby. Practical for a small family with kids, with markets and schools close by. Rent is 3.500.000 VND per month, management fee 200.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_032",
+    "title": "Studio near Thu Dau Mot Market, Thu Dau Mot Ward",
+    "city": "HCMC",
+    "district": "Thu Dau Mot Ward",
+    "coordinates": {
+      "lat": 10.9757,
+      "lng": 106.6482
+    },
+    "base_price": 3000000,
+    "management_fee": 0,
+    "parking_fee": 120000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 4220000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 20.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_032/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_032/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_032/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_032/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_032/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 20 m² mini apartment in a small low-rise block in Phu Cuong, Thu Dau Mot Ward (former Thu Dau Mot City, Binh Duong), with an open studio layout. Fast fiber internet is already wired in. Fingerprint-lock entrance and a covered motorbike parking area. Pets are not permitted in this property. The balcony faces the street side and is partly shaded. A calm, low-noise neighborhood that suits remote work and night owls. Thu Dau Mot Market and Binh Duong Museum are both within a short ride. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_033",
+    "title": "Studio near VNU-HCM Dormitory Zone B, Dong Hoa Ward",
+    "city": "HCMC",
+    "district": "Dong Hoa Ward",
+    "coordinates": {
+      "lat": 10.8851,
+      "lng": 106.7857
+    },
+    "base_price": 3000000,
+    "management_fee": 300000,
+    "parking_fee": 0,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 4400000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 29.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_033/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_033/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_033/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_033/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_033/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 29 m² mini apartment in a small low-rise block in Binh An, Dong Hoa Ward (former Di An City, Binh Duong), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Fast fiber internet is already wired in. Pets are not permitted in this property. The balcony faces the street side and is partly shaded. It is a walk-up on the 4th floor with no elevator. Energetic neighborhood near nightlife, convenient but not very quiet. VNU-HCM Dormitory Zone B and Di An industrial areas are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_034",
+    "title": "3-bedroom apartment in Nguyen Thi Thap, Tan Hung Ward",
+    "city": "HCMC",
+    "district": "Tan Hung Ward",
+    "coordinates": {
+      "lat": 10.7316,
+      "lng": 106.7073
+    },
+    "base_price": 22000000,
+    "management_fee": 1300000,
+    "parking_fee": 100000,
+    "estimated_utilities": 2300000,
+    "total_all_in_cost": 25700000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 86.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_034/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_034/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_034/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_034/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_034/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_034/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 86 m² apartment in a managed residential complex in Nguyen Thi Thap, Tan Hung Ward (former District 7), with 3 bedrooms. 24/7 security, card access and a covered motorbike parking area. Open-plan living area with a separate sleeping space. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. No balcony; a window gives ventilation instead. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. RMIT Vietnam South Saigon campus and SC VivoCity are both within a short ride. Popular with expats thanks to the international food and services nearby. Rent is 22.000.000 VND per month, management fee 1.300.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_035",
+    "title": "2-bedroom apartment near Landmark 81, Thanh My Tay Ward",
+    "city": "HCMC",
+    "district": "Thanh My Tay Ward",
+    "coordinates": {
+      "lat": 10.7912,
+      "lng": 106.7122
+    },
+    "base_price": 18000000,
+    "management_fee": 1500000,
+    "parking_fee": 0,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 21200000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 76.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_035/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_035/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_035/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_035/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_035/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_035/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_035/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 76 m² apartment in a managed residential complex in Landmark 81 area, Thanh My Tay Ward (former Binh Thanh District), with 2 bedrooms. Comes with built-in kitchen, air conditioner and a water heater. Open-plan living area with a separate sleeping space. Small pets such as cats and small dogs are welcome. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Landmark 81 and Vinhomes Central Park are both within a short ride. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_036",
+    "title": "2-bedroom apartment in Nguyen An Ninh, Tam Thang Ward",
+    "city": "HCMC",
+    "district": "Tam Thang Ward",
+    "coordinates": {
+      "lat": 10.3758,
+      "lng": 107.1078
+    },
+    "base_price": 10000000,
+    "management_fee": 1100000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 13020000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 60.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_036/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_036/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_036/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_036/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_036/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_036/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_036/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 60 m² apartment on a high floor of a modern tower in Nguyen An Ninh, Tam Thang Ward (former Vung Tau City, Ba Ria-Vung Tau), with 2 bedrooms. Comes with built-in kitchen, air conditioner and a water heater. 24/7 security, card access and a covered motorbike parking area. Small pets such as cats and small dogs are welcome. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. Windows catch the sea breeze and the beach is a short ride away. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Le Hong Phong Street, with Tam Thang residential area nearby. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 10.000.000 VND per month, management fee 1.100.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_037",
+    "title": "Studio in Bach Dang, Tan Uyen Ward",
+    "city": "HCMC",
+    "district": "Tan Uyen Ward",
+    "coordinates": {
+      "lat": 11.054,
+      "lng": 106.7963
+    },
+    "base_price": 2800000,
+    "management_fee": 200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 4300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 24.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_037/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_037/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_037/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_037/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_037/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This compact 24 m² mini apartment in Bach Dang, Tan Uyen Ward (former Tan Uyen City, Binh Duong), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. The balcony faces the street side and is partly shaded. Access is by stairs only; there is no elevator. A calm, low-noise neighborhood that suits remote work and night owls. Around 8 minutes by motorbike to Tan Uyen city center and Provincial Road 746. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_038",
+    "title": "Studio near Phu Loi Market, Phu Loi Ward",
+    "city": "HCMC",
+    "district": "Phu Loi Ward",
+    "coordinates": {
+      "lat": 10.9885,
+      "lng": 106.6689
+    },
+    "base_price": 3000000,
+    "management_fee": 100000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 4520000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 26.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_038/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_038/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_038/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_038/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_038/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 26 m² apartment in a private rental block in Phu Loi, Phu Loi Ward (former Thu Dau Mot City, Binh Duong), with an open studio layout. Fingerprint-lock entrance and a covered motorbike parking area. Fast fiber internet is already wired in. Pets are not permitted in this property. Has a private balcony with room for a small table and plants. Energetic neighborhood near nightlife, convenient but not very quiet. Close to Phu Loi Market, with Binh Duong General Hospital area nearby. Practical for a small family with kids, with markets and schools close by. Rent is 3.000.000 VND per month, management fee 100.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_039",
+    "title": "3-bedroom alley house in Nguyen Thai Son, Hanh Thong Ward",
+    "city": "HCMC",
+    "district": "Hanh Thong Ward",
+    "coordinates": {
+      "lat": 10.8419,
+      "lng": 106.6803
+    },
+    "base_price": 10000000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2300000,
+    "total_all_in_cost": 12300000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 75.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_039/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_039/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_039/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_039/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_039/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_039/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_039/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This 75 m² multi-level house in a residential lane in Nguyen Thai Son, Hanh Thong Ward (former Go Vap District), with 3 bedrooms. Wide alley, easy for motorbike access. Reliable water and electricity with separate meters. Pets are allowed, which suits tenants living with a cat. A balcony off the living area is good for drying clothes and a morning coffee. Stairs-only access between floors. Energetic neighborhood near nightlife, convenient but not very quiet. Nguyen Thai Son Street and Hanh Thong residential lanes are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_040",
+    "title": "Serviced studio near Ben Thanh Market, Cau Ong Lanh Ward",
+    "city": "HCMC",
+    "district": "Cau Ong Lanh Ward",
+    "coordinates": {
+      "lat": 10.7666,
+      "lng": 106.6946
+    },
+    "base_price": 9000000,
+    "management_fee": 500000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 10720000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 35.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_040/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_040/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_040/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_040/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_040/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This 35 m² serviced unit in Co Giang, Cau Ong Lanh Ward (former District 1), with an open studio layout. Move-in ready with a washing machine and a water heater. 24/7 security with card access and CCTV. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Around 8 minutes by motorbike to Ben Thanh Market and Co Giang Street. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 9.000.000 VND per month, management fee 500.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_041",
+    "title": "1-bedroom serviced apartment in Dien Hong, Dien Hong Ward",
+    "city": "HCMC",
+    "district": "Dien Hong Ward",
+    "coordinates": {
+      "lat": 10.7742,
+      "lng": 106.6582
+    },
+    "base_price": 11000000,
+    "management_fee": 800000,
+    "parking_fee": 0,
+    "estimated_utilities": 1400000,
+    "total_all_in_cost": 13200000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 44.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_041/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_041/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_041/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_041/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_041/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 44 m² serviced apartment in Dien Hong, Dien Hong Ward (former District 10), with 1 bedroom. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Flexible lease terms starting from three months. Elevator access makes moving furniture and groceries easy. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 12 minutes by motorbike to Ly Thuong Kiet Street and 3 Thang 2 Street. Works for tenants with night shifts or irregular hours."
+  },
+  {
+    "id": "HCM_042",
+    "title": "Studio near Di An Railway Station, Di An Ward",
+    "city": "HCMC",
+    "district": "Di An Ward",
+    "coordinates": {
+      "lat": 10.8993,
+      "lng": 106.7676
+    },
+    "base_price": 3000000,
+    "management_fee": 200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 4600000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 26.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_042/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_042/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_042/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_042/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_042/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This compact 26 m² mini apartment in Di An center, Di An Ward (former Di An City, Binh Duong), with an open studio layout. Bright interior with a window on the side of the building. Fast fiber internet is already wired in. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. It is a walk-up on the 2nd floor with no elevator. Busy street frontage with plenty of shops nearby; expect background noise. Around 8 minutes by motorbike to Di An Railway Station and Di An Market. Well suited to students and young renters on a tight budget. Rent is 3.000.000 VND per month, management fee 200.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_043",
+    "title": "2-bedroom apartment near Dien Bien Phu Street, Binh Thanh Ward",
+    "city": "HCMC",
+    "district": "Binh Thanh Ward",
+    "coordinates": {
+      "lat": 10.8101,
+      "lng": 106.7114
+    },
+    "base_price": 12000000,
+    "management_fee": 1200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 15000000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 63.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_043/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_043/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_043/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_043/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_043/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_043/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_043/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 63 m² apartment on a high floor of a modern tower in Nguyen Xi, Binh Thanh Ward (former Binh Thanh District), with 2 bedrooms. The building has a gym, pool and a small playground. 24/7 security, card access and a covered motorbike parking area. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. Energetic neighborhood near nightlife, convenient but not very quiet. Close to Dien Bien Phu Street, with Nguyen Xi Street nearby. Well suited to students and young renters on a tight budget. Rent is 12.000.000 VND per month, management fee 1.200.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_044",
+    "title": "2-bedroom apartment in Thao Dien, An Khanh Ward",
+    "city": "HCMC",
+    "district": "An Khanh Ward",
+    "coordinates": {
+      "lat": 10.8093,
+      "lng": 106.7317
+    },
+    "base_price": 21000000,
+    "management_fee": 1200000,
+    "parking_fee": 0,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 24000000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 77.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_044/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_044/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_044/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_044/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_044/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_044/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_044/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 77 m² apartment in a managed residential complex in Thao Dien, An Khanh Ward (former District 2 area, Thu Duc), with 2 bedrooms. The building has a gym, pool and a small playground. 24/7 security, card access and a covered motorbike parking area. The balcony faces the street side and is partly shaded. The building has an elevator. Energetic neighborhood near nightlife, convenient but not very quiet. Thao Dien riverside cafes and Thu Thiem are both within a short ride. Practical for a small family with kids, with markets and schools close by. Rent is 21.000.000 VND per month, management fee 1.200.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_045",
+    "title": "3-bedroom alley house in Tan Dinh, Tan Dinh Ward",
+    "city": "HCMC",
+    "district": "Tan Dinh Ward",
+    "coordinates": {
+      "lat": 10.7889,
+      "lng": 106.6872
+    },
+    "base_price": 15000000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2100000,
+    "total_all_in_cost": 17100000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 78.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_045/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_045/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_045/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_045/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_045/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_045/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 78 m² whole-house rental in Tan Dinh, Tan Dinh Ward (former District 1), with 3 bedrooms. Private entrance and a motorbike parking space inside the house. Wide alley, easy for motorbike access. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. The house has internal stairs across several levels and no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Tan Dinh Market, with Tan Dinh Church nearby. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_046",
+    "title": "Serviced studio in Binh Trung Dong, Binh Trung Ward",
+    "city": "HCMC",
+    "district": "Binh Trung Ward",
+    "coordinates": {
+      "lat": 10.7911,
+      "lng": 106.7499
+    },
+    "base_price": 7500000,
+    "management_fee": 500000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 9320000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 30.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_046/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_046/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_046/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_046/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A well-kept 30 m² serviced apartment in Binh Trung Dong, Binh Trung Ward (former District 2 area, Thu Duc), with an open studio layout. Move-in ready with a washing machine and a water heater. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. No balcony; a window gives ventilation instead. The building has an elevator. Energetic neighborhood near nightlife, convenient but not very quiet. An Phu intersection and Metro Line 1 stations are both within a short ride. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_047",
+    "title": "1-bedroom apartment near UEL campus, Linh Xuan Ward",
+    "city": "HCMC",
+    "district": "Linh Xuan Ward",
+    "coordinates": {
+      "lat": 10.8731,
+      "lng": 106.782
+    },
+    "base_price": 8000000,
+    "management_fee": 1000000,
+    "parking_fee": 0,
+    "estimated_utilities": 1400000,
+    "total_all_in_cost": 10400000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 50.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_047/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_047/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_047/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_047/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_047/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_047/06_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 50 m² apartment on a high floor of a modern tower in Linh Trung, Linh Xuan Ward (former Thu Duc City), with 1 bedroom. 24/7 security, card access and a covered motorbike parking area. Comes with built-in kitchen, air conditioner and a water heater. Small pets such as cats and small dogs are welcome. A balcony off the living area is good for drying clothes and a morning coffee. The building has an elevator. Peaceful at night, away from bars and main roads. Around 10 minutes by motorbike to UEL campus and Vietnam National University HCMC. Well suited to students and young renters on a tight budget. Rent is 8.000.000 VND per month, management fee 1.000.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_048",
+    "title": "2-bedroom serviced apartment in Binh Hung, Binh Hung Commune",
+    "city": "HCMC",
+    "district": "Binh Hung Commune",
+    "coordinates": {
+      "lat": 10.6989,
+      "lng": 106.6591
+    },
+    "base_price": 8000000,
+    "management_fee": 1100000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 11000000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 57.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_048/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_048/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_048/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_048/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_048/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_048/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_048/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 57 m² serviced apartment in Binh Hung, Binh Hung Commune (former Binh Chanh District and District 8), with 2 bedrooms. Move-in ready with a washing machine and a water heater. Flexible lease terms starting from three months. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Pham Hung Street and Nguyen Van Linh extension are both within a short ride. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_049",
+    "title": "2-bedroom apartment in An Loi Dong, An Khanh Ward",
+    "city": "HCMC",
+    "district": "An Khanh Ward",
+    "coordinates": {
+      "lat": 10.8063,
+      "lng": 106.7366
+    },
+    "base_price": 17500000,
+    "management_fee": 1200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 20600000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 64.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_049/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_049/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_049/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_049/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_049/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_049/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_049/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 64 m² apartment in a managed residential complex in An Loi Dong, An Khanh Ward (former District 2 area, Thu Duc), with 2 bedrooms. Comes with built-in kitchen, air conditioner and a water heater. 24/7 security, card access and a covered motorbike parking area. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. Energetic neighborhood near nightlife, convenient but not very quiet. Around 12 minutes by motorbike to Thao Dien riverside cafes and Thu Thiem. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_050",
+    "title": "Studio near My Phuoc Industrial Park, Ben Cat Ward",
+    "city": "HCMC",
+    "district": "Ben Cat Ward",
+    "coordinates": {
+      "lat": 11.1442,
+      "lng": 106.6066
+    },
+    "base_price": 2800000,
+    "management_fee": 0,
+    "parking_fee": 150000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 4250000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 28.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_050/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_050/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_050/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_050/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_050/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 28 m² apartment in a private rental block in Ben Cat, Ben Cat Ward (former Ben Cat City, Binh Duong), with an open studio layout. Fingerprint-lock entrance and a covered motorbike parking area. Private washing machine space and a clean bathroom with a water heater. Pets are allowed, which suits tenants living with a cat. A balcony off the living area is good for drying clothes and a morning coffee. A calm, low-noise neighborhood that suits remote work and night owls. My Phuoc Industrial Park and Ben Cat Market are both within a short ride. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_051",
+    "title": "3-bedroom alley house near Eastern International University, Binh Duong Ward",
+    "city": "HCMC",
+    "district": "Binh Duong Ward",
+    "coordinates": {
+      "lat": 11.0431,
+      "lng": 106.6658
+    },
+    "base_price": 8500000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2100000,
+    "total_all_in_cost": 10600000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 78.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_051/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_051/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_051/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_051/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_051/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_051/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 78 m² alley house in Hoa Phu, Binh Duong Ward (former Thu Dau Mot City, Binh Duong), with 3 bedrooms. Private entrance and a motorbike parking space inside the house. Unfurnished but with air-conditioner points ready in every bedroom. No balcony; a window gives ventilation instead. The house has internal stairs across several levels and no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Eastern International University and Becamex Binh Duong New City are both within a short ride. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_052",
+    "title": "2-bedroom apartment near Crescent Mall, Tan My Ward",
+    "city": "HCMC",
+    "district": "Tan My Ward",
+    "coordinates": {
+      "lat": 10.7266,
+      "lng": 106.7151
+    },
+    "base_price": 18000000,
+    "management_fee": 1400000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 21320000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 69.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_052/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_052/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_052/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_052/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_052/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_052/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This 69 m² high-rise apartment in Phu My Hung, Tan My Ward (former District 7), with 2 bedrooms. The building has a gym, pool and a small playground. 24/7 security, card access and a covered motorbike parking area. No pets allowed under the house rules. There is no balcony, but the windows are large and bright. The building has an elevator. The location is lively, with cafes and street food downstairs and some traffic noise. Around 10 minutes by motorbike to Crescent Mall and Phu My Hung Midtown. Popular with expats thanks to the international food and services nearby."
+  },
+  {
+    "id": "HCM_053",
+    "title": "3-bedroom alley house near VSIP 1 Industrial Park, Binh Hoa Ward",
+    "city": "HCMC",
+    "district": "Binh Hoa Ward",
+    "coordinates": {
+      "lat": 10.9204,
+      "lng": 106.7234
+    },
+    "base_price": 6500000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 2300000,
+    "total_all_in_cost": 9000000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 76.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_053/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_053/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_053/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_053/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_053/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_053/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 76 m² alley house in VSIP 1 area, Binh Hoa Ward (former Thuan An City, Binh Duong), with 3 bedrooms. Reliable water and electricity with separate meters. Wide alley, easy for motorbike access. No pets allowed under the house rules. A calm, low-noise neighborhood that suits remote work and night owls. VSIP 1 Industrial Park and Highway 13 are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_054",
+    "title": "Studio in Linh Xuan, Linh Xuan Ward",
+    "city": "HCMC",
+    "district": "Linh Xuan Ward",
+    "coordinates": {
+      "lat": 10.8703,
+      "lng": 106.7747
+    },
+    "base_price": 3500000,
+    "management_fee": 0,
+    "parking_fee": 100000,
+    "estimated_utilities": 1000000,
+    "total_all_in_cost": 4600000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 21.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_054/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_054/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_054/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_054/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_054/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 21 m² mini apartment in a small low-rise block in Linh Xuan, Linh Xuan Ward (former Thu Duc City), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. Energetic neighborhood near nightlife, convenient but not very quiet. UEL campus and Vietnam National University HCMC are both within a short ride. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 3.500.000 VND per month, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_055",
+    "title": "2-bedroom serviced apartment in Phu Xuan, Nha Be Commune",
+    "city": "HCMC",
+    "district": "Nha Be Commune",
+    "coordinates": {
+      "lat": 10.6971,
+      "lng": 106.7307
+    },
+    "base_price": 10000000,
+    "management_fee": 1100000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 13020000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 69.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_055/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_055/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_055/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_055/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_055/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_055/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_055/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 69 m² serviced apartment in Phu Xuan, Nha Be Commune (former Nha Be District), with 2 bedrooms. Weekly cleaning and linen change are included in the service. 24/7 security with card access and CCTV. No pets allowed under the house rules. A balcony off the living area is good for drying clothes and a morning coffee. Located on the 3rd floor of a walk-up building without an elevator. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Nguyen Huu Tho Street, with Phuoc Kien residential area nearby. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 10.000.000 VND per month, management fee 1.100.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_056",
+    "title": "1-bedroom serviced apartment in Bach Dang, Gia Dinh Ward",
+    "city": "HCMC",
+    "district": "Gia Dinh Ward",
+    "coordinates": {
+      "lat": 10.8067,
+      "lng": 106.699
+    },
+    "base_price": 8500000,
+    "management_fee": 700000,
+    "parking_fee": 0,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 10500000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 40.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_056/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_056/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_056/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_056/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_056/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_056/06_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A well-kept 40 m² serviced apartment in Bach Dang, Gia Dinh Ward (former Binh Thanh District), with 1 bedroom. 24/7 security with card access and CCTV. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. Has a private balcony with room for a small table and plants. The building has an elevator. Peaceful at night, away from bars and main roads. Close to Bach Dang Street, with Dinh Tien Hoang Street nearby. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_057",
+    "title": "Studio in Hoa Phu, Binh Duong Ward",
+    "city": "HCMC",
+    "district": "Binh Duong Ward",
+    "coordinates": {
+      "lat": 11.0481,
+      "lng": 106.6684
+    },
+    "base_price": 3000000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 1000000,
+    "total_all_in_cost": 4000000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 20.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_057/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_057/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_057/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_057/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_057/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 20 m² mini apartment in a small low-rise block in Hoa Phu, Binh Duong Ward (former Thu Dau Mot City, Binh Duong), with an open studio layout. Fast fiber internet is already wired in. Private washing machine space and a clean bathroom with a water heater. A balcony off the living area is good for drying clothes and a morning coffee. It is a walk-up on the 2nd floor with no elevator. Peaceful at night, away from bars and main roads. Close to Eastern International University, with Becamex Binh Duong New City nearby. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 3.000.000 VND per month, parking is free or included."
+  },
+  {
+    "id": "HCM_058",
+    "title": "Serviced studio near Pham Hung Street, Binh Hung Commune",
+    "city": "HCMC",
+    "district": "Binh Hung Commune",
+    "coordinates": {
+      "lat": 10.6977,
+      "lng": 106.6566
+    },
+    "base_price": 5000000,
+    "management_fee": 500000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 6700000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 35.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_058/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_058/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_058/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_058/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This 35 m² serviced unit in Binh Hung, Binh Hung Commune (former Binh Chanh District and District 8), with an open studio layout. Move-in ready with a washing machine and a water heater. 24/7 security with card access and CCTV. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. There is no balcony, but the windows are large and bright. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Around 5 minutes by motorbike to Pham Hung Street and Nguyen Van Linh extension. Convenient for factory workers and engineers who want a short ride to the industrial zones. Rent is 5.000.000 VND per month, management fee 500.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_059",
+    "title": "4-bedroom alley house in Thanh My Loi, Cat Lai Ward",
+    "city": "HCMC",
+    "district": "Cat Lai Ward",
+    "coordinates": {
+      "lat": 10.7677,
+      "lng": 106.7881
+    },
+    "base_price": 12500000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2700000,
+    "total_all_in_cost": 15200000,
+    "attributes": {
+      "bedrooms": 4,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 98.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_059/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_059/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_059/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_059/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_059/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_059/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_059/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 98 m² whole-house rental in Thanh My Loi, Cat Lai Ward (former District 2 area, Thu Duc), with 4 bedrooms. Reliable water and electricity with separate meters. Private entrance and a motorbike parking space inside the house. A balcony off the living area is good for drying clothes and a morning coffee. The house has internal stairs across several levels and no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 8 minutes by motorbike to Cat Lai Port and Cat Lai ferry area. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_060",
+    "title": "Serviced studio in Binh Tho, Thu Duc Ward",
+    "city": "HCMC",
+    "district": "Thu Duc Ward",
+    "coordinates": {
+      "lat": 10.8475,
+      "lng": 106.7526
+    },
+    "base_price": 5500000,
+    "management_fee": 500000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 7400000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 31.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_060/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_060/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_060/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_060/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_060/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 31 m² serviced apartment in Binh Tho, Thu Duc Ward (former Thu Duc City), with an open studio layout. 24/7 security with card access and CCTV. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Pets are allowed, which suits tenants living with a cat. Has a private balcony with room for a small table and plants. The building has an elevator. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Thu Duc Market, with Vincom Plaza Thu Duc nearby. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_061",
+    "title": "2-bedroom apartment near RMIT Vietnam South Saigon campus, Tan Hung Ward",
+    "city": "HCMC",
+    "district": "Tan Hung Ward",
+    "coordinates": {
+      "lat": 10.7305,
+      "lng": 106.7038
+    },
+    "base_price": 17000000,
+    "management_fee": 1200000,
+    "parking_fee": 150000,
+    "estimated_utilities": 2000000,
+    "total_all_in_cost": 20350000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 78.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_061/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_061/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_061/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_061/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_061/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_061/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_061/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 78 m² apartment in a managed residential complex in Tan Phong, Tan Hung Ward (former District 7), with 2 bedrooms. Comes with built-in kitchen, air conditioner and a water heater. 24/7 security, card access and a covered motorbike parking area. No pets allowed under the house rules. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. Energetic neighborhood near nightlife, convenient but not very quiet. Close to RMIT Vietnam South Saigon campus, with SC VivoCity nearby. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_062",
+    "title": "2-bedroom serviced apartment near Landmark 81, Thanh My Tay Ward",
+    "city": "HCMC",
+    "district": "Thanh My Tay Ward",
+    "coordinates": {
+      "lat": 10.7979,
+      "lng": 106.7107
+    },
+    "base_price": 17000000,
+    "management_fee": 900000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 19800000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 59.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_062/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_062/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_062/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_062/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_062/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_062/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A well-kept 59 m² serviced apartment in Landmark 81 area, Thanh My Tay Ward (former Binh Thanh District), with 2 bedrooms. Move-in ready with a washing machine and a water heater. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. No pets allowed under the house rules. There is no balcony, but the windows are large and bright. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Around 10 minutes by motorbike to Landmark 81 and Vinhomes Central Park. Popular with expats thanks to the international food and services nearby. Rent is 17.000.000 VND per month, management fee 900.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_063",
+    "title": "2-bedroom serviced apartment near Landmark 81, Thanh My Tay Ward",
+    "city": "HCMC",
+    "district": "Thanh My Tay Ward",
+    "coordinates": {
+      "lat": 10.7966,
+      "lng": 106.7118
+    },
+    "base_price": 13000000,
+    "management_fee": 900000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1600000,
+    "total_all_in_cost": 15600000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 51.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_063/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_063/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_063/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_063/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_063/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_063/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A well-kept 51 m² serviced apartment in Landmark 81 area, Thanh My Tay Ward (former Binh Thanh District), with 2 bedrooms. Flexible lease terms starting from three months. Move-in ready with a washing machine and a water heater. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. No balcony; a window gives ventilation instead. Elevator access makes moving furniture and groceries easy. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 12 minutes by motorbike to Landmark 81 and Vinhomes Central Park. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 13.000.000 VND per month, management fee 900.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_064",
+    "title": "2-bedroom apartment near Nhieu Loc Canal, Nhieu Loc Ward",
+    "city": "HCMC",
+    "district": "Nhieu Loc Ward",
+    "coordinates": {
+      "lat": 10.788,
+      "lng": 106.6763
+    },
+    "base_price": 13500000,
+    "management_fee": 1100000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 16550000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 68.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_064/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_064/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_064/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_064/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_064/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_064/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_064/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 68 m² apartment on a high floor of a modern tower in Nguyen Dinh Chieu, Nhieu Loc Ward (former District 3), with 2 bedrooms. Open-plan living area with a separate sleeping space. Large windows give good natural light and city views. No pets allowed under the house rules. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Close to Nhieu Loc Canal, with Cach Mang Thang Tam Street nearby. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_065",
+    "title": "Serviced studio near Phan Xich Long food street, Cau Kieu Ward",
+    "city": "HCMC",
+    "district": "Cau Kieu Ward",
+    "coordinates": {
+      "lat": 10.8,
+      "lng": 106.6879
+    },
+    "base_price": 7000000,
+    "management_fee": 500000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1100000,
+    "total_all_in_cost": 8720000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 28.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_065/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_065/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_065/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_065/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_065/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 28 m² serviced apartment in Phan Xich Long, Cau Kieu Ward (former Phu Nhuan District), with an open studio layout. Move-in ready with a washing machine and a water heater. Weekly cleaning and linen change are included in the service. Pets are allowed, which suits tenants living with a cat. The balcony faces the street side and is partly shaded. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Around 12 minutes by motorbike to Phan Xich Long food street and Cau Kieu Bridge. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 7.000.000 VND per month, management fee 500.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_066",
+    "title": "Studio in Nguyen Thi Minh Khai, Xuan Hoa Ward",
+    "city": "HCMC",
+    "district": "Xuan Hoa Ward",
+    "coordinates": {
+      "lat": 10.7848,
+      "lng": 106.6856
+    },
+    "base_price": 4500000,
+    "management_fee": 0,
+    "parking_fee": 120000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 5820000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 22.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_066/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_066/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_066/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_066/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This compact 22 m² mini apartment in Nguyen Thi Minh Khai, Xuan Hoa Ward (former District 3), with an open studio layout. Fast fiber internet is already wired in. Private washing machine space and a clean bathroom with a water heater. Small pets such as cats and small dogs are welcome. No balcony; a window gives ventilation instead. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Vo Van Tan Street and Nguyen Thi Minh Khai Street are both within a short ride. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_067",
+    "title": "2-bedroom apartment near Le Hong Phong Street, Tam Thang Ward",
+    "city": "HCMC",
+    "district": "Tam Thang Ward",
+    "coordinates": {
+      "lat": 10.3763,
+      "lng": 107.1147
+    },
+    "base_price": 9500000,
+    "management_fee": 1100000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1600000,
+    "total_all_in_cost": 12300000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 61.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_067/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_067/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_067/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_067/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_067/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_067/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_067/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 61 m² apartment on a high floor of a modern tower in Le Hong Phong, Tam Thang Ward (former Vung Tau City, Ba Ria-Vung Tau), with 2 bedrooms. The building has a gym, pool and a small playground. Open-plan living area with a separate sleeping space. Small pets such as cats and small dogs are welcome. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Around 10 minutes by motorbike to Le Hong Phong Street and Tam Thang residential area. Practical for a small family with kids, with markets and schools close by. Rent is 9.500.000 VND per month, management fee 1.100.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_068",
+    "title": "Studio near Etown Central, Tan Binh Ward",
+    "city": "HCMC",
+    "district": "Tan Binh Ward",
+    "coordinates": {
+      "lat": 10.7904,
+      "lng": 106.6528
+    },
+    "base_price": 3000000,
+    "management_fee": 200000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1000000,
+    "total_all_in_cost": 4300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 20.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_068/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_068/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_068/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_068/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_068/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This compact 20 m² mini apartment in Cong Hoa, Tan Binh Ward (former Tan Binh District), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Fast fiber internet is already wired in. Small pets such as cats and small dogs are welcome. The balcony faces the street side and is partly shaded. Access is by stairs only; there is no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 5 minutes by motorbike to Etown Central and Cong Hoa Street. Handy for airline and airport staff working irregular shifts. Rent is 3.000.000 VND per month, management fee 200.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_069",
+    "title": "3-bedroom apartment near Tan Son Nhat Airport, Tan Son Nhat Ward",
+    "city": "HCMC",
+    "district": "Tan Son Nhat Ward",
+    "coordinates": {
+      "lat": 10.8086,
+      "lng": 106.6682
+    },
+    "base_price": 18000000,
+    "management_fee": 1800000,
+    "parking_fee": 1500000,
+    "estimated_utilities": 2400000,
+    "total_all_in_cost": 23700000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 98.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_069/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_069/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_069/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_069/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_069/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_069/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This 98 m² high-rise apartment in Tan Son Nhat airport area, Tan Son Nhat Ward (former Tan Binh District), with 3 bedrooms. Large windows give good natural light and city views. Comes with built-in kitchen, air conditioner and a water heater. No pets allowed under the house rules. The building has an elevator. Busy street frontage with plenty of shops nearby; expect background noise. Close to Tan Son Nhat Airport, with Hoang Van Thu Park nearby. Practical for a small family with kids, with markets and schools close by. Rent is 18.000.000 VND per month, management fee 1.800.000 VND, parking 1.500.000 VND."
+  },
+  {
+    "id": "HCM_070",
+    "title": "Serviced studio in Nguyen Kiem, Duc Nhuan Ward",
+    "city": "HCMC",
+    "district": "Duc Nhuan Ward",
+    "coordinates": {
+      "lat": 10.7964,
+      "lng": 106.675
+    },
+    "base_price": 5500000,
+    "management_fee": 500000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 7300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 29.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_070/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_070/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_070/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_070/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A well-kept 29 m² serviced apartment in Nguyen Kiem, Duc Nhuan Ward (former Phu Nhuan District), with an open studio layout. Weekly cleaning and linen change are included in the service. Flexible lease terms starting from three months. There is no balcony, but the windows are large and bright. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Close to Nguyen Kiem Street, with Phu Nhuan residential lanes nearby. A comfortable base for remote workers who need a stable workspace and fast internet."
+  },
+  {
+    "id": "HCM_071",
+    "title": "2-bedroom alley house near Van Hanh Mall, Hoa Hung Ward",
+    "city": "HCMC",
+    "district": "Hoa Hung Ward",
+    "coordinates": {
+      "lat": 10.7771,
+      "lng": 106.6728
+    },
+    "base_price": 8500000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 1600000,
+    "total_all_in_cost": 10100000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 57.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_071/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_071/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_071/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_071/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_071/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_071/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_071/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This 57 m² multi-level house in a residential lane in Hoa Hung, Hoa Hung Ward (former District 10), with 2 bedrooms. Wide alley, easy for motorbike access. Reliable water and electricity with separate meters. Pets are allowed, which suits tenants living with a cat. A balcony off the living area is good for drying clothes and a morning coffee. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Van Hanh Mall and Su Van Hanh Street are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_072",
+    "title": "2-bedroom serviced apartment in Nguyen Thai Son, Hanh Thong Ward",
+    "city": "HCMC",
+    "district": "Hanh Thong Ward",
+    "coordinates": {
+      "lat": 10.8403,
+      "lng": 106.676
+    },
+    "base_price": 12000000,
+    "management_fee": 1000000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1700000,
+    "total_all_in_cost": 14800000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 56.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_072/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_072/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_072/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_072/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_072/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_072/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_072/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 56 m² serviced apartment in Nguyen Thai Son, Hanh Thong Ward (former Go Vap District), with 2 bedrooms. 24/7 security with card access and CCTV. Weekly cleaning and linen change are included in the service. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Nguyen Thai Son Street, with Hanh Thong residential lanes nearby. Practical for a small family with kids, with markets and schools close by. Rent is 12.000.000 VND per month, management fee 1.000.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_073",
+    "title": "2-bedroom mini apartment near Thao Dien riverside cafes, An Khanh Ward",
+    "city": "HCMC",
+    "district": "An Khanh Ward",
+    "coordinates": {
+      "lat": 10.8038,
+      "lng": 106.7268
+    },
+    "base_price": 9000000,
+    "management_fee": 100000,
+    "parking_fee": 0,
+    "estimated_utilities": 1500000,
+    "total_all_in_cost": 10600000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 36.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_073/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_073/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_073/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_073/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_073/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_073/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_073/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 36 m² mini apartment in a small low-rise block in Thao Dien, An Khanh Ward (former District 2 area, Thu Duc), with 2 bedrooms. Private washing machine space and a clean bathroom with a water heater. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. No pets allowed under the house rules. A balcony off the living area is good for drying clothes and a morning coffee. It is a walk-up on the 3rd floor with no elevator. Busy street frontage with plenty of shops nearby; expect background noise. Thao Dien riverside cafes and Thu Thiem are both within a short ride. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 9.000.000 VND per month, management fee 100.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_074",
+    "title": "Studio in Thang Nhat, Rach Dua Ward",
+    "city": "HCMC",
+    "district": "Rach Dua Ward",
+    "coordinates": {
+      "lat": 10.3795,
+      "lng": 107.1257
+    },
+    "base_price": 3000000,
+    "management_fee": 100000,
+    "parking_fee": 0,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 4300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 26.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_074/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_074/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_074/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_074/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 26 m² apartment in a private rental block in Thang Nhat, Rach Dua Ward (former Vung Tau City, Ba Ria-Vung Tau), with an open studio layout. Fingerprint-lock entrance and a covered motorbike parking area. Fast fiber internet is already wired in. No balcony; a window gives ventilation instead. Access is by stairs only; there is no elevator. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Rach Dua oil and gas service area, with Vung Tau coastal road nearby. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 3.000.000 VND per month, management fee 100.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_075",
+    "title": "Studio near Phu Loi Market, Phu Loi Ward",
+    "city": "HCMC",
+    "district": "Phu Loi Ward",
+    "coordinates": {
+      "lat": 10.9862,
+      "lng": 106.67
+    },
+    "base_price": 3000000,
+    "management_fee": 100000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 4420000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 31.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_075/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_075/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_075/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_075/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This compact 31 m² mini apartment in Phu Hoa, Phu Loi Ward (former Thu Dau Mot City, Binh Duong), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Fingerprint-lock entrance and a covered motorbike parking area. Pets are allowed, which suits tenants living with a cat. There is no balcony, but the windows are large and bright. Access is by stairs only; there is no elevator. Energetic neighborhood near nightlife, convenient but not very quiet. Phu Loi Market and Binh Duong General Hospital area are both within a short ride. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_076",
+    "title": "3-bedroom apartment in Ben Thanh, Ben Thanh Ward",
+    "city": "HCMC",
+    "district": "Ben Thanh Ward",
+    "coordinates": {
+      "lat": 10.7657,
+      "lng": 106.6962
+    },
+    "base_price": 31000000,
+    "management_fee": 1800000,
+    "parking_fee": 120000,
+    "estimated_utilities": 2400000,
+    "total_all_in_cost": 35320000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 100.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_076/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_076/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_076/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_076/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_076/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_076/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_076/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This 100 m² high-rise apartment in Ben Thanh, Ben Thanh Ward (former District 1), with 3 bedrooms. Open-plan living area with a separate sleeping space. The building has a gym, pool and a small playground. The balcony faces the street side and is partly shaded. Elevator access makes moving furniture and groceries easy. Busy street frontage with plenty of shops nearby; expect background noise. Around 15 minutes by motorbike to Ben Thanh Market and Bui Vien walking street. A comfortable base for remote workers who need a stable workspace and fast internet."
+  },
+  {
+    "id": "HCM_077",
+    "title": "2-bedroom serviced apartment near UEL campus, Linh Xuan Ward",
+    "city": "HCMC",
+    "district": "Linh Xuan Ward",
+    "coordinates": {
+      "lat": 10.872,
+      "lng": 106.7736
+    },
+    "base_price": 10500000,
+    "management_fee": 1100000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 13550000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 68.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_077/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_077/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_077/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_077/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_077/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_077/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_077/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 68 m² serviced apartment in Linh Trung, Linh Xuan Ward (former Thu Duc City), with 2 bedrooms. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Flexible lease terms starting from three months. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. Has a private balcony with room for a small table and plants. The building has an elevator. Peaceful at night, away from bars and main roads. Around 8 minutes by motorbike to UEL campus and Vietnam National University HCMC. A comfortable base for remote workers who need a stable workspace and fast internet. Rent is 10.500.000 VND per month, management fee 1.100.000 VND, parking 150.000 VND."
+  },
+  {
+    "id": "HCM_078",
+    "title": "1-bedroom apartment in Nhieu Loc, Nhieu Loc Ward",
+    "city": "HCMC",
+    "district": "Nhieu Loc Ward",
+    "coordinates": {
+      "lat": 10.7892,
+      "lng": 106.6771
+    },
+    "base_price": 13000000,
+    "management_fee": 800000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 15200000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 47.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_078/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_078/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_078/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_078/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_078/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_078/06_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 47 m² apartment on a high floor of a modern tower in Nhieu Loc, Nhieu Loc Ward (former District 3), with 1 bedroom. Open-plan living area with a separate sleeping space. The building has a gym, pool and a small playground. No pets allowed under the house rules. A balcony off the living area is good for drying clothes and a morning coffee. Elevator access makes moving furniture and groceries easy. Busy street frontage with plenty of shops nearby; expect background noise. Around 10 minutes by motorbike to Nhieu Loc Canal and Cach Mang Thang Tam Street. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 13.000.000 VND per month, management fee 800.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_079",
+    "title": "1-bedroom serviced apartment near Landmark 81, Thanh My Tay Ward",
+    "city": "HCMC",
+    "district": "Thanh My Tay Ward",
+    "coordinates": {
+      "lat": 10.8026,
+      "lng": 106.7077
+    },
+    "base_price": 9500000,
+    "management_fee": 500000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 11320000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 36.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_079/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_079/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_079/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_079/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_079/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 36 m² serviced apartment in Nguyen Huu Canh, Thanh My Tay Ward (former Binh Thanh District), with 1 bedroom. 24/7 security with card access and CCTV. Flexible lease terms starting from three months. Pets are not permitted in this property. The building has an elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Landmark 81, with Vinhomes Central Park nearby. A cozy option for couples who want a convenient city lifestyle. Rent is 9.500.000 VND per month, management fee 500.000 VND, parking 120.000 VND."
+  },
+  {
+    "id": "HCM_080",
+    "title": "1-bedroom serviced apartment in Xom Chieu, Xom Chieu Ward",
+    "city": "HCMC",
+    "district": "Xom Chieu Ward",
+    "coordinates": {
+      "lat": 10.7586,
+      "lng": 106.7078
+    },
+    "base_price": 7000000,
+    "management_fee": 600000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 8900000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 38.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_080/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_080/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_080/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_080/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_080/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A well-kept 38 m² serviced apartment in Xom Chieu, Xom Chieu Ward (former District 4), with 1 bedroom. Weekly cleaning and linen change are included in the service. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Elevator access makes moving furniture and groceries easy. Busy street frontage with plenty of shops nearby; expect background noise. Ton Dan Street and Nguyen Tat Thanh Street are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_081",
+    "title": "4-bedroom alley house near Vo Van Tan Street, Xuan Hoa Ward",
+    "city": "HCMC",
+    "district": "Xuan Hoa Ward",
+    "coordinates": {
+      "lat": 10.7859,
+      "lng": 106.6929
+    },
+    "base_price": 23500000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 2600000,
+    "total_all_in_cost": 26300000,
+    "attributes": {
+      "bedrooms": 4,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 109.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_081/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_081/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_081/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_081/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_081/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_081/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 109 m² alley house in Nguyen Thi Minh Khai, Xuan Hoa Ward (former District 3), with 4 bedrooms. Private entrance and a motorbike parking space inside the house. Reliable water and electricity with separate meters. Small pets such as cats and small dogs are welcome. No balcony; a window gives ventilation instead. Stairs-only access between floors. Energetic neighborhood near nightlife, convenient but not very quiet. Around 8 minutes by motorbike to Vo Van Tan Street and Nguyen Thi Minh Khai Street. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_082",
+    "title": "3-bedroom alley house near Lai Thieu fruit gardens, Lai Thieu Ward",
+    "city": "HCMC",
+    "district": "Lai Thieu Ward",
+    "coordinates": {
+      "lat": 10.9125,
+      "lng": 106.7022
+    },
+    "base_price": 8000000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 2100000,
+    "total_all_in_cost": 10300000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 76.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_082/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_082/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_082/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_082/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_082/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_082/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 76 m² whole-house rental in Lai Thieu, Lai Thieu Ward (former Thuan An City, Binh Duong), with 3 bedrooms. Private entrance and a motorbike parking space inside the house. Reliable water and electricity with separate meters. Small pets such as cats and small dogs are welcome. No balcony; a window gives ventilation instead. Stairs-only access between floors. A calm, low-noise neighborhood that suits remote work and night owls. Around 8 minutes by motorbike to Lai Thieu fruit gardens and Lai Thieu Market. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_083",
+    "title": "Serviced studio in Pham Ngu Lao, Ben Thanh Ward",
+    "city": "HCMC",
+    "district": "Ben Thanh Ward",
+    "coordinates": {
+      "lat": 10.7655,
+      "lng": 106.7049
+    },
+    "base_price": 11500000,
+    "management_fee": 500000,
+    "parking_fee": 0,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 13200000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 31.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_083/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_083/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_083/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_083/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_083/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A well-kept 31 m² serviced apartment in Pham Ngu Lao, Ben Thanh Ward (former District 1), with an open studio layout. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Move-in ready with a washing machine and a water heater. No pets allowed under the house rules. Has a private balcony with room for a small table and plants. Elevator access makes moving furniture and groceries easy. A calm, low-noise neighborhood that suits remote work and night owls. Ben Thanh Market and Bui Vien walking street are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 11.500.000 VND per month, management fee 500.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_084",
+    "title": "Studio in Vuon Lai, Vuon Lai Ward",
+    "city": "HCMC",
+    "district": "Vuon Lai Ward",
+    "coordinates": {
+      "lat": 10.76,
+      "lng": 106.6699
+    },
+    "base_price": 4000000,
+    "management_fee": 100000,
+    "parking_fee": 0,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 5300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 25.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_084/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_084/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_084/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_084/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_084/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 25 m² mini apartment in a small low-rise block in Vuon Lai, Vuon Lai Ward (former District 10), with an open studio layout. Bright interior with a window on the side of the building. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. No pets allowed under the house rules. The balcony faces the street side and is partly shaded. It is a walk-up on the 4th floor with no elevator. Energetic neighborhood near nightlife, convenient but not very quiet. 3 Thang 2 Street and Hoa Hao Street are both within a short ride. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_085",
+    "title": "3-bedroom apartment in Linh Trung, Linh Xuan Ward",
+    "city": "HCMC",
+    "district": "Linh Xuan Ward",
+    "coordinates": {
+      "lat": 10.8647,
+      "lng": 106.7778
+    },
+    "base_price": 15500000,
+    "management_fee": 1600000,
+    "parking_fee": 0,
+    "estimated_utilities": 2400000,
+    "total_all_in_cost": 19500000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 98.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_085/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_085/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_085/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_085/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_085/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_085/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 98 m² apartment in a managed residential complex in Linh Trung, Linh Xuan Ward (former Thu Duc City), with 3 bedrooms. The building has a gym, pool and a small playground. 24/7 security, card access and a covered motorbike parking area. No pets allowed under the house rules. Elevator access makes moving furniture and groceries easy. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 15 minutes by motorbike to UEL campus and Vietnam National University HCMC. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_086",
+    "title": "4-bedroom alley house near Di An Railway Station, Di An Ward",
+    "city": "HCMC",
+    "district": "Di An Ward",
+    "coordinates": {
+      "lat": 10.9047,
+      "lng": 106.7622
+    },
+    "base_price": 9000000,
+    "management_fee": 100000,
+    "parking_fee": 0,
+    "estimated_utilities": 2800000,
+    "total_all_in_cost": 11900000,
+    "attributes": {
+      "bedrooms": 4,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 111.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_086/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_086/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_086/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_086/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_086/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_086/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 111 m² alley house in Di An center, Di An Ward (former Di An City, Binh Duong), with 4 bedrooms. Unfurnished but with air-conditioner points ready in every bedroom. Private entrance and a motorbike parking space inside the house. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. There is no balcony, but the windows are large and bright. The house has internal stairs across several levels and no elevator. A calm, low-noise neighborhood that suits remote work and night owls. Around 10 minutes by motorbike to Di An Railway Station and Di An Market. Convenient for factory workers and engineers who want a short ride to the industrial zones."
+  },
+  {
+    "id": "HCM_087",
+    "title": "3-bedroom alley house in Long Thanh My, Long Binh Ward",
+    "city": "HCMC",
+    "district": "Long Binh Ward",
+    "coordinates": {
+      "lat": 10.8758,
+      "lng": 106.8192
+    },
+    "base_price": 9000000,
+    "management_fee": 100000,
+    "parking_fee": 0,
+    "estimated_utilities": 2300000,
+    "total_all_in_cost": 11400000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 84.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_087/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_087/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_087/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_087/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_087/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_087/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 84 m² whole-house rental in Long Thanh My, Long Binh Ward (former District 9 area, Thu Duc), with 3 bedrooms. Unfurnished but with air-conditioner points ready in every bedroom. Spacious living room, separate kitchen and a drying area on the roof. The house has internal stairs across several levels and no elevator. A calm, low-noise neighborhood that suits remote work and night owls. Around 15 minutes by motorbike to Eastern Bus Station and Metro Line 1 depot area. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 9.000.000 VND per month, management fee 100.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_088",
+    "title": "2-bedroom mini apartment in Dong Hoa, Dong Hoa Ward",
+    "city": "HCMC",
+    "district": "Dong Hoa Ward",
+    "coordinates": {
+      "lat": 10.8858,
+      "lng": 106.7823
+    },
+    "base_price": 4500000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 1400000,
+    "total_all_in_cost": 6100000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 35.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_088/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_088/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_088/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_088/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_088/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_088/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 35 m² apartment in a private rental block in Dong Hoa, Dong Hoa Ward (former Di An City, Binh Duong), with 2 bedrooms. Private washing machine space and a clean bathroom with a water heater. Fast fiber internet is already wired in. No pets allowed under the house rules. Access is by stairs only; there is no elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 10 minutes by motorbike to VNU-HCM Dormitory Zone B and Di An industrial areas. Well suited to students and young renters on a tight budget. Rent is 4.500.000 VND per month, management fee 200.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_089",
+    "title": "4-bedroom alley house near VNU-HCM Dormitory Zone B, Dong Hoa Ward",
+    "city": "HCMC",
+    "district": "Dong Hoa Ward",
+    "coordinates": {
+      "lat": 10.8859,
+      "lng": 106.7806
+    },
+    "base_price": 11000000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2800000,
+    "total_all_in_cost": 13800000,
+    "attributes": {
+      "bedrooms": 4,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 127.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_089/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_089/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_089/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_089/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_089/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_089/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This 127 m² multi-level house in a residential lane in Binh An, Dong Hoa Ward (former Di An City, Binh Duong), with 4 bedrooms. Spacious living room, separate kitchen and a drying area on the roof. Wide alley, easy for motorbike access. Pets are allowed, which suits tenants living with a cat. No balcony; a window gives ventilation instead. The location is lively, with cafes and street food downstairs and some traffic noise. VNU-HCM Dormitory Zone B and Di An industrial areas are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_090",
+    "title": "3-bedroom alley house near Quang Trung Street, Go Vap Ward",
+    "city": "HCMC",
+    "district": "Go Vap Ward",
+    "coordinates": {
+      "lat": 10.8306,
+      "lng": 106.6537
+    },
+    "base_price": 8500000,
+    "management_fee": 0,
+    "parking_fee": 0,
+    "estimated_utilities": 2100000,
+    "total_all_in_cost": 10600000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 78.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_090/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_090/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_090/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_090/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_090/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_090/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 78 m² whole-house rental in Nguyen Oanh, Go Vap Ward (former Go Vap District), with 3 bedrooms. Unfurnished but with air-conditioner points ready in every bedroom. Private entrance and a motorbike parking space inside the house. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. There is no balcony, but the windows are large and bright. Stairs-only access between floors. A calm, low-noise neighborhood that suits remote work and night owls. Close to Quang Trung Street, with Nguyen Oanh Street nearby. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_091",
+    "title": "2-bedroom alley house in Dong Hoa, Dong Hoa Ward",
+    "city": "HCMC",
+    "district": "Dong Hoa Ward",
+    "coordinates": {
+      "lat": 10.8872,
+      "lng": 106.7848
+    },
+    "base_price": 5000000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 1600000,
+    "total_all_in_cost": 6800000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 55.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_091/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_091/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_091/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_091/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_091/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_091/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 55 m² whole-house rental in Dong Hoa, Dong Hoa Ward (former Di An City, Binh Duong), with 2 bedrooms. Reliable water and electricity with separate meters. Unfurnished but with air-conditioner points ready in every bedroom. Pets are not permitted in this property. Stairs-only access between floors. The location is lively, with cafes and street food downstairs and some traffic noise. Around 8 minutes by motorbike to VNU-HCM Dormitory Zone B and Di An industrial areas. Well suited to students and young renters on a tight budget."
+  },
+  {
+    "id": "HCM_092",
+    "title": "Studio near Lai Thieu fruit gardens, Lai Thieu Ward",
+    "city": "HCMC",
+    "district": "Lai Thieu Ward",
+    "coordinates": {
+      "lat": 10.9093,
+      "lng": 106.7018
+    },
+    "base_price": 2800000,
+    "management_fee": 200000,
+    "parking_fee": 120000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 4320000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 24.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_092/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_092/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_092/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_092/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_092/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This compact 24 m² mini apartment in Lai Thieu, Lai Thieu Ward (former Thuan An City, Binh Duong), with an open studio layout. Fingerprint-lock entrance and a covered motorbike parking area. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. Pets are allowed, which suits tenants living with a cat. The balcony faces the street side and is partly shaded. It is a walk-up on the 4th floor with no elevator. Energetic neighborhood near nightlife, convenient but not very quiet. Around 12 minutes by motorbike to Lai Thieu fruit gardens and Lai Thieu Market. Convenient for factory workers and engineers who want a short ride to the industrial zones."
+  },
+  {
+    "id": "HCM_093",
+    "title": "2-bedroom mini apartment near Thuan An city center, Thuan An Ward",
+    "city": "HCMC",
+    "district": "Thuan An Ward",
+    "coordinates": {
+      "lat": 10.9319,
+      "lng": 106.716
+    },
+    "base_price": 5000000,
+    "management_fee": 100000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1500000,
+    "total_all_in_cost": 6750000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 48.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_093/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_093/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_093/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_093/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_093/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_093/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_093/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 48 m² apartment in a private rental block in Hung Dinh, Thuan An Ward (former Thuan An City, Binh Duong), with 2 bedrooms. Private washing machine space and a clean bathroom with a water heater. Fast fiber internet is already wired in. Pets are allowed, which suits tenants living with a cat. A balcony off the living area is good for drying clothes and a morning coffee. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Thuan An city center and Highway 13 are both within a short ride. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_094",
+    "title": "3-bedroom alley house near Cat Lai Port, Cat Lai Ward",
+    "city": "HCMC",
+    "district": "Cat Lai Ward",
+    "coordinates": {
+      "lat": 10.7757,
+      "lng": 106.7874
+    },
+    "base_price": 11000000,
+    "management_fee": 100000,
+    "parking_fee": 0,
+    "estimated_utilities": 2100000,
+    "total_all_in_cost": 13200000,
+    "attributes": {
+      "bedrooms": 3,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 79.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_094/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_094/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_094/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_094/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_094/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_094/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_094/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 79 m² whole-house rental in Thanh My Loi, Cat Lai Ward (former District 2 area, Thu Duc), with 3 bedrooms. Wide alley, easy for motorbike access. Private entrance and a motorbike parking space inside the house. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. Stairs-only access between floors. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Close to Cat Lai Port, with Cat Lai ferry area nearby. Practical for a small family with kids, with markets and schools close by. Rent is 11.000.000 VND per month, management fee 100.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_095",
+    "title": "4-bedroom alley house in Ben Van Don, Khanh Hoi Ward",
+    "city": "HCMC",
+    "district": "Khanh Hoi Ward",
+    "coordinates": {
+      "lat": 10.7526,
+      "lng": 106.7063
+    },
+    "base_price": 18000000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 2700000,
+    "total_all_in_cost": 20900000,
+    "attributes": {
+      "bedrooms": 4,
+      "pet_friendly": true,
+      "balcony": false,
+      "elevator": false,
+      "quiet_environment": true,
+      "area_m2": 118.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_095/01_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_095/02_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_095/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_095/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_095/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_095/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "A 118 m² alley house in Ben Van Don, Khanh Hoi Ward (former District 4), with 4 bedrooms. Reliable water and electricity with separate meters. Wide alley, easy for motorbike access. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. No balcony; a window gives ventilation instead. The house has internal stairs across several levels and no elevator. Peaceful at night, away from bars and main roads. Close to Khanh Hoi Bridge, with Ben Van Don food street nearby. Well suited to students and young renters on a tight budget. Rent is 18.000.000 VND per month, management fee 200.000 VND, parking is free or included."
+  },
+  {
+    "id": "HCM_096",
+    "title": "2-bedroom apartment near Thu Dau Mot Market, Thu Dau Mot Ward",
+    "city": "HCMC",
+    "district": "Thu Dau Mot Ward",
+    "coordinates": {
+      "lat": 10.9854,
+      "lng": 106.6472
+    },
+    "base_price": 12000000,
+    "management_fee": 1100000,
+    "parking_fee": 150000,
+    "estimated_utilities": 1800000,
+    "total_all_in_cost": 15050000,
+    "attributes": {
+      "bedrooms": 2,
+      "pet_friendly": false,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 73.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_096/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_096/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_096/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_096/04_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_096/05_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_096/06_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_096/07_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 73 m² apartment in a managed residential complex in Phu Cuong, Thu Dau Mot Ward (former Thu Dau Mot City, Binh Duong), with 2 bedrooms. The building has a gym, pool and a small playground. 24/7 security, card access and a covered motorbike parking area. No pets allowed under the house rules. The balcony faces the street side and is partly shaded. Elevator access makes moving furniture and groceries easy. The location is lively, with cafes and street food downstairs and some traffic noise. Around 5 minutes by motorbike to Thu Dau Mot Market and Binh Duong Museum. Practical for a small family with kids, with markets and schools close by."
+  },
+  {
+    "id": "HCM_097",
+    "title": "1-bedroom serviced apartment in An Lac, An Lac Ward",
+    "city": "HCMC",
+    "district": "An Lac Ward",
+    "coordinates": {
+      "lat": 10.7535,
+      "lng": 106.6267
+    },
+    "base_price": 6500000,
+    "management_fee": 700000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 8500000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 42.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_097/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Living room"
+      },
+      {
+        "url": "images/HCM_097/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_097/03_bedroom.jpg",
+        "type": "bedroom",
+        "caption": "Bedroom"
+      },
+      {
+        "url": "images/HCM_097/04_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_097/05_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_097/06_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "This 42 m² serviced unit in An Lac, An Lac Ward (former Binh Tan District), with 1 bedroom. Move-in ready with a washing machine and a water heater. 24/7 security with card access and CCTV. Pets are allowed, which suits tenants living with a cat. The balcony faces the street side and is partly shaded. Elevator access makes moving furniture and groceries easy. Energetic neighborhood near nightlife, convenient but not very quiet. Around 5 minutes by motorbike to Aeon Mall Binh Tan and Kinh Duong Vuong Street. A good fit for young professionals who want a short commute and an easy daily routine. Rent is 6.500.000 VND per month, management fee 700.000 VND, parking 100.000 VND."
+  },
+  {
+    "id": "HCM_098",
+    "title": "Serviced studio in Tang Nhon Phu A, Tang Nhon Phu Ward",
+    "city": "HCMC",
+    "district": "Tang Nhon Phu Ward",
+    "coordinates": {
+      "lat": 10.8391,
+      "lng": 106.7955
+    },
+    "base_price": 5500000,
+    "management_fee": 600000,
+    "parking_fee": 0,
+    "estimated_utilities": 1200000,
+    "total_all_in_cost": 7300000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": false,
+      "balcony": false,
+      "elevator": true,
+      "quiet_environment": false,
+      "area_m2": 30.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_098/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_098/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_098/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_098/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      }
+    ],
+    "raw_description": "This 30 m² serviced unit in Tang Nhon Phu A, Tang Nhon Phu Ward (former District 9 area, Thu Duc), with an open studio layout. Weekly cleaning and linen change are included in the service. Move-in ready with a washing machine and a water heater. The building has an elevator. The location is lively, with cafes and street food downstairs and some traffic noise. Close to Suoi Tien Theme Park, with Hanoi Highway nearby. A good fit for young professionals who want a short commute and an easy daily routine."
+  },
+  {
+    "id": "HCM_099",
+    "title": "Serviced studio near Bach Dang Street, Gia Dinh Ward",
+    "city": "HCMC",
+    "district": "Gia Dinh Ward",
+    "coordinates": {
+      "lat": 10.7943,
+      "lng": 106.6903
+    },
+    "base_price": 8000000,
+    "management_fee": 500000,
+    "parking_fee": 100000,
+    "estimated_utilities": 1300000,
+    "total_all_in_cost": 9900000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": true,
+      "quiet_environment": true,
+      "area_m2": 35.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_099/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_099/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_099/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_099/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_099/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A well-kept 35 m² serviced apartment in Bach Dang, Gia Dinh Ward (former Binh Thanh District), with an open studio layout. Fully furnished with bed, wardrobe, air conditioner and a kitchenette. Move-in ready with a washing machine and a water heater. The landlord is pet-friendly and allows a cat or a small dog with a small deposit. A balcony off the living area is good for drying clothes and a morning coffee. The building has an elevator. The surroundings are quiet and residential with little traffic noise, good for sleeping and focused work. Around 10 minutes by motorbike to Bach Dang Street and Dinh Tien Hoang Street. A cozy option for couples who want a convenient city lifestyle."
+  },
+  {
+    "id": "HCM_100",
+    "title": "Studio near RMIT Vietnam South Saigon campus, Tan Hung Ward",
+    "city": "HCMC",
+    "district": "Tan Hung Ward",
+    "coordinates": {
+      "lat": 10.729,
+      "lng": 106.7068
+    },
+    "base_price": 5500000,
+    "management_fee": 200000,
+    "parking_fee": 0,
+    "estimated_utilities": 1000000,
+    "total_all_in_cost": 6700000,
+    "attributes": {
+      "bedrooms": 1,
+      "pet_friendly": true,
+      "balcony": true,
+      "elevator": false,
+      "quiet_environment": false,
+      "area_m2": 23.0
+    },
+    "images": [
+      {
+        "url": "images/HCM_100/01_living_room.jpg",
+        "type": "living_room",
+        "caption": "Studio room"
+      },
+      {
+        "url": "images/HCM_100/02_exterior.jpg",
+        "type": "exterior",
+        "caption": "Building exterior"
+      },
+      {
+        "url": "images/HCM_100/03_kitchen.jpg",
+        "type": "kitchen",
+        "caption": "Kitchen"
+      },
+      {
+        "url": "images/HCM_100/04_bathroom.jpg",
+        "type": "bathroom",
+        "caption": "Bathroom"
+      },
+      {
+        "url": "images/HCM_100/05_balcony.jpg",
+        "type": "balcony",
+        "caption": "Balcony"
+      }
+    ],
+    "raw_description": "A 23 m² mini apartment in a small low-rise block in Tan Phong, Tan Hung Ward (former District 7), with an open studio layout. Private washing machine space and a clean bathroom with a water heater. Basic furniture is provided: bed, wardrobe, air conditioner and a desk. Small pets such as cats and small dogs are welcome. A balcony off the living area is good for drying clothes and a morning coffee. Energetic neighborhood near nightlife, convenient but not very quiet. RMIT Vietnam South Saigon campus and SC VivoCity are both within a short ride. Popular with expats thanks to the international food and services nearby. Rent is 5.500.000 VND per month, management fee 200.000 VND, parking is free or included."
+  }
+]
