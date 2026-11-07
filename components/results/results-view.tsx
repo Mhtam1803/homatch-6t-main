@@ -32,7 +32,7 @@ export function ResultsView() {
           <p className="text-lg text-navy/70 sm:text-xl">
             {criteria
               ? "Homes are ranked using available listing data: budget, home type, selected priorities, and a matching area when available. Commute time and unsupported preferences are not scored yet."
-              : `Browse ${listings.length} homes from the current Ho Chi Minh City listings dataset.`}
+              : `Search for a home to see estimated match scores. You can also browse all ${listings.length} current listings below.`}
           </p>
         </header>
 

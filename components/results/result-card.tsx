@@ -48,7 +48,12 @@ export function ResultCard({
                 {listing.title}
               </h3>
               {matchScore !== undefined && (
-                <p className="mt-2 text-sm font-bold text-orange-ink">Prototype fit score: {matchScore}%</p>
+                <p
+                  aria-label={`Estimated match: ${matchScore}%`}
+                  className="mt-3 inline-flex items-center gap-2 rounded-full bg-orange/25 px-4 py-2 text-base font-extrabold text-navy"
+                >
+                  Estimated match <span className="text-xl">{matchScore}%</span>
+                </p>
               )}
               <p className="mt-1 flex items-center gap-1.5 text-base text-navy/70">
                 <MapPin className="size-4" aria-hidden /> {listing.district}, Ho Chi Minh City
