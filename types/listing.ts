@@ -4,6 +4,14 @@ export type BedroomOption = "studio" | "1" | "2" | "3+"
 
 export type FeatureKey = "petFriendly" | "balcony" | "elevator" | "quiet"
 
+export type InferredNeedKey = "quietStudy" | "workFromHome" | "familySpace" | "easyAccess"
+
+export interface InferredNeed {
+  key: InferredNeedKey
+  label: string
+  reason: string
+}
+
 export interface CostBreakdown {
   rent: number
   managementFee: number
@@ -35,4 +43,5 @@ export interface SearchCriteria {
   features: FeatureKey[]
   lifestyle: string
   chips: string[]
+  inferredNeeds: InferredNeed[]
 }

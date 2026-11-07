@@ -6,7 +6,17 @@ import { FavoriteButton } from "@/components/shared/favorite-button"
 import { featureLabels, formatVND } from "@/lib/format"
 import type { FeatureKey, Listing } from "@/types/listing"
 
-export function ResultCard({ listing, rank }: { listing: Listing; rank: number }) {
+export function ResultCard({
+  listing,
+  rank,
+  matchScore,
+  matchedNeeds = [],
+}: {
+  listing: Listing
+  rank: number
+  matchScore?: number
+  matchedNeeds?: string[]
+}) {
   const availableFeatures = (Object.keys(listing.features) as FeatureKey[]).filter((feature) => listing.features[feature])
 
   return (
@@ -37,6 +47,9 @@ export function ResultCard({ listing, rank }: { listing: Listing; rank: number }
               <h3 id={`listing-title-${listing.id}`} className="text-2xl font-extrabold text-navy">
                 {listing.title}
               </h3>
+              {matchScore !== undefined && (
+                <p className="mt-2 text-sm font-bold text-orange-ink">Prototype fit score: {matchScore}%</p>
+              )}
               <p className="mt-1 flex items-center gap-1.5 text-base text-navy/70">
                 <MapPin className="size-4" aria-hidden /> {listing.district}, Ho Chi Minh City
               </p>
@@ -69,6 +82,12 @@ export function ResultCard({ listing, rank }: { listing: Listing; rank: number }
               </ul>
             </div>
           </div>
+
+          {matchedNeeds.length > 0 && (
+            <p className="text-sm font-semibold text-navy/70">
+              Matches inferred priorities: {matchedNeeds.join(", ")}
+            </p>
+          )}
 
           <p className="line-clamp-3 text-base leading-relaxed text-navy/80">{listing.description}</p>
 

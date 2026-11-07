@@ -55,6 +55,18 @@ export function SearchSummary({ criteria }: { criteria: SearchCriteria }) {
           ))}
         </ul>
       </div>
+      {criteria.inferredNeeds.length > 0 && (
+        <div className="mt-5 border-t border-border pt-5">
+          <p className="mb-3 text-sm font-medium text-navy/70">Priorities inferred from your description</p>
+          <ul className="flex flex-wrap gap-2">
+            {criteria.inferredNeeds.map((need) => (
+              <li key={need.key} className="rounded-full bg-orange/20 px-3.5 py-1.5 text-sm font-semibold text-navy">
+                {need.label}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </section>
   )
 }

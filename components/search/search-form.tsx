@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { useRouter } from "next/navigation"
 import {
   ArrowRight,
@@ -24,8 +24,9 @@ import { useHomatch } from "@/components/providers/homatch-provider"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { bedroomLabels, featureLabels } from "@/lib/format"
+import { inferHiddenNeeds } from "@/lib/hidden-needs"
 import { cn } from "@/lib/utils"
-import type { BedroomOption, FeatureKey, TransportMode } from "@/types/listing"
+import type { BedroomOption, FeatureKey, InferredNeedKey, TransportMode } from "@/types/listing"
 
 const transportOptions = [
   { value: "motorbike" as TransportMode, label: "Motorbike", icon: Bike },
@@ -103,8 +104,10 @@ export function SearchForm() {
   const [features, setFeatures] = useState<FeatureKey[]>([])
   const [lifestyle, setLifestyle] = useState("")
   const [chips, setChips] = useState<string[]>([])
+  const [acceptedNeeds, setAcceptedNeeds] = useState<InferredNeedKey[]>([])
   const [errors, setErrors] = useState<Errors>({})
   const [loadingStep, setLoadingStep] = useState<number | null>(null)
+  const inferredNeeds = useMemo(() => inferHiddenNeeds(lifestyle), [lifestyle])
 
   const destinationRef = useRef<HTMLInputElement>(null)
   const lifestyleRef = useRef<HTMLTextAreaElement>(null)
@@ -127,7 +130,16 @@ export function SearchForm() {
     if (next.destination) return destinationRef.current?.focus()
     if (next.lifestyle) return lifestyleRef.current?.focus()
 
-    setCriteria({ destination: destination.trim(), transport, budget, bedroom, features, lifestyle: lifestyle.trim(), chips })
+    setCriteria({
+      destination: destination.trim(),
+      transport,
+      budget,
+      bedroom,
+      features,
+      lifestyle: lifestyle.trim(),
+      chips,
+      inferredNeeds: inferredNeeds.filter((need) => acceptedNeeds.includes(need.key)),
+    })
 
     setLoadingStep(0)
     matchingMessages.forEach((_, i) => {
@@ -222,6 +234,42 @@ export function SearchForm() {
             )}
           </Field>
 
+          {inferredNeeds.length > 0 && (
+            <Field
+              label="Possible hidden needs"
+              hint="Prototype keyword-based suggestions (not AI yet). Choose which ones matter to you."
+            >
+              <div className="space-y-3" role="group" aria-label="Possible hidden needs">
+                {inferredNeeds.map((need) => {
+                  const selected = acceptedNeeds.includes(need.key)
+                  return (
+                    <button
+                      key={need.key}
+                      type="button"
+                      aria-pressed={selected}
+                      onClick={() =>
+                        setAcceptedNeeds((current) =>
+                          selected ? current.filter((key) => key !== need.key) : [...current, need.key],
+                        )
+                      }
+                      className={cn(
+                        "flex w-full items-start gap-3 rounded-2xl border-2 p-4 text-left transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange",
+                        selected ? "border-navy bg-sky/60" : "border-border bg-white hover:border-navy/40",
+                      )}
+                    >
+                      <Sparkles className="mt-0.5 size-5 shrink-0 text-orange" aria-hidden />
+                      <span className="flex-1">
+                        <span className="block font-bold text-navy">{need.label}</span>
+                        <span className="mt-1 block text-sm text-navy/70">{need.reason}</span>
+                      </span>
+                      <span className="shrink-0 text-sm font-bold text-orange-ink">{selected ? "Added" : "Add"}</span>
+                    </button>
+                  )
+                })}
+              </div>
+            </Field>
+          )}
+
           <Field label="Quick suggestions" hint="Tap as many as you like.">
             <ToggleChips
               size="sm"
@@ -245,7 +293,7 @@ export function SearchForm() {
             <ArrowRight className="size-5 transition-transform group-hover:translate-x-1" aria-hidden />
           </button>
           <p className="mt-4 flex items-center justify-center gap-2 text-sm text-navy/70">
-            <Home className="size-4" aria-hidden /> Search preferences are not applied to listings yet.
+            <Home className="size-4" aria-hidden /> Your selected priorities help rank matching homes.
           </p>
         </div>
       </form>
