@@ -6,6 +6,7 @@ const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/find-home", label: "Find a Home" },
   { href: "/homes", label: "Browse Homes" },
+  { href: "/favorites", label: "Favorites" },
   { href: "/about", label: "About Us" },
 ]
 

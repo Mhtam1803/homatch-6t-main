@@ -5,6 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { ArrowRight, Menu, X } from "lucide-react"
 import { Logo } from "@/components/layout/logo"
+import { useHomatch } from "@/components/providers/homatch-provider"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
@@ -12,11 +13,13 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/find-home", label: "Find a Home" },
   { href: "/homes", label: "Browse Homes" },
+  { href: "/favorites", label: "Favorites" },
   { href: "/about", label: "About Us" },
 ]
 
 export function SiteHeader() {
   const pathname = usePathname()
+  const { phone } = useHomatch()
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
@@ -67,7 +70,7 @@ export function SiteHeader() {
             href="/sign-in"
             className={cn(buttonVariants({ variant: "ghost" }), "h-11 rounded-full px-5 text-[15px] font-semibold text-navy")}
           >
-            Sign In
+            {phone ? "My account" : "Sign In"}
           </Link>
           <Link href="/find-home" className={ctaClass}>
             Get Started
@@ -107,7 +110,7 @@ export function SiteHeader() {
                 href="/sign-in"
                 className={cn(buttonVariants({ variant: "outline" }), "h-12 rounded-full border-navy/20 text-base font-semibold text-navy")}
               >
-                Sign In
+                {phone ? "My account" : "Sign In"}
               </Link>
               <Link href="/find-home" className={cn(ctaClass, "h-12 text-base")}>
                 Get Started <ArrowRight className="ml-1 size-4" />

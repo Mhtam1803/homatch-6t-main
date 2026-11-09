@@ -13,8 +13,10 @@ import type {
   TransportMode,
   WorkplaceType,
 } from "@/types/listing"
+import { getSupabaseClient } from "@/lib/supabase"
 
 const SEARCH_CRITERIA_STORAGE_KEY = "homatch-search-criteria"
+const FAVORITES_STORAGE_KEY = "homatch-favorites"
 
 function isPersonalDetails(value: unknown): value is PersonalDetails {
   if (!value || typeof value !== "object") return false
@@ -128,6 +130,8 @@ interface HomatchState {
   favorites: string[]
   isFavorite: (id: string) => boolean
   toggleFavorite: (id: string) => void
+  phone: string | null
+  signOut: () => Promise<void>
 }
 
 const HomatchContext = createContext<HomatchState | null>(null)
@@ -135,6 +139,8 @@ const HomatchContext = createContext<HomatchState | null>(null)
 export function HomatchProvider({ children }: { children: React.ReactNode }) {
   const [criteria, setCriteria] = useState<SearchCriteria | null>(null)
   const [favorites, setFavorites] = useState<string[]>([])
+  const [favoritesHydrated, setFavoritesHydrated] = useState(false)
+  const [phone, setPhone] = useState<string | null>(null)
 
   useEffect(() => {
     try {
@@ -150,6 +156,58 @@ export function HomatchProvider({ children }: { children: React.ReactNode }) {
       }
     } catch (error) {
       console.error("Could not restore the saved Homatch search criteria.", error)
+    }
+  }, [])
+
+  useEffect(() => {
+    try {
+      const savedFavorites = localStorage.getItem(FAVORITES_STORAGE_KEY)
+      if (savedFavorites) {
+        const parsed: unknown = JSON.parse(savedFavorites)
+        if (Array.isArray(parsed) && parsed.every((id) => typeof id === "string")) {
+          setFavorites(parsed)
+        } else {
+          localStorage.removeItem(FAVORITES_STORAGE_KEY)
+        }
+      }
+    } catch (error) {
+      console.error("Could not restore saved Homatch favorites.", error)
+    } finally {
+      setFavoritesHydrated(true)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!favoritesHydrated) return
+    try {
+      localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favorites))
+    } catch (error) {
+      console.error("Could not save Homatch favorites in this browser.", error)
+    }
+  }, [favorites, favoritesHydrated])
+
+  useEffect(() => {
+    const supabase = getSupabaseClient()
+    if (!supabase) return
+
+    let active = true
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (active) setPhone(session?.user.phone ?? null)
+    })
+
+    supabase.auth.getSession().then(({ data, error }) => {
+      if (error) {
+        console.error("Could not restore the Supabase session.", error)
+        return
+      }
+      if (active) setPhone(data.session?.user.phone ?? null)
+    })
+
+    return () => {
+      active = false
+      subscription.unsubscribe()
     }
   }, [])
 
@@ -169,6 +227,13 @@ export function HomatchProvider({ children }: { children: React.ReactNode }) {
     setFavorites((prev) => (prev.includes(id) ? prev.filter((f) => f !== id) : [...prev, id]))
   }, [])
 
+  const signOut = useCallback(async () => {
+    const supabase = getSupabaseClient()
+    if (!supabase) throw new Error("Supabase is not configured.")
+    const { error } = await supabase.auth.signOut()
+    if (error) throw error
+  }, [])
+
   const value = useMemo<HomatchState>(
     () => ({
       criteria,
@@ -176,8 +241,10 @@ export function HomatchProvider({ children }: { children: React.ReactNode }) {
       favorites,
       isFavorite: (id) => favorites.includes(id),
       toggleFavorite,
+      phone,
+      signOut,
     }),
-    [criteria, favorites, saveCriteria, toggleFavorite],
+    [criteria, favorites, phone, saveCriteria, signOut, toggleFavorite],
   )
 
   return <HomatchContext.Provider value={value}>{children}</HomatchContext.Provider>
