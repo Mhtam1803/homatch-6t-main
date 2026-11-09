@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 const links = [
   { href: "/", label: "Home" },
   { href: "/find-home", label: "Find a Home" },
-  { href: "/#how-it-works", label: "How It Works" },
+  { href: "/homes", label: "Browse Homes" },
   { href: "/about", label: "About Us" },
 ]
 

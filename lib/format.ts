@@ -1,4 +1,11 @@
-import type { BedroomOption, FeatureKey, TransportMode } from "@/types/listing"
+import type {
+  AccessHours,
+  BedroomOption,
+  FeatureKey,
+  FurnishingCondition,
+  PropertyType,
+  TransportMode,
+} from "@/types/listing"
 
 export function formatVND(value: number): string {
   return `${new Intl.NumberFormat("en-US").format(value)} VND`
@@ -14,6 +21,27 @@ export const transportLabels: Record<TransportMode, string> = {
   car: "Car",
   bus: "Bus",
   walking: "Walking",
+}
+
+export const propertyTypeLabels: Record<PropertyType, string> = {
+  townhouse: "Townhouse",
+  alley: "Alley access",
+  owner: "Direct from owner",
+  broker: "Through an agent",
+  carAlley: "Car-accessible alley",
+}
+
+export const accessHoursLabels: Record<AccessHours, string> = {
+  any: "Any access hours",
+  flexible: "Flexible access hours",
+  restricted: "Set access hours",
+}
+
+export const furnishingLabels: Record<FurnishingCondition, string> = {
+  any: "Any furnishing",
+  furnished: "Fully furnished",
+  basic: "Basic furnishings",
+  unfurnished: "Unfurnished",
 }
 
 export const bedroomLabels: Record<BedroomOption, string> = {

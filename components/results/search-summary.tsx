@@ -1,15 +1,26 @@
 import Link from "next/link"
 import { Bike, Bus, Car, Footprints, MapPin, Pencil, Wallet } from "lucide-react"
-import { bedroomLabels, featureLabels, formatVND, transportLabels } from "@/lib/format"
+import {
+  accessHoursLabels,
+  bedroomLabels,
+  featureLabels,
+  formatVND,
+  furnishingLabels,
+  propertyTypeLabels,
+  transportLabels,
+} from "@/lib/format"
 import type { SearchCriteria, TransportMode } from "@/types/listing"
 
 const transportIcons: Record<TransportMode, typeof Bike> = { motorbike: Bike, car: Car, bus: Bus, walking: Footprints }
 
 export function SearchSummary({ criteria }: { criteria: SearchCriteria }) {
-  const TransportIcon = transportIcons[criteria.transport]
+  const TransportIcon = transportIcons[criteria.transport[0] ?? "motorbike"]
   const prefs = [
     ...(criteria.bedroom === "any" ? [] : [bedroomLabels[criteria.bedroom]]),
     ...criteria.features.map((f) => featureLabels[f]),
+    ...criteria.propertyTypes.map((type) => propertyTypeLabels[type]),
+    ...(criteria.accessHours === "any" ? [] : [accessHoursLabels[criteria.accessHours]]),
+    ...(criteria.furnishing === "any" ? [] : [furnishingLabels[criteria.furnishing]]),
     ...criteria.chips,
   ]
 
@@ -45,7 +56,9 @@ export function SearchSummary({ criteria }: { criteria: SearchCriteria }) {
           <TransportIcon className="mt-0.5 size-5 shrink-0 text-orange" aria-hidden />
           <div>
             <dt className="text-sm font-medium text-navy/70">Transportation</dt>
-            <dd className="text-base font-bold text-navy">{transportLabels[criteria.transport]}</dd>
+            <dd className="text-base font-bold text-navy">
+              {criteria.transport.length ? criteria.transport.map((mode) => transportLabels[mode]).join(", ") : "No preference"}
+            </dd>
           </div>
         </div>
       </dl>

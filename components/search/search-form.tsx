@@ -5,8 +5,10 @@ import { useRouter } from "next/navigation"
 import {
   ArrowRight,
   Bike,
+  Building2,
   Bus,
   Car,
+  Clock3,
   Footprints,
   Home,
   MapPin,
@@ -25,7 +27,17 @@ import { Textarea } from "@/components/ui/textarea"
 import { bedroomLabels, featureLabels } from "@/lib/format"
 import { inferHiddenNeeds } from "@/lib/hidden-needs"
 import { cn } from "@/lib/utils"
-import type { BedroomOption, FeatureKey, InferredNeedKey, TransportMode } from "@/types/listing"
+import type {
+  AccessHours,
+  BedroomOption,
+  FeatureKey,
+  FurnishingCondition,
+  InferredNeedKey,
+  PersonalDetails,
+  PropertyType,
+  TransportMode,
+  WorkplaceType,
+} from "@/types/listing"
 
 const transportOptions = [
   { value: "motorbike" as TransportMode, label: "Motorbike", icon: Bike },
@@ -35,6 +47,33 @@ const transportOptions = [
 ]
 
 const bedroomOptions = (Object.keys(bedroomLabels) as BedroomOption[]).map((value) => ({ value, label: bedroomLabels[value] }))
+
+const workplaceOptions = [
+  { value: "home" as WorkplaceType, label: "Work from home", icon: Home },
+  { value: "office" as WorkplaceType, label: "Work at an office", icon: Building2 },
+  { value: "unspecified" as WorkplaceType, label: "Not specified" },
+]
+
+const propertyTypeOptions = [
+  { value: "townhouse" as PropertyType, label: "Townhouse" },
+  { value: "alley" as PropertyType, label: "Alley access" },
+  { value: "owner" as PropertyType, label: "Direct from owner" },
+  { value: "broker" as PropertyType, label: "Through an agent" },
+  { value: "carAlley" as PropertyType, label: "Car-accessible alley" },
+]
+
+const accessHoursOptions = [
+  { value: "any" as AccessHours, label: "No preference" },
+  { value: "flexible" as AccessHours, label: "Flexible hours", icon: Clock3 },
+  { value: "restricted" as AccessHours, label: "Set hours" },
+]
+
+const furnishingOptions = [
+  { value: "any" as FurnishingCondition, label: "No preference" },
+  { value: "furnished" as FurnishingCondition, label: "Fully furnished" },
+  { value: "basic" as FurnishingCondition, label: "Basic furnishings" },
+  { value: "unfurnished" as FurnishingCondition, label: "Unfurnished" },
+]
 
 const featureOptions = [
   { value: "petFriendly" as FeatureKey, label: featureLabels.petFriendly, icon: PawPrint },
@@ -91,11 +130,26 @@ export function SearchForm() {
   const router = useRouter()
   const { setCriteria } = useHomatch()
 
+  const [personalDetails, setPersonalDetails] = useState<PersonalDetails>({
+    fullName: "",
+    age: null,
+    phone: "",
+    email: "",
+    occupation: "",
+    workplaceType: "unspecified",
+    workHours: "",
+    adults: 0,
+    children: 0,
+    infants: 0,
+  })
   const [destination, setDestination] = useState("")
-  const [transport, setTransport] = useState<TransportMode>("motorbike")
+  const [transport, setTransport] = useState<TransportMode[]>([])
   const [budget, setBudget] = useState(40_000_000)
   const [bedroom, setBedroom] = useState<BedroomOption>("any")
   const [features, setFeatures] = useState<FeatureKey[]>([])
+  const [propertyTypes, setPropertyTypes] = useState<PropertyType[]>([])
+  const [accessHours, setAccessHours] = useState<AccessHours>("any")
+  const [furnishing, setFurnishing] = useState<FurnishingCondition>("any")
   const [lifestyle, setLifestyle] = useState("")
   const [chips, setChips] = useState<string[]>([])
   const [acceptedNeeds, setAcceptedNeeds] = useState<InferredNeedKey[]>([])
@@ -110,16 +164,22 @@ export function SearchForm() {
   }, [])
 
   const toggle = <T,>(list: T[], v: T) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v])
+  const updatePersonalDetails = <K extends keyof PersonalDetails>(key: K, value: PersonalDetails[K]) =>
+    setPersonalDetails((current) => ({ ...current, [key]: value }))
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault()
 
     setCriteria({
+      personalDetails,
       destination: destination.trim(),
       transport,
       budget,
       bedroom,
       features,
+      propertyTypes,
+      accessHours,
+      furnishing,
       lifestyle: lifestyle.trim(),
       chips,
       inferredNeeds: inferredNeeds.filter((need) => acceptedNeeds.includes(need.key)),
@@ -135,7 +195,102 @@ export function SearchForm() {
   return (
     <>
       <form onSubmit={submit} noValidate className="space-y-8">
-        <FormSection number="1" title="Browse with filters" subtitle="Pick any filters you care about. Leave the rest open.">
+        <FormSection number="1" title="About you and your household" subtitle="Share a few details to help us find a home that fits your situation.">
+          <div className="grid gap-8 md:grid-cols-2">
+            <Field label="Full name" htmlFor="full-name">
+              <Input
+                id="full-name"
+                autoComplete="name"
+                value={personalDetails.fullName}
+                onChange={(e) => updatePersonalDetails("fullName", e.target.value)}
+                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+              />
+            </Field>
+            <Field label="Age" htmlFor="age">
+              <Input
+                id="age"
+                type="number"
+                min={0}
+                max={120}
+                value={personalDetails.age ?? ""}
+                onChange={(e) => updatePersonalDetails("age", e.target.value === "" ? null : Number(e.target.value))}
+                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+              />
+            </Field>
+            <Field label="Phone number" htmlFor="phone">
+              <Input
+                id="phone"
+                type="tel"
+                autoComplete="tel"
+                value={personalDetails.phone}
+                onChange={(e) => updatePersonalDetails("phone", e.target.value)}
+                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+              />
+            </Field>
+            <Field label="Email" htmlFor="email">
+              <Input
+                id="email"
+                type="email"
+                autoComplete="email"
+                value={personalDetails.email}
+                onChange={(e) => updatePersonalDetails("email", e.target.value)}
+                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+              />
+            </Field>
+            <Field label="Occupation" htmlFor="occupation">
+              <Input
+                id="occupation"
+                autoComplete="organization-title"
+                value={personalDetails.occupation}
+                onChange={(e) => updatePersonalDetails("occupation", e.target.value)}
+                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+              />
+            </Field>
+            <Field label="Workplace">
+              <RadioCards
+                name="workplace"
+                legend="Workplace"
+                value={personalDetails.workplaceType}
+                options={workplaceOptions}
+                onChange={(value) => updatePersonalDetails("workplaceType", value)}
+                columns="grid-cols-1 sm:grid-cols-3"
+              />
+            </Field>
+            <Field label="Work hours" htmlFor="work-hours" hint="For example, 9 AM–6 PM or night shifts.">
+              <Input
+                id="work-hours"
+                value={personalDetails.workHours}
+                onChange={(e) => updatePersonalDetails("workHours", e.target.value)}
+                placeholder="Your usual work hours"
+                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+              />
+            </Field>
+          </div>
+          <Field label="How many people will live in the home?" hint="Please include the number of adults, children, and babies under 2.">
+            <div className="grid gap-4 sm:grid-cols-3">
+              {([
+                ["adults", "Adults"],
+                ["children", "Children"],
+                ["infants", "Babies under 2"],
+              ] as const).map(([key, label]) => (
+                <label key={key} className="space-y-2 text-base font-semibold text-navy" htmlFor={`residents-${key}`}>
+                  <span className="block">{label}</span>
+                  <Input
+                    id={`residents-${key}`}
+                    type="number"
+                    min={0}
+                    step={1}
+                    value={personalDetails[key]}
+                    onChange={(e) => updatePersonalDetails(key, Math.max(0, Math.floor(Number(e.target.value) || 0)))}
+                    className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
+                  />
+                </label>
+              ))}
+            </div>
+          </Field>
+        </FormSection>
+
+        <FormSection number="2" title="Your home preferences" subtitle="Keep your search filters and choose any home details that matter to you.">
           <div className="grid gap-8 md:grid-cols-2">
             <Field label="Where do you need to be?" htmlFor="destination" hint="Optional: enter a workplace, university, or area.">
               <div className="relative">
@@ -151,8 +306,12 @@ export function SearchForm() {
               </div>
             </Field>
 
-            <Field label="How do you travel?">
-              <RadioCards name="transport" legend="How do you travel?" value={transport} options={transportOptions} onChange={setTransport} />
+            <Field label="How do you travel?" hint="Select all that apply.">
+              <ToggleChips
+                options={transportOptions}
+                selected={transport}
+                onToggle={(value) => setTransport((current) => toggle(current, value))}
+              />
             </Field>
 
             <Field label="What's your maximum monthly budget?" hint="Leave at the maximum to include every budget.">
@@ -174,6 +333,34 @@ export function SearchForm() {
               <ToggleChips options={featureOptions} selected={features} onToggle={(v) => setFeatures((f) => toggle(f, v))} />
             </Field>
 
+            <Field label="Property type" hint="Choose any that fit your search.">
+              <ToggleChips
+                options={propertyTypeOptions}
+                selected={propertyTypes}
+                onToggle={(value) => setPropertyTypes((current) => toggle(current, value))}
+              />
+            </Field>
+
+            <Field label="Access hours">
+              <RadioCards
+                name="access-hours"
+                legend="Preferred access hours"
+                value={accessHours}
+                options={accessHoursOptions}
+                onChange={setAccessHours}
+              />
+            </Field>
+
+            <Field label="Furnishing condition">
+              <RadioCards
+                name="furnishing"
+                legend="Preferred furnishing condition"
+                value={furnishing}
+                options={furnishingOptions}
+                onChange={setFurnishing}
+              />
+            </Field>
+
             <Field label="Quick preferences" hint="Select any that matter to you.">
               <ToggleChips
                 size="sm"
@@ -185,7 +372,7 @@ export function SearchForm() {
           </div>
         </FormSection>
 
-        <FormSection number="2" title="Add your own needs (optional)" subtitle="You can skip this and search using the filters above.">
+        <FormSection number="3" title="Tell us what matters most" subtitle="Add any other needs that the filters did not cover. This section is optional.">
           <Field label="Anything else we should know?" htmlFor="lifestyle" hint="For example: I study late and need a quiet place that allows cats.">
             <Textarea
               id="lifestyle"

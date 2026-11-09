@@ -5,7 +5,7 @@ import { Logo } from "@/components/layout/logo"
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/find-home", label: "Find a Home" },
-  { href: "/#how-it-works", label: "How It Works" },
+  { href: "/homes", label: "Browse Homes" },
   { href: "/about", label: "About Us" },
 ]
 

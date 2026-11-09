@@ -23,8 +23,8 @@ export function Hero() {
             <CtaLink href="/find-home" arrow className="w-full sm:w-auto">
               Find My Home
             </CtaLink>
-            <CtaLink href="/#how-it-works" variant="secondary" className="w-full sm:w-auto">
-              How It Works
+            <CtaLink href="/homes" variant="secondary" className="w-full sm:w-auto">
+              Browse Homes
             </CtaLink>
           </div>
           <p className="flex items-center gap-2 text-base font-semibold text-navy/80">
