@@ -59,7 +59,7 @@ export function SiteFooter() {
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-sm text-navy/70 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} Homatch. All rights reserved.</p>
-          <p>Listing details are shown as supplied; utility costs are estimates.</p>
+          <p>All listings are fictional demo data; photos are illustrative representations for development testing only. Utility costs are estimates.</p>
         </div>
       </div>
     </footer>

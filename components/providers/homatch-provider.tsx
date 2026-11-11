@@ -2,7 +2,6 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react"
 import type {
-  AccessHours,
   BedroomOption,
   FeatureKey,
   FurnishingCondition,
@@ -49,9 +48,28 @@ function parseSearchCriteria(value: unknown): SearchCriteria | null {
   const criteria = value as Record<string, unknown>
   const transports: TransportMode[] = ["motorbike", "car", "bus", "walking"]
   const bedrooms: BedroomOption[] = ["any", "studio", "1", "2", "3+"]
-  const features: FeatureKey[] = ["petFriendly", "balcony", "elevator", "quiet"]
+  const features: FeatureKey[] = [
+    "petFriendly",
+    "balcony",
+    "elevator",
+    "quiet",
+    "privateWc",
+    "privateKitchen",
+    "airConditioner",
+    "washingMachine",
+    "naturalLight",
+    "remoteWorkFriendly",
+    "nearSchool",
+    "nearSupermarket",
+    "playground",
+    "security24h",
+    "childFriendly",
+    "parking",
+    "nearBusStop",
+    "nearMetro",
+    "window",
+  ]
   const propertyTypes: PropertyType[] = ["townhouse", "alley", "owner", "broker", "carAlley"]
-  const accessHours: AccessHours[] = ["any", "flexible", "restricted"]
   const furnishingOptions: FurnishingCondition[] = ["any", "furnished", "basic", "unfurnished"]
   const inferredNeedKeys: InferredNeed["key"][] = ["quietStudy", "workFromHome", "familySpace", "easyAccess"]
   const transportValues = Array.isArray(criteria.transport) ? criteria.transport : [criteria.transport]
@@ -88,8 +106,6 @@ function parseSearchCriteria(value: unknown): SearchCriteria | null {
     (criteria.propertyTypes === undefined ||
       (Array.isArray(criteria.propertyTypes) &&
         criteria.propertyTypes.every((type) => typeof type === "string" && propertyTypes.includes(type as PropertyType)))) &&
-    (criteria.accessHours === undefined ||
-      (typeof criteria.accessHours === "string" && accessHours.includes(criteria.accessHours as AccessHours))) &&
     (criteria.furnishing === undefined ||
       (typeof criteria.furnishing === "string" && furnishingOptions.includes(criteria.furnishing as FurnishingCondition))) &&
     (savedDetails === undefined || isPersonalDetails(savedDetails)) &&
@@ -116,7 +132,6 @@ function parseSearchCriteria(value: unknown): SearchCriteria | null {
     features: criteria.features as FeatureKey[],
     personalDetails,
     propertyTypes: (criteria.propertyTypes as PropertyType[] | undefined) ?? [],
-    accessHours: (criteria.accessHours as AccessHours | undefined) ?? "any",
     furnishing: (criteria.furnishing as FurnishingCondition | undefined) ?? "any",
     lifestyle: criteria.lifestyle as string,
     chips: criteria.chips as string[],

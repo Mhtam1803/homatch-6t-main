@@ -1,0 +1,105 @@
+{
+  "collected_at": "2026-11-11",
+  "references": [
+    {
+      "id": "REF_001",
+      "platform": "Nha Tot",
+      "url": "https://www.nhatot.com/thue-phong-tro-thanh-pho-thu-duc-tp-ho-chi-minh/135223129.htm",
+      "area": "Linh Xuan",
+      "property_type": "room",
+      "price_vnd": 1600000,
+      "area_m2": 16,
+      "observed": "room, deposit and utility rates"
+    },
+    {
+      "id": "REF_002",
+      "platform": "Nha Tot",
+      "url": "https://www.nhatot.com/thue-phong-tro-thanh-pho-thu-duc-tp-ho-chi-minh/135072472.htm",
+      "area": "Linh Xuan",
+      "property_type": "room",
+      "price_vnd": 2200000,
+      "area_m2": 20,
+      "observed": "rent, electricity, water and service fees"
+    },
+    {
+      "id": "REF_003",
+      "platform": "Nha Tot",
+      "url": "https://www.nhatot.com/thue-phong-tro-thanh-pho-thu-duc-tp-ho-chi-minh/135652699.htm",
+      "area": "Thu Duc",
+      "property_type": "room",
+      "price_vnd": 2100000,
+      "area_m2": 20,
+      "observed": "shared laundry and flexible access"
+    },
+    {
+      "id": "REF_004",
+      "platform": "Batdongsan.com.vn",
+      "url": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-dinh-bo-linh-66/dt-duoi-30m2",
+      "area": "Binh Thanh",
+      "property_type": "mini_apartment",
+      "price_vnd": 4900000,
+      "area_m2": 25,
+      "observed": "mini-apartment market price examples"
+    },
+    {
+      "id": "REF_005",
+      "platform": "Batdongsan.com.vn",
+      "url": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-binh-thanh",
+      "area": "Binh Thanh",
+      "property_type": "apartment",
+      "price_vnd": 6400000,
+      "area_m2": 45,
+      "observed": "one-bedroom furnished apartment examples"
+    },
+    {
+      "id": "REF_006",
+      "platform": "Nha Tot",
+      "url": "https://www.nhatot.com/thue-phong-tro-quan-go-vap-tp-ho-chi-minh/135582415.htm",
+      "area": "Go Vap",
+      "property_type": "room",
+      "price_vnd": 4600000,
+      "area_m2": 40,
+      "observed": "furnished room and amenities"
+    },
+    {
+      "id": "REF_007",
+      "platform": "Nha Tot",
+      "url": "https://www.nhatot.com/thue-phong-tro-quan-go-vap-tp-ho-chi-minh/134329033.htm",
+      "area": "Go Vap",
+      "property_type": "room",
+      "price_vnd": 3390000,
+      "area_m2": 20,
+      "observed": "occupant surcharge and pet restriction"
+    },
+    {
+      "id": "REF_008",
+      "platform": "Nha Tot",
+      "url": "https://www.nhatot.com/thue-phong-tro-quan-go-vap-tp-ho-chi-minh/135568919.htm",
+      "area": "Go Vap",
+      "property_type": "room",
+      "price_vnd": 3500000,
+      "area_m2": 21,
+      "observed": "deposit, electricity, water and pet restriction"
+    },
+    {
+      "id": "REF_009",
+      "platform": "Batdongsan.com.vn",
+      "url": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-vinhomes-grand-park/cho-moi-2pn-gia-tot-tai-vi-tri-trung-tam-view-ep-pr46213756",
+      "area": "Vinhomes Grand Park",
+      "property_type": "apartment",
+      "price_vnd": 8000000,
+      "area_m2": null,
+      "observed": "two-bedroom condominium asking price"
+    },
+    {
+      "id": "REF_010",
+      "platform": "Batdongsan.com.vn",
+      "url": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-vinhomes-central-park/2pn",
+      "area": "Vinhomes Central Park",
+      "property_type": "apartment",
+      "price_vnd": 20000000,
+      "area_m2": 70.6,
+      "observed": "two-bedroom premium condominium asking price"
+    }
+  ]
+}

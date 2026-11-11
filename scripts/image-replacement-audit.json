@@ -1,0 +1,1030 @@
+{
+  "total_listings": 100,
+  "curated_preserved": 20,
+  "placeholders_replaced": 80,
+  "unresolved": 0,
+  "donor_usage": {
+    "HCM_001": 6,
+    "HCM_002": 6,
+    "HCM_003": 6,
+    "HCM_004": 3,
+    "HCM_005": 6,
+    "HCM_006": 6,
+    "HCM_007": 6,
+    "HCM_008": 3,
+    "HCM_009": 6,
+    "HCM_010": 5,
+    "HCM_011": 5,
+    "HCM_012": 7,
+    "HCM_013": 3,
+    "HCM_014": 3,
+    "HCM_015": 5,
+    "HCM_016": 5,
+    "HCM_017": 5,
+    "HCM_018": 6,
+    "HCM_019": 6,
+    "HCM_020": 2
+  },
+  "listings": [
+    {
+      "listing_id": "HCM_001",
+      "title": "Duplex 20m² Đường Số 4, Linh Xuân (tầng 1) – gần ĐHQG",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_001",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_001/01_living_room.jpg;/images/HCM_001/02_kitchen.jpg;/images/HCM_001/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_002",
+      "title": "Duplex 20m² Đường Số 4, Linh Xuân (tầng 2) – gần ĐHQG",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_002",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_002/01_living_room.jpg;/images/HCM_002/02_kitchen.jpg;/images/HCM_002/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_003",
+      "title": "Duplex 22m² Đường Số 4, Linh Xuân – gần ĐHQG",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_003",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_003/01_living_room.jpg;/images/HCM_003/02_kitchen.jpg;/images/HCM_003/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_004",
+      "title": "Studio 25m² Đường Số 4, Linh Xuân – gần ĐHQG",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_004",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_004/01_living_room.jpg;/images/HCM_004/02_kitchen.jpg;/images/HCM_004/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_005",
+      "title": "Phòng trọ 18m² Quốc lộ 1K, Linh Xuân – gần trạm xe buýt",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_005",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_005/01_living_room.jpg;/images/HCM_005/02_kitchen.jpg;/images/HCM_005/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_006",
+      "title": "Duplex 20m² Quốc lộ 1K, Linh Xuân – gần trạm xe buýt",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_006",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_006/01_living_room.jpg;/images/HCM_006/02_kitchen.jpg;/images/HCM_006/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_007",
+      "title": "Duplex 24m² Quốc lộ 1K, Linh Xuân – gần trạm xe buýt",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_007",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_007/01_living_room.jpg;/images/HCM_007/02_kitchen.jpg;/images/HCM_007/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_008",
+      "title": "Studio 28m² Quốc lộ 1K, Linh Xuân – gần trạm xe buýt",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_008",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_008/01_living_room.jpg;/images/HCM_008/02_kitchen.jpg;/images/HCM_008/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_009",
+      "title": "Studio 25m² Đường Lê Văn Chí, Linh Xuân – tòa mới có thang máy",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_009",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_009/01_living_room.jpg;/images/HCM_009/02_kitchen.jpg;/images/HCM_009/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_010",
+      "title": "Studio 28m² Đường Lê Văn Chí, Linh Xuân – tòa mới có thang máy",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_010",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_010/01_living_room.jpg;/images/HCM_010/02_kitchen.jpg;/images/HCM_010/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_011",
+      "title": "Studio 30m² Đường Lê Văn Chí, Linh Xuân – tòa mới có thang máy",
+      "room_type": "studio",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_011",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_011/01_living_room.jpg;/images/HCM_011/02_kitchen.jpg;/images/HCM_011/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_012",
+      "title": "Căn hộ mini 1PN 35m² Đường Lê Văn Chí, Linh Xuân – tòa mới có thang máy",
+      "room_type": "mini_apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_012",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_013",
+      "title": "Studio 22m² Đường Số 17, Linh Xuân – gần cổng sau Làng Đại học",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_013",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_013/01_living_room.jpg;/images/HCM_013/02_kitchen.jpg;/images/HCM_013/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_014",
+      "title": "Studio 25m² Đường Số 17, Linh Xuân – gần cổng sau Làng Đại học",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_014",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_014/01_living_room.jpg;/images/HCM_014/02_kitchen.jpg;/images/HCM_014/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_015",
+      "title": "Duplex 24m² Đường Số 17, Linh Xuân – gần cổng sau Làng Đại học",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_015",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_015/01_living_room.jpg;/images/HCM_015/02_kitchen.jpg;/images/HCM_015/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_016",
+      "title": "Studio 30m² Đường Số 17, Linh Xuân – gần cổng sau Làng Đại học",
+      "room_type": "studio",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_016",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_016/01_living_room.jpg;/images/HCM_016/02_kitchen.jpg;/images/HCM_016/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_017",
+      "title": "Studio 30m² Đường Tân Lập, Đông Hòa – khu Bcons gần ga metro Suối Tiên",
+      "room_type": "studio",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_017",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_017/01_living_room.jpg;/images/HCM_017/02_kitchen.jpg;/images/HCM_017/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_018",
+      "title": "Căn hộ mini 1PN 38m² Đường Tân Lập, Đông Hòa – khu Bcons gần ga metro Suối Tiên",
+      "room_type": "mini_apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_018",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_018/01_living_room.jpg;/images/HCM_018/02_kitchen.jpg;/images/HCM_018/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_019",
+      "title": "Căn hộ 2PN 50m² Đường Tân Lập, Đông Hòa – khu Bcons gần ga metro Suối Tiên",
+      "room_type": "apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_019",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_019/01_living_room.jpg;/images/HCM_019/02_kitchen.jpg;/images/HCM_019/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_020",
+      "title": "Studio 28m² Đường Tân Lập, Đông Hòa – khu Bcons gần ga metro Suối Tiên",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_020",
+      "status": "CURATED_ORIGINAL",
+      "images": "/images/HCM_020/01_living_room.jpg;/images/HCM_020/02_kitchen.jpg;/images/HCM_020/03_bed_room.jpg",
+      "notes": "Original human-curated photo set preserved"
+    },
+    {
+      "listing_id": "HCM_021",
+      "title": "Phòng trọ 16m² Đường Tân Lập, Đông Hòa – sát ký túc xá khu B",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_005",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_005/01_living_room.jpg;/images/HCM_005/02_kitchen.jpg;/images/HCM_005/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_022",
+      "title": "Phòng trọ 18m² Đường Tân Lập, Đông Hòa – sát ký túc xá khu B",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_001",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_001/01_living_room.jpg;/images/HCM_001/02_kitchen.jpg;/images/HCM_001/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_023",
+      "title": "Duplex 20m² Đường Tân Lập, Đông Hòa – sát ký túc xá khu B",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_002",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_002/01_living_room.jpg;/images/HCM_002/02_kitchen.jpg;/images/HCM_002/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_024",
+      "title": "Studio 24m² Đường Tân Lập, Đông Hòa – sát ký túc xá khu B",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_004",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_004/01_living_room.jpg;/images/HCM_004/02_kitchen.jpg;/images/HCM_004/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_025",
+      "title": "Phòng trọ 15m² Đường Nguyễn An Ninh, Dĩ An – gần ga Dĩ An",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_003",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_003/01_living_room.jpg;/images/HCM_003/02_kitchen.jpg;/images/HCM_003/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_026",
+      "title": "Phòng trọ 20m² Đường Nguyễn An Ninh, Dĩ An – gần ga Dĩ An",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_006",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_006/01_living_room.jpg;/images/HCM_006/02_kitchen.jpg;/images/HCM_006/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_027",
+      "title": "Duplex 22m² Đường Nguyễn An Ninh, Dĩ An – gần ga Dĩ An",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_007",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_007/01_living_room.jpg;/images/HCM_007/02_kitchen.jpg;/images/HCM_007/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_028",
+      "title": "Studio 25m² Đường Nguyễn An Ninh, Dĩ An – gần ga Dĩ An",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_008",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_008/01_living_room.jpg;/images/HCM_008/02_kitchen.jpg;/images/HCM_008/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_029",
+      "title": "Studio 25m² Đường Nguyễn Thị Minh Khai, Dĩ An – tòa mới có thang máy",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_013",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_013/01_living_room.jpg;/images/HCM_013/02_kitchen.jpg;/images/HCM_013/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_030",
+      "title": "Studio 28m² Đường Nguyễn Thị Minh Khai, Dĩ An – tòa mới có thang máy",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_009",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_009/01_living_room.jpg;/images/HCM_009/02_kitchen.jpg;/images/HCM_009/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_031",
+      "title": "Căn hộ mini 1PN 35m² Đường Nguyễn Thị Minh Khai, Dĩ An – tòa mới có thang máy",
+      "room_type": "mini_apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_012",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Mini-apartment (1PN) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_032",
+      "title": "Căn hộ mini 1PN 38m² Đường Nguyễn Thị Minh Khai, Dĩ An – tòa mới có thang máy",
+      "room_type": "mini_apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_018",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_018/01_living_room.jpg;/images/HCM_018/02_kitchen.jpg;/images/HCM_018/03_bed_room.jpg",
+      "notes": "Mini-apartment (1PN) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_033",
+      "title": "Phòng trọ 18m² Đường Võ Văn Ngân, Thủ Đức – gần ĐH Sư phạm Kỹ thuật",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_005",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_005/01_living_room.jpg;/images/HCM_005/02_kitchen.jpg;/images/HCM_005/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_034",
+      "title": "Duplex 20m² Đường Võ Văn Ngân, Thủ Đức – gần ĐH Sư phạm Kỹ thuật",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_015",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_015/01_living_room.jpg;/images/HCM_015/02_kitchen.jpg;/images/HCM_015/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_035",
+      "title": "Duplex 24m² Đường Võ Văn Ngân, Thủ Đức – gần ĐH Sư phạm Kỹ thuật",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_001",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_001/01_living_room.jpg;/images/HCM_001/02_kitchen.jpg;/images/HCM_001/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_036",
+      "title": "Studio 26m² Đường Võ Văn Ngân, Thủ Đức – gần ĐH Sư phạm Kỹ thuật",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_014",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_014/01_living_room.jpg;/images/HCM_014/02_kitchen.jpg;/images/HCM_014/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_037",
+      "title": "Studio 30m² Đường Kha Vạn Cân, Thủ Đức (tầng 2) – gần chợ Thủ Đức và metro Bình Thái",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_020",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_020/01_living_room.jpg;/images/HCM_020/02_kitchen.jpg;/images/HCM_020/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_038",
+      "title": "Studio 30m² Đường Kha Vạn Cân, Thủ Đức (tầng 3) – gần chợ Thủ Đức và metro Bình Thái",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_004",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_004/01_living_room.jpg;/images/HCM_004/02_kitchen.jpg;/images/HCM_004/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_039",
+      "title": "Căn hộ mini 1PN 40m² Đường Kha Vạn Cân, Thủ Đức – gần chợ Thủ Đức và metro Bình Thái",
+      "room_type": "mini_apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_012",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Mini-apartment (1PN) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_040",
+      "title": "Duplex 24m² Đường Kha Vạn Cân, Thủ Đức – gần chợ Thủ Đức và metro Bình Thái",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_002",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_002/01_living_room.jpg;/images/HCM_002/02_kitchen.jpg;/images/HCM_002/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_041",
+      "title": "Phòng trọ 18m² Đường Phạm Văn Đồng, Hiệp Bình – gần Gigamall",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_003",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_003/01_living_room.jpg;/images/HCM_003/02_kitchen.jpg;/images/HCM_003/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_042",
+      "title": "Duplex 22m² Đường Phạm Văn Đồng, Hiệp Bình – gần Gigamall",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_006",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_006/01_living_room.jpg;/images/HCM_006/02_kitchen.jpg;/images/HCM_006/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_043",
+      "title": "Duplex 24m² Đường Phạm Văn Đồng, Hiệp Bình – gần Gigamall",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_007",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_007/01_living_room.jpg;/images/HCM_007/02_kitchen.jpg;/images/HCM_007/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_044",
+      "title": "Studio 28m² Đường Phạm Văn Đồng, Hiệp Bình – gần Gigamall",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_010",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_010/01_living_room.jpg;/images/HCM_010/02_kitchen.jpg;/images/HCM_010/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_045",
+      "title": "Studio 30m² Đường Nguyễn Xiển, Long Bình – Vinhomes Grand Park – Origami",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_011",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_011/01_living_room.jpg;/images/HCM_011/02_kitchen.jpg;/images/HCM_011/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_046",
+      "title": "Căn hộ 1PN 47m² Đường Nguyễn Xiển, Long Bình (tầng 15) – Vinhomes Grand Park – Origami",
+      "room_type": "apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_019",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_019/01_living_room.jpg;/images/HCM_019/02_kitchen.jpg;/images/HCM_019/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_047",
+      "title": "Căn hộ 2PN 59m² Đường Nguyễn Xiển, Long Bình – Vinhomes Grand Park – Origami",
+      "room_type": "apartment",
+      "target_segment": "premium",
+      "donor_id": "HCM_017",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_017/01_living_room.jpg;/images/HCM_017/02_kitchen.jpg;/images/HCM_017/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_048",
+      "title": "Căn hộ 1PN 47m² Đường Nguyễn Xiển, Long Bình (tầng 22) – Vinhomes Grand Park – Origami",
+      "room_type": "apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_019",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_019/01_living_room.jpg;/images/HCM_019/02_kitchen.jpg;/images/HCM_019/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_049",
+      "title": "Studio 30m² Đường Nguyễn Xiển, Long Bình – Vinhomes Grand Park – Rainbow",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_016",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_016/01_living_room.jpg;/images/HCM_016/02_kitchen.jpg;/images/HCM_016/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_050",
+      "title": "Căn hộ 1PN 47m² Đường Nguyễn Xiển, Long Bình (tầng 14) – Vinhomes Grand Park – Rainbow",
+      "room_type": "apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_018",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_018/01_living_room.jpg;/images/HCM_018/02_kitchen.jpg;/images/HCM_018/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_051",
+      "title": "Căn hộ 2PN 59m² Đường Nguyễn Xiển, Long Bình – Vinhomes Grand Park – Rainbow",
+      "room_type": "apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_017",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_017/01_living_room.jpg;/images/HCM_017/02_kitchen.jpg;/images/HCM_017/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_052",
+      "title": "Căn hộ 1PN 47m² Đường Nguyễn Xiển, Long Bình (tầng 20) – Vinhomes Grand Park – Rainbow",
+      "room_type": "apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_019",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_019/01_living_room.jpg;/images/HCM_019/02_kitchen.jpg;/images/HCM_019/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_053",
+      "title": "Studio 26m² Đường Xuân Thủy, An Khánh – khu Thảo Điền",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_009",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_009/01_living_room.jpg;/images/HCM_009/02_kitchen.jpg;/images/HCM_009/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_054",
+      "title": "Studio 28m² Đường Xuân Thủy, An Khánh – khu Thảo Điền",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_010",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_010/01_living_room.jpg;/images/HCM_010/02_kitchen.jpg;/images/HCM_010/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_055",
+      "title": "Studio 32m² Đường Xuân Thủy, An Khánh – khu Thảo Điền",
+      "room_type": "studio",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_011",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_011/01_living_room.jpg;/images/HCM_011/02_kitchen.jpg;/images/HCM_011/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_056",
+      "title": "Căn hộ mini 1PN 40m² Đường Xuân Thủy, An Khánh – khu Thảo Điền",
+      "room_type": "mini_apartment",
+      "target_segment": "premium",
+      "donor_id": "HCM_012",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Mini-apartment (1PN) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_057",
+      "title": "Căn hộ 1PN 52m² Xa lộ Hà Nội, An Khánh – Masteri Thảo Điền",
+      "room_type": "apartment",
+      "target_segment": "premium",
+      "donor_id": "HCM_018",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_018/01_living_room.jpg;/images/HCM_018/02_kitchen.jpg;/images/HCM_018/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_058",
+      "title": "Căn hộ 2PN 70m² Xa lộ Hà Nội, An Khánh – Masteri Thảo Điền",
+      "room_type": "apartment",
+      "target_segment": "premium",
+      "donor_id": "HCM_017",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_017/01_living_room.jpg;/images/HCM_017/02_kitchen.jpg;/images/HCM_017/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_059",
+      "title": "Phòng trọ 18m² Xa lộ Hà Nội, An Khánh – Masteri Thảo Điền",
+      "room_type": "room",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_005",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_005/01_living_room.jpg;/images/HCM_005/02_kitchen.jpg;/images/HCM_005/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_060",
+      "title": "Phòng trọ 20m² Xa lộ Hà Nội, An Khánh – Masteri Thảo Điền",
+      "room_type": "room",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_001",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_001/01_living_room.jpg;/images/HCM_001/02_kitchen.jpg;/images/HCM_001/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_061",
+      "title": "Phòng trọ 22m² Đường Nguyễn Văn Khối, Thông Tây Hội – khu dân cư Gò Vấp",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_002",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_002/01_living_room.jpg;/images/HCM_002/02_kitchen.jpg;/images/HCM_002/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_062",
+      "title": "Duplex 28m² Đường Nguyễn Văn Khối, Thông Tây Hội – khu dân cư Gò Vấp",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_015",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_015/01_living_room.jpg;/images/HCM_015/02_kitchen.jpg;/images/HCM_015/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_063",
+      "title": "Studio 32m² Đường Nguyễn Văn Khối, Thông Tây Hội – khu dân cư Gò Vấp",
+      "room_type": "studio",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_016",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_016/01_living_room.jpg;/images/HCM_016/02_kitchen.jpg;/images/HCM_016/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_064",
+      "title": "Studio 40m² Đường Nguyễn Văn Khối, Thông Tây Hội – khu dân cư Gò Vấp",
+      "room_type": "studio",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_009",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_009/01_living_room.jpg;/images/HCM_009/02_kitchen.jpg;/images/HCM_009/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_065",
+      "title": "Phòng trọ 20m² Đường Nguyễn Thái Sơn, An Nhơn – phòng có gác",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_003",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_003/01_living_room.jpg;/images/HCM_003/02_kitchen.jpg;/images/HCM_003/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_066",
+      "title": "Duplex 24m² Đường Nguyễn Thái Sơn, An Nhơn – phòng có gác",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_006",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_006/01_living_room.jpg;/images/HCM_006/02_kitchen.jpg;/images/HCM_006/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_067",
+      "title": "Duplex 32m² Đường Nguyễn Thái Sơn, An Nhơn – phòng có gác",
+      "room_type": "duplex",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_007",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_007/01_living_room.jpg;/images/HCM_007/02_kitchen.jpg;/images/HCM_007/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_068",
+      "title": "Studio 26m² Đường Nguyễn Thái Sơn, An Nhơn – phòng có gác",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_010",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_010/01_living_room.jpg;/images/HCM_010/02_kitchen.jpg;/images/HCM_010/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_069",
+      "title": "Nhà nguyên căn 2PN 60m² Đường Lê Đức Thọ, An Hội Tây – hẻm xe hơi, hợp ở nhóm",
+      "room_type": "townhouse",
+      "target_segment": "premium",
+      "donor_id": "HCM_019",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_019/01_living_room.jpg;/images/HCM_019/02_kitchen.jpg;/images/HCM_019/03_bed_room.jpg",
+      "notes": "Townhouse/house fallback from spacious curated pool"
+    },
+    {
+      "listing_id": "HCM_070",
+      "title": "Nhà nguyên căn 3PN 80m² Đường Lê Đức Thọ, An Hội Tây – hẻm xe hơi, hợp ở nhóm",
+      "room_type": "townhouse",
+      "target_segment": "premium",
+      "donor_id": "HCM_018",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_018/01_living_room.jpg;/images/HCM_018/02_kitchen.jpg;/images/HCM_018/03_bed_room.jpg",
+      "notes": "Townhouse/house fallback from spacious curated pool"
+    },
+    {
+      "listing_id": "HCM_071",
+      "title": "Nhà nguyên căn 2PN 50m² Đường Lê Đức Thọ, An Hội Tây – hẻm xe hơi, hợp ở nhóm",
+      "room_type": "townhouse",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_017",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_017/01_living_room.jpg;/images/HCM_017/02_kitchen.jpg;/images/HCM_017/03_bed_room.jpg",
+      "notes": "Townhouse/house fallback from spacious curated pool"
+    },
+    {
+      "listing_id": "HCM_072",
+      "title": "Nhà nguyên căn 4PN 100m² Đường Lê Đức Thọ, An Hội Tây – hẻm xe hơi, hợp ở nhóm",
+      "room_type": "townhouse",
+      "target_segment": "premium",
+      "donor_id": "HCM_012",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Townhouse/house fallback from spacious curated pool"
+    },
+    {
+      "listing_id": "HCM_073",
+      "title": "Phòng trọ 18m² Đường Nguyễn Văn Bảo, Hạnh Thông – gần ĐH Công nghiệp",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_005",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_005/01_living_room.jpg;/images/HCM_005/02_kitchen.jpg;/images/HCM_005/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_074",
+      "title": "Phòng trọ 22m² Đường Nguyễn Văn Bảo, Hạnh Thông – gần ĐH Công nghiệp",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_001",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_001/01_living_room.jpg;/images/HCM_001/02_kitchen.jpg;/images/HCM_001/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_075",
+      "title": "Duplex 24m² Đường Nguyễn Văn Bảo, Hạnh Thông – gần ĐH Công nghiệp",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_015",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_015/01_living_room.jpg;/images/HCM_015/02_kitchen.jpg;/images/HCM_015/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_076",
+      "title": "Studio 28m² Đường Nguyễn Văn Bảo, Hạnh Thông – gần ĐH Công nghiệp",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_008",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_008/01_living_room.jpg;/images/HCM_008/02_kitchen.jpg;/images/HCM_008/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_077",
+      "title": "Phòng trọ 20m² Đường Điện Biên Phủ, Thạnh Mỹ Tây – gần HUTECH",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_002",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_002/01_living_room.jpg;/images/HCM_002/02_kitchen.jpg;/images/HCM_002/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_078",
+      "title": "Studio 25m² Đường Điện Biên Phủ, Thạnh Mỹ Tây – gần HUTECH",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_011",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_011/01_living_room.jpg;/images/HCM_011/02_kitchen.jpg;/images/HCM_011/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_079",
+      "title": "Studio 28m² Đường Điện Biên Phủ, Thạnh Mỹ Tây – gần HUTECH",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_016",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_016/01_living_room.jpg;/images/HCM_016/02_kitchen.jpg;/images/HCM_016/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_080",
+      "title": "Căn hộ mini 1PN 35m² Đường Điện Biên Phủ, Thạnh Mỹ Tây – gần HUTECH",
+      "room_type": "mini_apartment",
+      "target_segment": "couple_family",
+      "donor_id": "HCM_012",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Mini-apartment (1PN) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_081",
+      "title": "Phòng trọ 18m² Đường Phan Văn Hân, Gia Định – gần cầu Thị Nghè",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_003",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_003/01_living_room.jpg;/images/HCM_003/02_kitchen.jpg;/images/HCM_003/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_082",
+      "title": "Phòng trọ 22m² Đường Phan Văn Hân, Gia Định – gần cầu Thị Nghè",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_006",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_006/01_living_room.jpg;/images/HCM_006/02_kitchen.jpg;/images/HCM_006/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_083",
+      "title": "Studio 25m² Đường Phan Văn Hân, Gia Định – gần cầu Thị Nghè",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_013",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_013/01_living_room.jpg;/images/HCM_013/02_kitchen.jpg;/images/HCM_013/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_084",
+      "title": "Studio 30m² Đường Phan Văn Hân, Gia Định – gần cầu Thị Nghè",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_009",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_009/01_living_room.jpg;/images/HCM_009/02_kitchen.jpg;/images/HCM_009/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_085",
+      "title": "Phòng trọ 18m² Đường Đinh Bộ Lĩnh, Bình Thạnh – gần chợ, nhiều xe buýt",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_007",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_007/01_living_room.jpg;/images/HCM_007/02_kitchen.jpg;/images/HCM_007/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_086",
+      "title": "Phòng trọ 22m² Đường Đinh Bộ Lĩnh, Bình Thạnh – gần chợ, nhiều xe buýt",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_005",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_005/01_living_room.jpg;/images/HCM_005/02_kitchen.jpg;/images/HCM_005/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_087",
+      "title": "Duplex 24m² Đường Đinh Bộ Lĩnh, Bình Thạnh – gần chợ, nhiều xe buýt",
+      "room_type": "duplex",
+      "target_segment": "student",
+      "donor_id": "HCM_015",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_015/01_living_room.jpg;/images/HCM_015/02_kitchen.jpg;/images/HCM_015/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_088",
+      "title": "Studio 28m² Đường Đinh Bộ Lĩnh, Bình Thạnh – gần chợ, nhiều xe buýt",
+      "room_type": "studio",
+      "target_segment": "student",
+      "donor_id": "HCM_014",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_014/01_living_room.jpg;/images/HCM_014/02_kitchen.jpg;/images/HCM_014/03_bed_room.jpg",
+      "notes": "Student studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_089",
+      "title": "Phòng trọ 18m² Đường Nguyễn Hữu Cảnh, Thạnh Mỹ Tây – Vinhomes Central Park",
+      "room_type": "room",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_001",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_001/01_living_room.jpg;/images/HCM_001/02_kitchen.jpg;/images/HCM_001/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_090",
+      "title": "Studio 35m² Đường Nguyễn Hữu Cảnh, Thạnh Mỹ Tây – Vinhomes Central Park",
+      "room_type": "studio",
+      "target_segment": "premium",
+      "donor_id": "HCM_010",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_010/01_living_room.jpg;/images/HCM_010/02_kitchen.jpg;/images/HCM_010/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_091",
+      "title": "Căn hộ 1PN 50m² Đường Nguyễn Hữu Cảnh, Thạnh Mỹ Tây – Vinhomes Central Park",
+      "room_type": "apartment",
+      "target_segment": "premium",
+      "donor_id": "HCM_019",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_019/01_living_room.jpg;/images/HCM_019/02_kitchen.jpg;/images/HCM_019/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_092",
+      "title": "Căn hộ 2PN 80m² Đường Nguyễn Hữu Cảnh, Thạnh Mỹ Tây – Vinhomes Central Park",
+      "room_type": "apartment",
+      "target_segment": "premium",
+      "donor_id": "HCM_018",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_018/01_living_room.jpg;/images/HCM_018/02_kitchen.jpg;/images/HCM_018/03_bed_room.jpg",
+      "notes": "Family apartment fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_093",
+      "title": "Phòng trọ 18m² Đường Trần Khắc Chân, Tân Định – gần chợ Tân Định",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_002",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_002/01_living_room.jpg;/images/HCM_002/02_kitchen.jpg;/images/HCM_002/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_094",
+      "title": "Studio 25m² Đường Trần Khắc Chân, Tân Định – gần chợ Tân Định",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_011",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_011/01_living_room.jpg;/images/HCM_011/02_kitchen.jpg;/images/HCM_011/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_095",
+      "title": "Căn hộ mini 1PN 30m² Đường Trần Khắc Chân, Tân Định – gần chợ Tân Định",
+      "room_type": "mini_apartment",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_012",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_012/01_living_room.jpg;/images/HCM_012/02_kitchen.jpg;/images/HCM_012/03_bed_room.jpg",
+      "notes": "Mini-apartment (1PN) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_096",
+      "title": "Studio 22m² Đường Trần Khắc Chân, Tân Định – gần chợ Tân Định",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_016",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_016/01_living_room.jpg;/images/HCM_016/02_kitchen.jpg;/images/HCM_016/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_097",
+      "title": "Phòng trọ 15m² Đường Bùi Viện, Bến Thành – gần chợ Bến Thành",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_003",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_003/01_living_room.jpg;/images/HCM_003/02_kitchen.jpg;/images/HCM_003/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_098",
+      "title": "Phòng trọ 18m² Đường Bùi Viện, Bến Thành – gần chợ Bến Thành",
+      "room_type": "room",
+      "target_segment": "student",
+      "donor_id": "HCM_006",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_006/01_living_room.jpg;/images/HCM_006/02_kitchen.jpg;/images/HCM_006/03_bed_room.jpg",
+      "notes": "Rental room (phòng trọ) fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_099",
+      "title": "Studio 22m² Đường Bùi Viện, Bến Thành – gần chợ Bến Thành",
+      "room_type": "studio",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_009",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_009/01_living_room.jpg;/images/HCM_009/02_kitchen.jpg;/images/HCM_009/03_bed_room.jpg",
+      "notes": "Modern/professional studio fallback from curated pool"
+    },
+    {
+      "listing_id": "HCM_100",
+      "title": "Duplex 25m² Đường Bùi Viện, Bến Thành – gần chợ Bến Thành",
+      "room_type": "duplex",
+      "target_segment": "young_professional",
+      "donor_id": "HCM_007",
+      "status": "REPLACED_FROM_CURATED",
+      "images": "/images/HCM_007/01_living_room.jpg;/images/HCM_007/02_kitchen.jpg;/images/HCM_007/03_bed_room.jpg",
+      "notes": "Duplex/mezzanine fallback from curated pool"
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { Bike, Bus, Car, Footprints, MapPin, Pencil, Wallet } from "lucide-react"
 import {
-  accessHoursLabels,
   bedroomLabels,
   featureLabels,
   formatVND,
@@ -19,7 +18,6 @@ export function SearchSummary({ criteria }: { criteria: SearchCriteria }) {
     ...(criteria.bedroom === "any" ? [] : [bedroomLabels[criteria.bedroom]]),
     ...criteria.features.map((f) => featureLabels[f]),
     ...criteria.propertyTypes.map((type) => propertyTypeLabels[type]),
-    ...(criteria.accessHours === "any" ? [] : [accessHoursLabels[criteria.accessHours]]),
     ...(criteria.furnishing === "any" ? [] : [furnishingLabels[criteria.furnishing]]),
     ...criteria.chips,
   ]

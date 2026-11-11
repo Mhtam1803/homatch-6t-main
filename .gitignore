@@ -9,6 +9,10 @@
 
 # production
 /build
+/data/embeddings/*.json
+/data/chroma/
+/.venv/
+!/data/embeddings/listings-multilingual-e5-small-384.json
 
 # debug
 npm-debug.log*

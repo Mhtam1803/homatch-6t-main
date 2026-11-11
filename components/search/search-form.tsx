@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useRouter } from "next/navigation"
 import {
   ArrowRight,
@@ -8,11 +8,11 @@ import {
   Building2,
   Bus,
   Car,
-  Clock3,
   Footprints,
   Home,
   MapPin,
   PawPrint,
+  Snowflake,
   Sparkles,
   Trees,
   Volume1,
@@ -25,10 +25,8 @@ import { useHomatch } from "@/components/providers/homatch-provider"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { bedroomLabels, featureLabels } from "@/lib/format"
-import { inferHiddenNeeds } from "@/lib/hidden-needs"
 import { cn } from "@/lib/utils"
 import type {
-  AccessHours,
   BedroomOption,
   FeatureKey,
   FurnishingCondition,
@@ -54,18 +52,21 @@ const workplaceOptions = [
   { value: "unspecified" as WorkplaceType, label: "Not specified" },
 ]
 
+const workHourOptions = [
+  { value: "morning", label: "Morning shift (6 AM–12 PM)" },
+  { value: "daytime", label: "Daytime (9 AM–6 PM)" },
+  { value: "afternoon", label: "Afternoon shift (12 PM–6 PM)" },
+  { value: "evening", label: "Evening shift (6 PM–10 PM)" },
+  { value: "night", label: "Night shift (10 PM–6 AM)" },
+  { value: "flexible", label: "Flexible hours" },
+]
+
 const propertyTypeOptions = [
   { value: "townhouse" as PropertyType, label: "Townhouse" },
   { value: "alley" as PropertyType, label: "Alley access" },
   { value: "owner" as PropertyType, label: "Direct from owner" },
   { value: "broker" as PropertyType, label: "Through an agent" },
   { value: "carAlley" as PropertyType, label: "Car-accessible alley" },
-]
-
-const accessHoursOptions = [
-  { value: "any" as AccessHours, label: "No preference" },
-  { value: "flexible" as AccessHours, label: "Flexible hours", icon: Clock3 },
-  { value: "restricted" as AccessHours, label: "Set hours" },
 ]
 
 const furnishingOptions = [
@@ -79,14 +80,25 @@ const featureOptions = [
   { value: "petFriendly" as FeatureKey, label: featureLabels.petFriendly, icon: PawPrint },
   { value: "balcony" as FeatureKey, label: featureLabels.balcony, icon: Trees },
   { value: "elevator" as FeatureKey, label: featureLabels.elevator, icon: ArrowUpDown },
-  { value: "quiet" as FeatureKey, label: featureLabels.quiet, icon: Volume1 },
+  { value: "privateWc" as FeatureKey, label: featureLabels.privateWc },
+  { value: "privateKitchen" as FeatureKey, label: featureLabels.privateKitchen },
+  { value: "airConditioner" as FeatureKey, label: featureLabels.airConditioner, icon: Snowflake },
+  { value: "washingMachine" as FeatureKey, label: featureLabels.washingMachine },
+  { value: "parking" as FeatureKey, label: featureLabels.parking },
+  { value: "window" as FeatureKey, label: featureLabels.window },
 ]
 
 const chipOptions = [
   "Quiet environment",
-  "Pet friendly",
   "Suitable for remote work",
   "Natural lighting",
+  "Near school",
+  "Near supermarket",
+  "Playground",
+  "24/7 security",
+  "Child friendly",
+  "Near bus stop",
+  "Near metro",
 ].map((v) => ({ value: v, label: v }))
 
 const placeholder = `Tell us about your lifestyle, habits, and what matters most to you...
@@ -148,13 +160,14 @@ export function SearchForm() {
   const [bedroom, setBedroom] = useState<BedroomOption>("any")
   const [features, setFeatures] = useState<FeatureKey[]>([])
   const [propertyTypes, setPropertyTypes] = useState<PropertyType[]>([])
-  const [accessHours, setAccessHours] = useState<AccessHours>("any")
   const [furnishing, setFurnishing] = useState<FurnishingCondition>("any")
   const [lifestyle, setLifestyle] = useState("")
   const [chips, setChips] = useState<string[]>([])
   const [acceptedNeeds, setAcceptedNeeds] = useState<InferredNeedKey[]>([])
+  const [inferredNeeds, setInferredNeeds] = useState<{ key: InferredNeedKey; label: string; reason: string }[]>([])
+  const [isAnalyzingNeeds, setIsAnalyzingNeeds] = useState(false)
+  const [needsAnalysisFailed, setNeedsAnalysisFailed] = useState(false)
   const [loadingStep, setLoadingStep] = useState<number | null>(null)
-  const inferredNeeds = useMemo(() => inferHiddenNeeds(lifestyle), [lifestyle])
 
   const timers = useRef<ReturnType<typeof setTimeout>[]>([])
 
@@ -162,6 +175,59 @@ export function SearchForm() {
     const t = timers.current
     return () => t.forEach(clearTimeout)
   }, [])
+
+  useEffect(() => {
+    const prompt = lifestyle.trim()
+    if (!prompt) {
+      setInferredNeeds([])
+      setAcceptedNeeds([])
+      setIsAnalyzingNeeds(false)
+      setNeedsAnalysisFailed(false)
+      return
+    }
+
+    const controller = new AbortController()
+    const timer = setTimeout(() => {
+      setIsAnalyzingNeeds(true)
+      setNeedsAnalysisFailed(false)
+      fetch("/api/ai/hidden-needs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
+        body: JSON.stringify({ prompt }),
+      })
+        .then(async (response) => {
+          if (!response.ok) throw new Error("Hidden-needs analysis failed.")
+          const data = await response.json() as { needs?: unknown }
+          if (!Array.isArray(data.needs)) throw new Error("Hidden-needs response was invalid.")
+          const needs = data.needs.filter(
+            (need): need is { key: InferredNeedKey; label: string; reason: string } =>
+              Boolean(need) &&
+              typeof need === "object" &&
+              "key" in need &&
+              "label" in need &&
+              "reason" in need &&
+              typeof need.key === "string" &&
+              typeof need.label === "string" &&
+              typeof need.reason === "string",
+          )
+          setInferredNeeds(needs)
+          setAcceptedNeeds((current) => current.filter((key) => needs.some((need) => need.key === key)))
+        })
+        .catch((error: unknown) => {
+          if (error instanceof DOMException && error.name === "AbortError") return
+          setInferredNeeds([])
+          setAcceptedNeeds([])
+          setNeedsAnalysisFailed(true)
+        })
+        .finally(() => setIsAnalyzingNeeds(false))
+    }, 700)
+
+    return () => {
+      clearTimeout(timer)
+      controller.abort()
+    }
+  }, [lifestyle])
 
   const toggle = <T,>(list: T[], v: T) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v])
   const updatePersonalDetails = <K extends keyof PersonalDetails>(key: K, value: PersonalDetails[K]) =>
@@ -178,7 +244,6 @@ export function SearchForm() {
       bedroom,
       features,
       propertyTypes,
-      accessHours,
       furnishing,
       lifestyle: lifestyle.trim(),
       chips,
@@ -257,13 +322,19 @@ export function SearchForm() {
               />
             </Field>
             <Field label="Work hours" htmlFor="work-hours" hint="For example, 9 AM–6 PM or night shifts.">
-              <Input
+              <select
                 id="work-hours"
                 value={personalDetails.workHours}
                 onChange={(e) => updatePersonalDetails("workHours", e.target.value)}
-                placeholder="Your usual work hours"
-                className="h-14 rounded-2xl border-2 bg-white text-base md:text-base"
-              />
+                className="h-14 w-full rounded-2xl border-2 border-border bg-white px-4 text-base text-navy outline-none transition-colors focus:border-navy focus:ring-2 focus:ring-navy/10"
+              >
+                <option value="">Select your usual work hours</option>
+                {workHourOptions.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
             </Field>
           </div>
           <Field label="How many people will live in the home?" hint="Please include the number of adults, children, and babies under 2.">
@@ -341,16 +412,6 @@ export function SearchForm() {
               />
             </Field>
 
-            <Field label="Access hours">
-              <RadioCards
-                name="access-hours"
-                legend="Preferred access hours"
-                value={accessHours}
-                options={accessHoursOptions}
-                onChange={setAccessHours}
-              />
-            </Field>
-
             <Field label="Furnishing condition">
               <RadioCards
                 name="furnishing"
@@ -387,7 +448,7 @@ export function SearchForm() {
           {inferredNeeds.length > 0 && (
             <Field
               label="Possible hidden needs"
-              hint="Prototype keyword-based suggestions (not AI yet). Choose which ones matter to you."
+              hint={isAnalyzingNeeds ? "AI is analyzing your message..." : needsAnalysisFailed ? "AI suggestions are unavailable right now." : "AI suggestions based on your message. Choose which ones matter to you."}
             >
               <div className="space-y-3" role="group" aria-label="Possible hidden needs">
                 {inferredNeeds.map((need) => {

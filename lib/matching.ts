@@ -1,9 +1,10 @@
-import type { InferredNeedKey, Listing, SearchCriteria } from "@/types/listing"
+import type { CommuteEstimate, InferredNeedKey, Listing, SearchCriteria } from "@/types/listing"
 
 export interface RankedListing {
   listing: Listing
   score: number
   matchedNeeds: string[]
+  commute?: CommuteEstimate
 }
 
 function needIsMatched(need: InferredNeedKey, listing: Listing): boolean {
@@ -30,12 +31,27 @@ function normalizeLocation(value: string): string {
 function getChipMatch(chip: string, listing: Listing): boolean | null {
   switch (chip) {
     case "Quiet environment":
-    case "Suitable for remote work":
       return listing.features.quiet
     case "Pet friendly":
       return listing.features.petFriendly
     case "Natural lighting":
-      return /bright|natural light|sunlight|large windows|well-lit/i.test(listing.description)
+      return listing.amenities.naturalLight
+    case "Suitable for remote work":
+      return listing.amenities.remoteWorkFriendly
+    case "Near school":
+      return listing.amenities.nearSchool
+    case "Near supermarket":
+      return listing.amenities.nearSupermarket
+    case "Playground":
+      return listing.amenities.playground
+    case "24/7 security":
+      return listing.amenities.security24h
+    case "Child friendly":
+      return listing.amenities.childFriendly
+    case "Near bus stop":
+      return listing.amenities.nearBusStop
+    case "Near metro":
+      return listing.amenities.nearMetro
     default:
       return null
   }

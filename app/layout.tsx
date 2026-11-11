@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import { HomatchProvider } from '@/components/providers/homatch-provider'
+import { DemoDataBanner } from '@/components/layout/demo-data-banner'
 import { SiteHeader } from '@/components/layout/site-header'
 import { SiteFooter } from '@/components/layout/site-footer'
 import './globals.css'
@@ -46,6 +47,7 @@ export default function RootLayout({
           >
             Skip to content
           </a>
+          <DemoDataBanner />
           <SiteHeader />
           <div id="main">{children}</div>
           <SiteFooter />

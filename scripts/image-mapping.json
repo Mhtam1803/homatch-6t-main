@@ -1,0 +1,2177 @@
+{
+  "HCM_001": [
+    {
+      "resolved": "images/HCM_001/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 20m²"
+    },
+    {
+      "resolved": "images/HCM_001/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_001/03_bed_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_002": [
+    {
+      "resolved": "images/HCM_002/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 20m²"
+    },
+    {
+      "resolved": "images/HCM_002/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_002/03_bed_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_003": [
+    {
+      "resolved": "images/HCM_003/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 22m²"
+    },
+    {
+      "resolved": "images/HCM_003/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_003/03_bed_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_003/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_004": [
+    {
+      "resolved": "images/HCM_004/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_004/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_004/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_004/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_005": [
+    {
+      "resolved": "images/HCM_005/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_005/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_005/03_bed_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_006": [
+    {
+      "resolved": "images/HCM_006/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 20m²"
+    },
+    {
+      "resolved": "images/HCM_006/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_006/03_bed_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_007": [
+    {
+      "resolved": "images/HCM_007/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_007/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_007/03_bed_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_007/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_008": [
+    {
+      "resolved": "images/HCM_008/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_008/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_008/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_008/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_009": [
+    {
+      "resolved": "images/HCM_009/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_009/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_009/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_009/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_010": [
+    {
+      "resolved": "images/HCM_010/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_010/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_010/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_010/01_living_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_010/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_011": [
+    {
+      "resolved": "images/HCM_011/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_011/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_011/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_011/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_012": [
+    {
+      "resolved": "images/HCM_012/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 35m²"
+    },
+    {
+      "resolved": "images/HCM_012/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_012/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_012/01_living_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_012/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_013": [
+    {
+      "resolved": "images/HCM_013/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 22m²"
+    },
+    {
+      "resolved": "images/HCM_013/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_013/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_013/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_014": [
+    {
+      "resolved": "images/HCM_014/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_014/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_014/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_014/01_living_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_014/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_015": [
+    {
+      "resolved": "images/HCM_015/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_015/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_015/03_bed_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_016": [
+    {
+      "resolved": "images/HCM_016/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_016/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_016/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_016/01_living_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_016/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_017": [
+    {
+      "resolved": "images/HCM_017/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_017/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_017/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_017/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_018": [
+    {
+      "resolved": "images/HCM_018/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 38m²"
+    },
+    {
+      "resolved": "images/HCM_018/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_018/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_018/01_living_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_018/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_019": [
+    {
+      "resolved": "images/HCM_019/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 2PN 50m²"
+    },
+    {
+      "resolved": "images/HCM_019/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_019/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_019/01_living_room.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_019/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_020": [
+    {
+      "resolved": "images/HCM_020/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_020/02_kitchen.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_020/02_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_020/01_living_room.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_021": [
+    {
+      "resolved": "images/HCM_021/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 16m²"
+    },
+    {
+      "resolved": "images/HCM_021/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_022": [
+    {
+      "resolved": "images/HCM_022/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_022/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_022/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_023": [
+    {
+      "resolved": "images/HCM_023/02_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 20m²"
+    },
+    {
+      "resolved": "images/HCM_023/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_023/03_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_023/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_024": [
+    {
+      "resolved": "images/HCM_024/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 24m²"
+    },
+    {
+      "resolved": "images/HCM_024/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_024/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_024/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_025": [
+    {
+      "resolved": "images/HCM_025/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 15m²"
+    },
+    {
+      "resolved": "images/HCM_025/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_026": [
+    {
+      "resolved": "images/HCM_026/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 20m²"
+    },
+    {
+      "resolved": "images/HCM_026/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_026/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_027": [
+    {
+      "resolved": "images/HCM_027/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 22m²"
+    },
+    {
+      "resolved": "images/HCM_027/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_027/03_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_027/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_028": [
+    {
+      "resolved": "images/HCM_028/02_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_028/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_028/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_028/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_029": [
+    {
+      "resolved": "images/HCM_029/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_029/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_029/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_029/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_030": [
+    {
+      "resolved": "images/HCM_030/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_030/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_030/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_030/04_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_030/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_031": [
+    {
+      "resolved": "images/HCM_031/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 35m²"
+    },
+    {
+      "resolved": "images/HCM_031/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_031/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_031/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_031/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_032": [
+    {
+      "resolved": "images/HCM_032/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 38m²"
+    },
+    {
+      "resolved": "images/HCM_032/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_032/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_032/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_033": [
+    {
+      "resolved": "images/HCM_033/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_033/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_033/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_034": [
+    {
+      "resolved": "images/HCM_034/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 20m²"
+    },
+    {
+      "resolved": "images/HCM_034/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_034/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_035": [
+    {
+      "resolved": "images/HCM_035/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_035/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_035/07_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_035/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_036": [
+    {
+      "resolved": "images/HCM_036/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 26m²"
+    },
+    {
+      "resolved": "images/HCM_036/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_036/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_036/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_037": [
+    {
+      "resolved": "images/HCM_037/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_037/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_037/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_037/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_038": [
+    {
+      "resolved": "images/HCM_038/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_038/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_038/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_038/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_038/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_039": [
+    {
+      "resolved": "images/HCM_039/02_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 40m²"
+    },
+    {
+      "resolved": "images/HCM_039/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_039/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_039/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_040": [
+    {
+      "resolved": "images/HCM_040/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_040/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_040/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_041": [
+    {
+      "resolved": "images/HCM_041/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_041/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_041/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_042": [
+    {
+      "resolved": "images/HCM_042/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 22m²"
+    },
+    {
+      "resolved": "images/HCM_042/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_042/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_043": [
+    {
+      "resolved": "images/HCM_043/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_043/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_043/07_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_043/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_044": [
+    {
+      "resolved": "images/HCM_044/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_044/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_044/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_044/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_045": [
+    {
+      "resolved": "images/HCM_045/02_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_045/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_045/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_045/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_046": [
+    {
+      "resolved": "images/HCM_046/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 1PN 47m²"
+    },
+    {
+      "resolved": "images/HCM_046/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_046/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_046/04_bathroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_046/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_047": [
+    {
+      "resolved": "images/HCM_047/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 2PN 59m²"
+    },
+    {
+      "resolved": "images/HCM_047/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_047/04_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_047/06_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_047/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_048": [
+    {
+      "resolved": "images/HCM_048/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 1PN 47m²"
+    },
+    {
+      "resolved": "images/HCM_048/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_048/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_048/07_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_048/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_049": [
+    {
+      "resolved": "images/HCM_049/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_049/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_049/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_049/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_050": [
+    {
+      "resolved": "images/HCM_050/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 1PN 47m²"
+    },
+    {
+      "resolved": "images/HCM_050/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_050/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_050/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_051": [
+    {
+      "resolved": "images/HCM_051/02_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 2PN 59m²"
+    },
+    {
+      "resolved": "images/HCM_051/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_051/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_051/04_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_051/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_052": [
+    {
+      "resolved": "images/HCM_052/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 1PN 47m²"
+    },
+    {
+      "resolved": "images/HCM_052/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_052/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_052/04_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_052/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_053": [
+    {
+      "resolved": "images/HCM_053/02_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 26m²"
+    },
+    {
+      "resolved": "images/HCM_053/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_053/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_053/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_054": [
+    {
+      "resolved": "images/HCM_054/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_054/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_054/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_054/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_055": [
+    {
+      "resolved": "images/HCM_055/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 32m²"
+    },
+    {
+      "resolved": "images/HCM_055/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_055/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_055/07_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_055/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_056": [
+    {
+      "resolved": "images/HCM_056/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 40m²"
+    },
+    {
+      "resolved": "images/HCM_056/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_056/04_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_056/06_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_056/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_057": [
+    {
+      "resolved": "images/HCM_057/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 1PN 52m²"
+    },
+    {
+      "resolved": "images/HCM_057/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_057/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_057/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_057/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_058": [
+    {
+      "resolved": "images/HCM_058/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 2PN 70m²"
+    },
+    {
+      "resolved": "images/HCM_058/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_058/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_058/04_bathroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_058/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_059": [
+    {
+      "resolved": "images/HCM_059/02_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_059/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_060": [
+    {
+      "resolved": "images/HCM_060/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 20m²"
+    },
+    {
+      "resolved": "images/HCM_060/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_060/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_060/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_061": [
+    {
+      "resolved": "images/HCM_061/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 22m²"
+    },
+    {
+      "resolved": "images/HCM_061/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_061/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_062": [
+    {
+      "resolved": "images/HCM_062/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 28m²"
+    },
+    {
+      "resolved": "images/HCM_062/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_062/03_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_062/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_063": [
+    {
+      "resolved": "images/HCM_063/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 32m²"
+    },
+    {
+      "resolved": "images/HCM_063/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_063/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_063/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_064": [
+    {
+      "resolved": "images/HCM_064/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 40m²"
+    },
+    {
+      "resolved": "images/HCM_064/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_064/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_064/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_065": [
+    {
+      "resolved": "images/HCM_065/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 20m²"
+    },
+    {
+      "resolved": "images/HCM_065/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_065/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_066": [
+    {
+      "resolved": "images/HCM_066/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_066/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_066/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_067": [
+    {
+      "resolved": "images/HCM_067/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 32m²"
+    },
+    {
+      "resolved": "images/HCM_067/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_067/07_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_067/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_068": [
+    {
+      "resolved": "images/HCM_068/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 26m²"
+    },
+    {
+      "resolved": "images/HCM_068/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_068/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_068/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_069": [
+    {
+      "resolved": "images/HCM_069/01_living_room.jpg",
+      "type": "room",
+      "caption": "Nhà nguyên căn 2PN 60m²"
+    },
+    {
+      "resolved": "images/HCM_069/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_069/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_069/04_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_069/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_070": [
+    {
+      "resolved": "images/HCM_070/01_living_room.jpg",
+      "type": "room",
+      "caption": "Nhà nguyên căn 3PN 80m²"
+    },
+    {
+      "resolved": "images/HCM_070/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_070/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_070/04_bathroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_070/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_071": [
+    {
+      "resolved": "images/HCM_071/02_living_room.jpg",
+      "type": "room",
+      "caption": "Nhà nguyên căn 2PN 50m²"
+    },
+    {
+      "resolved": "images/HCM_071/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_071/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_071/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_072": [
+    {
+      "resolved": "images/HCM_072/01_living_room.jpg",
+      "type": "room",
+      "caption": "Nhà nguyên căn 4PN 100m²"
+    },
+    {
+      "resolved": "images/HCM_072/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_072/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_072/07_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_072/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_073": [
+    {
+      "resolved": "images/HCM_073/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_073/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_073/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_074": [
+    {
+      "resolved": "images/HCM_074/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 22m²"
+    },
+    {
+      "resolved": "images/HCM_074/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_074/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_075": [
+    {
+      "resolved": "images/HCM_075/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_075/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_075/03_kitchen.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_075/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_076": [
+    {
+      "resolved": "images/HCM_076/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_076/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_076/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_076/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_077": [
+    {
+      "resolved": "images/HCM_077/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 20m²"
+    },
+    {
+      "resolved": "images/HCM_077/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_077/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_078": [
+    {
+      "resolved": "images/HCM_078/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_078/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_078/04_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_078/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_079": [
+    {
+      "resolved": "images/HCM_079/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_079/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_079/04_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_079/04_kitchen.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_079/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_080": [
+    {
+      "resolved": "images/HCM_080/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 35m²"
+    },
+    {
+      "resolved": "images/HCM_080/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_080/04_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_080/04_kitchen.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_080/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_081": [
+    {
+      "resolved": "images/HCM_081/02_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_081/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_081/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_082": [
+    {
+      "resolved": "images/HCM_082/02_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 22m²"
+    },
+    {
+      "resolved": "images/HCM_082/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_082/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_083": [
+    {
+      "resolved": "images/HCM_083/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_083/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_083/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_083/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_083/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_084": [
+    {
+      "resolved": "images/HCM_084/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 30m²"
+    },
+    {
+      "resolved": "images/HCM_084/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_084/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_084/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_085": [
+    {
+      "resolved": "images/HCM_085/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_085/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_085/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_086": [
+    {
+      "resolved": "images/HCM_086/02_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 22m²"
+    },
+    {
+      "resolved": "images/HCM_086/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_086/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_087": [
+    {
+      "resolved": "images/HCM_087/02_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 24m²"
+    },
+    {
+      "resolved": "images/HCM_087/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_087/03_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_087/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_088": [
+    {
+      "resolved": "images/HCM_088/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 28m²"
+    },
+    {
+      "resolved": "images/HCM_088/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_088/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_088/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_089": [
+    {
+      "resolved": "images/HCM_089/02_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_089/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_089/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_090": [
+    {
+      "resolved": "images/HCM_090/02_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 35m²"
+    },
+    {
+      "resolved": "images/HCM_090/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_090/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_090/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_091": [
+    {
+      "resolved": "images/HCM_091/02_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 1PN 50m²"
+    },
+    {
+      "resolved": "images/HCM_091/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_091/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_091/04_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_091/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_092": [
+    {
+      "resolved": "images/HCM_092/01_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ 2PN 80m²"
+    },
+    {
+      "resolved": "images/HCM_092/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_092/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_092/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_092/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_093": [
+    {
+      "resolved": "images/HCM_093/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_093/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_093/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_094": [
+    {
+      "resolved": "images/HCM_094/02_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 25m²"
+    },
+    {
+      "resolved": "images/HCM_094/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_094/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_094/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_095": [
+    {
+      "resolved": "images/HCM_095/02_living_room.jpg",
+      "type": "room",
+      "caption": "Căn hộ mini 1PN 30m²"
+    },
+    {
+      "resolved": "images/HCM_095/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_095/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_095/04_bedroom.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_095/01_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_096": [
+    {
+      "resolved": "images/HCM_096/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 22m²"
+    },
+    {
+      "resolved": "images/HCM_096/06_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_096/05_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_096/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_097": [
+    {
+      "resolved": "images/HCM_097/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 15m²"
+    },
+    {
+      "resolved": "images/HCM_097/05_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_097/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_098": [
+    {
+      "resolved": "images/HCM_098/01_living_room.jpg",
+      "type": "room",
+      "caption": "Phòng trọ 18m²"
+    },
+    {
+      "resolved": "images/HCM_098/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_098/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_099": [
+    {
+      "resolved": "images/HCM_099/01_living_room.jpg",
+      "type": "room",
+      "caption": "Studio 22m²"
+    },
+    {
+      "resolved": "images/HCM_099/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_099/03_kitchen.jpg",
+      "type": "kitchen",
+      "caption": "Góc bếp"
+    },
+    {
+      "resolved": "images/HCM_099/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ],
+  "HCM_100": [
+    {
+      "resolved": "images/HCM_100/01_living_room.jpg",
+      "type": "room",
+      "caption": "Duplex 25m²"
+    },
+    {
+      "resolved": "images/HCM_100/04_bathroom.jpg",
+      "type": "bathroom",
+      "caption": "Phòng vệ sinh riêng"
+    },
+    {
+      "resolved": "images/HCM_100/05_balcony.jpg",
+      "type": "balcony",
+      "caption": "Ban công"
+    },
+    {
+      "resolved": "images/HCM_100/02_exterior.jpg",
+      "type": "exterior",
+      "caption": "Mặt tiền tòa nhà"
+    }
+  ]
+}

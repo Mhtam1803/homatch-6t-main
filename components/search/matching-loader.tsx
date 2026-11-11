@@ -5,9 +5,9 @@ import { Logo } from "@/components/layout/logo"
 import { cn } from "@/lib/utils"
 
 export const matchingMessages = [
-  "Understanding your lifestyle...",
-  "Finding homes that match your needs...",
-  "Calculating your monthly living costs...",
+  "Parsing your rental request...",
+  "Preparing multilingual embeddings...",
+  "Applying hard constraints and ranking homes...",
   "Preparing your best matches...",
 ]
 
@@ -61,7 +61,7 @@ export function MatchingLoader({ step }: { step: number }) {
           ))}
         </ul>
 
-        <p className="text-sm text-navy/60">Simulated AI matching – no real data is being processed.</p>
+        <p className="text-sm text-navy/60">Your request is processed with Groq intent parsing and local E5 semantic ranking when available.</p>
         <div className="flex justify-center opacity-90">
           <Logo className="h-12" />
         </div>

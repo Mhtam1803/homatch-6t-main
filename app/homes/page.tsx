@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
-import { PropertyCard } from "@/components/shared/property-card"
+import { HomesBrowser } from "@/components/homes/homes-browser"
 import { getListings } from "@/data/listings"
 
 export const metadata: Metadata = {
@@ -31,16 +31,7 @@ export default function HomesPage() {
           </Link>
         </header>
 
-        <div className="mb-6 flex items-center justify-between border-b border-border pb-4">
-          <h2 className="text-lg font-bold text-navy">Available homes</h2>
-          <p className="text-sm font-semibold text-navy/70">{listings.length} homes</p>
-        </div>
-
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {listings.map((listing) => (
-            <PropertyCard key={listing.id} listing={listing} />
-          ))}
-        </div>
+        <HomesBrowser listings={listings} />
       </div>
     </main>
   )

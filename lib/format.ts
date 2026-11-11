@@ -1,5 +1,4 @@
 import type {
-  AccessHours,
   BedroomOption,
   FeatureKey,
   FurnishingCondition,
@@ -31,12 +30,6 @@ export const propertyTypeLabels: Record<PropertyType, string> = {
   carAlley: "Car-accessible alley",
 }
 
-export const accessHoursLabels: Record<AccessHours, string> = {
-  any: "Any access hours",
-  flexible: "Flexible access hours",
-  restricted: "Set access hours",
-}
-
 export const furnishingLabels: Record<FurnishingCondition, string> = {
   any: "Any furnishing",
   furnished: "Fully furnished",
@@ -57,4 +50,19 @@ export const featureLabels: Record<FeatureKey, string> = {
   balcony: "Balcony",
   elevator: "Elevator",
   quiet: "Quiet Environment",
+  privateWc: "Private WC",
+  privateKitchen: "Private Kitchen",
+  airConditioner: "Air Conditioning",
+  washingMachine: "Washing Machine",
+  naturalLight: "Natural Lighting",
+  remoteWorkFriendly: "Remote-work Friendly",
+  nearSchool: "Near School",
+  nearSupermarket: "Near Supermarket",
+  playground: "Playground",
+  security24h: "24/7 Security",
+  childFriendly: "Child Friendly",
+  parking: "Parking",
+  nearBusStop: "Near Bus Stop",
+  nearMetro: "Near Metro",
+  window: "Window",
 }

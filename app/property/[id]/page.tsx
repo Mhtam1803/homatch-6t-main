@@ -1,9 +1,11 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { ArrowLeft, BedDouble, MapPin, Ruler } from "lucide-react"
+import { ArrowLeft, BedDouble, Mail, MapPin, Ruler } from "lucide-react"
 import { Gallery } from "@/components/property/gallery"
 import { RecommendedHomes } from "@/components/property/recommended-homes"
+import { MatchScoreBadge } from "@/components/property/match-score-badge"
+import { WhyMatch } from "@/components/property/why-match"
 import { CostBreakdown } from "@/components/shared/cost-breakdown"
 import { FavoriteButton } from "@/components/shared/favorite-button"
 import { getListingById, listings } from "@/data/listings"
@@ -29,7 +31,7 @@ export default async function PropertyPage({ params }: { params: Promise<{ id: s
 
   return (
     <main className="bg-gradient-to-b from-sky/50 via-white to-white pb-24">
-      <div className="mx-auto max-w-6xl space-y-8 px-4 pt-10 sm:px-6 sm:pt-12">
+      <div className="mx-auto max-w-7xl space-y-8 px-4 pt-10 sm:px-6 sm:pt-12 lg:px-8">
         <Link
           href="/results"
           className="inline-flex items-center gap-2 text-base font-bold text-navy underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange"
@@ -43,13 +45,19 @@ export default async function PropertyPage({ params }: { params: Promise<{ id: s
             <p className="flex items-center gap-2 text-lg text-navy/70">
               <MapPin className="size-5 text-orange" aria-hidden /> {listing.address}
             </p>
+            <MatchScoreBadge listingId={listing.id} />
           </div>
           <FavoriteButton listingId={listing.id} listingTitle={listing.title} />
         </header>
 
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.55fr)_minmax(360px,0.8fr)]">
           <div className="space-y-8">
-            <Gallery images={listing.images} />
+            <div>
+              <Gallery images={listing.images} />
+              <p className="mt-2 text-center text-xs italic text-navy/60">
+                * Interior photos are illustrative representations for demonstration purposes.
+              </p>
+            </div>
 
             <section aria-labelledby="overview" className="space-y-4 rounded-3xl border border-border bg-white p-6 shadow-soft sm:p-8">
               <h2 id="overview" className="text-2xl font-extrabold text-navy">
@@ -88,11 +96,20 @@ export default async function PropertyPage({ params }: { params: Promise<{ id: s
                 All-in monthly cost
               </h2>
               <CostBreakdown cost={listing.cost} total={listing.totalMonthly} />
-              <p className="mt-4 text-sm text-navy/70">Utility costs are estimates from the listing data.</p>
+              <p className="mt-4 text-sm text-navy/70">Utility costs are estimates for one person. Water costs may vary with occupant count.</p>
+              <a
+                href={`mailto:hello@homatch.example?subject=${encodeURIComponent(`Interest in ${listing.title}`)}`}
+                className="mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-navy px-5 py-3.5 text-base font-extrabold text-white transition-colors hover:bg-navy/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange"
+              >
+                <Mail className="size-5 text-orange" aria-hidden />
+                Contact Homatch
+              </a>
+              <p className="mt-3 text-center text-xs text-navy/60">Ask our team about this demo listing.</p>
             </section>
           </aside>
         </div>
 
+        <WhyMatch listing={listing} />
         <RecommendedHomes currentListingId={listing.id} />
       </div>
     </main>

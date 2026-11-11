@@ -35,9 +35,9 @@ export function CostBreakdown({ cost, total, className }: { cost: Cost; total: n
           </div>
         ))}
       </dl>
-      <div className="flex items-center justify-between gap-4 rounded-2xl bg-orange px-4 py-3.5">
-        <span className="text-base font-bold text-navy">Total monthly cost</span>
-        <span className="text-lg font-extrabold text-navy">{formatVND(total)}</span>
+      <div className="grid min-w-0 grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 gap-y-1 rounded-2xl bg-orange px-3 py-3.5 sm:px-4">
+        <span className="min-w-0 text-[11px] font-bold leading-tight text-navy sm:text-sm">Total monthly cost</span>
+        <span className="whitespace-nowrap text-xs font-extrabold text-navy sm:text-base">{formatVND(total)}</span>
       </div>
     </div>
   )
